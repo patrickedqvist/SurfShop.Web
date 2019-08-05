@@ -1,0 +1,14 @@
+import { VIEWSTATE_SET, VIEWSTATE_REMOVE } from '../definitions';
+
+// typeDefs
+import { SetViewstateAction, RemoveViewstateAction } from '../../typeDefs/viewstate';
+
+export const setViewstate = (key: string, value: any): SetViewstateAction => ({
+    type: VIEWSTATE_SET,
+    payload: { key, value }
+})
+
+export const removeViewstate = (key: string): RemoveViewstateAction => ({
+    type: VIEWSTATE_REMOVE,
+    payload: { key }
+})
