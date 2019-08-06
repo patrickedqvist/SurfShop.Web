@@ -1,9 +1,9 @@
-import React from 'react'
+import React, { memo } from 'react'
 
 // Style
 import './top-bar.scss'
 
-export const TopBar = () => {
+const TopBarComponent = () => {
     return (
         <div className={'top-bar'}>
             <div>
@@ -12,3 +12,5 @@ export const TopBar = () => {
         </div>
     )
 }
+
+export const TopBar = memo(TopBarComponent);

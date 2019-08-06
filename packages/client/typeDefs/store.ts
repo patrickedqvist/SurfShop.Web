@@ -1,4 +1,5 @@
 import { Viewstate } from './viewstate'
+import { ICart } from './cart';
 
 export interface Action {
     type: string,
@@ -8,5 +9,6 @@ export interface Action {
 }
 
 export interface Store {
-    viewstate: Viewstate
+    viewstate: Viewstate,
+    cart: ICart
 }
