@@ -24,6 +24,7 @@ export const Head = ({ title, description, canonical, metaTags }: IProps) => {
             <meta charSet="UTF-8" />
             <title>{title}</title>
             <meta name="description" content={description} />
+            <meta httpEquiv="x-ua-compatible" content="ie=edge" />
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <link rel="icon" sizes="192x192" href="/static/touch-icon.png" />
             <link rel="apple-touch-icon" href="/static/touch-icon.png" />

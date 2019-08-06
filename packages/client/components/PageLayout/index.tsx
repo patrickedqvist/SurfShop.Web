@@ -1,12 +1,19 @@
 import React from 'react';
 
+// Components
+import { TopBar } from '../TopBar';
+
+// Styles
+import './page-layout.scss'
+
+// Types
 interface Props {
     children: React.ReactNode[]
 }
 
 export const PageLayout = (props: Props) => (
     <div className={'page'}>
-        <div className={'top-bar'}></div>
+        <TopBar />
         <header className={'header'}></header>
         <main className={'main'}>
             {props.children}

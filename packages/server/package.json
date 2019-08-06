@@ -1,0 +1,48 @@
+{
+  "name": "@surfshop/server",
+  "version": "1.0.0",
+  "description": "Server for SurfShop",
+  "main": "index.js",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.19.0",
+    "contentful-management": "^5.9.0",
+    "dotenv": "^8.0.0",
+    "js-base64": "^2.5.1",
+    "koa": "^2.7.0",
+    "koa-body": "^4.1.0",
+    "koa-logger": "^3.2.1",
+    "koa-router": "^7.4.0",
+    "koa-session": "^5.12.2",
+    "koa2-cors": "^2.0.6",
+    "lodash": "^4.17.15",
+    "yup": "^0.27.0"
+  },
+  "devDependencies": {
+    "@types/koa-session": "^5.10.1",
+    "@types/dotenv": "^6.1.1",
+    "@types/js-base64": "^2.3.1",
+    "@types/koa": "^2.0.49",
+    "@types/koa-logger": "^3.1.1",
+    "@types/koa-router": "^7.0.42",
+    "@types/koa2-cors": "^2.0.1",
+    "@types/lodash": "^4.14.136",
+    "@types/yup": "^0.26.22",
+    "nodemon": "^1.19.1",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.3"
+  },
+  "scripts": {
+    "start": "nodemon --watch 'src/**/*' -e ts,tsx --exec ts-node ./src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/patrickedqvist/SurfShop.Web.git"
+  },
+  "author": "Patrick Edqvist <patrick.edqvist@gmail.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/patrickedqvist/SurfShop.Web/issues"
+  },
+  "homepage": "https://github.com/patrickedqvist/SurfShop.Web#readme"
+}
