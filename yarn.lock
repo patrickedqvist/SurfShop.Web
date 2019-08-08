@@ -6203,6 +6203,11 @@ redux-saga@*, redux-saga@^1.0.5:
   dependencies:
     "@redux-saga/core" "^1.0.3"
 
+redux-wait-for-ssr@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/redux-wait-for-ssr/-/redux-wait-for-ssr-1.2.0.tgz#327a9e7f2da6cc5bb94f41e0c09ba3c8512ac1bd"
+  integrity sha512-xI8+LTEJPaX+vszKkMGX5wuuegZLJR0QSy0rL73WWfr5U2zXTormXBsQhA1a/BBsgaUHHIqpXgR46lk/uUglKg==
+
 "redux@>=0.10 <5", redux@^4.0.0, redux@^4.0.4:
   version "4.0.4"
   resolved "https://registry.yarnpkg.com/redux/-/redux-4.0.4.tgz#4ee1aeb164b63d6a1bcc57ae4aa0b6e6fa7a3796"

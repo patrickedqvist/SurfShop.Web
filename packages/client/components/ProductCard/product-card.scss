@@ -1,0 +1,53 @@
+@import '../../utils/theme.scss';
+@import '../../utils/style-mixins.scss';
+
+.product-card {  
+  background: $color-white;
+  width: 100%;  
+}
+
+.product-card-image {
+    @include aspect-ratio(3, 4);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.product-card-content {
+    padding: 1rem 2rem;
+    text-align: center;    
+}
+
+.product-card-label {
+    font-size: 16px;
+    line-height: 24px;
+    color: $color-blue;
+    font-family: $font-serif;    
+    position: relative;
+    margin-bottom: 0.5rem;
+}
+
+.product-card-title {
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 24px;
+    margin: 0;
+}
+
+.product-card-excerpt {
+    font-size: 15px;
+    line-height: 24px;    
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+}
+
+.product-card-price {
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.product-card--highlight {}
+

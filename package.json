@@ -6,7 +6,8 @@
   "private": true,
   "scripts": {
      "client": "yarn workspace @surfshop/client dev",
-     "server": "yarn workspace @surfshop/server start",
+     "client:build": "yarn workspace @surfshop/client build",
+     "server": "yarn workspace @surfshop/server start",     
      "start": "concurrently --kill-others-on-fail \"yarn server\"  \"yarn client\""
    },
   "repository": {

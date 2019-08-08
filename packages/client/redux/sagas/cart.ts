@@ -7,8 +7,7 @@ import { receiveCart } from '../actions/cart';
 import { Action } from '../../typeDefs/store';
 
 
-export function* handleFetchOfCart(action: Action) {
-    console.log('handleFetchOfCart action -->', action);
+export function* handleFetchOfCart(action: Action) {    
     // try {
     //     const { data } = yield call(fetchCart);
     //     yield put(receiveCart(data));

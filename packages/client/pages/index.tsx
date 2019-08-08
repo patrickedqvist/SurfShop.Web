@@ -1,8 +1,10 @@
 import React from 'react';
-import { useDispatch, useSelector } from 'react-redux';
+import { useSelector } from 'react-redux';
+import { NextPage } from 'next';
 
 // Redux
-import { setViewstate } from '../redux/actions/viewstate';
+import { getProducts } from '../redux/actions/products';
+import { PRODUCTS_FETCH } from '../redux/definitions';
 
 // typeDefs
 import { Store } from '../typeDefs/store';
@@ -11,27 +13,36 @@ import { Store } from '../typeDefs/store';
 import { PageLayout } from '../components/PageLayout';
 import { Head } from '../components/Head';
 import { Hero } from '../components/Hero';
+import { ProductList } from '../components/ProductList';
 
+// Utils
+import { setServerResponseStatusCode } from '../utils/server-side';
 
-const Home = () => {
-  const dispatch = useDispatch();
-  const viewstate = useSelector((store: Store) => store.viewstate);
+const Home: NextPage = () => {
 
-  const handleOnClick = (event: React.SyntheticEvent<HTMLButtonElement>) => {
-    dispatch(setViewstate('enabled', !viewstate.enabled));
-  }
+  const products = useSelector((store: Store) => store.products.data)
 
   return (
-    <PageLayout headerFixed={true}>
+    <PageLayout>
       <Head title={'Welcome to Next.js!'} description={'Start coding'} />
       <Hero title={'Nytt från Starboard 2020'} backgroundImage={'/static/images/windsurfing.jpg'}/>
-      <h1>Welcome to Next.js!</h1>
-      <code>
-        <pre>{JSON.stringify(viewstate)}</pre>
-      </code>
-      <button onClick={handleOnClick}>Toggle</button>
+      <ProductList products={products} />
     </PageLayout>
   );
+}
+
+Home.getInitialProps = async (ctx) => {
+  ctx.store.dispatch(getProducts());
+
+  if (ctx.isServer) {
+    await setServerResponseStatusCode({ 
+      context: ctx,
+      waitForActions: PRODUCTS_FETCH,
+      storeLocation: 'products'
+    })
+  }
+
+  return {}
 }
 
 export default Home

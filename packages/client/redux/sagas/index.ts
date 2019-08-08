@@ -1,15 +1,15 @@
-import { takeLatest, all } from 'redux-saga/effects';
+import { takeLatest } from 'redux-saga/effects';
 
 // Definitions
-import { CART_FETCH } from '../definitions';
+import { CART_FETCH, PRODUCTS_FETCH } from '../definitions';
 
 // Sagas
 import { handleFetchOfCart } from './cart';
+import { handleFetchOfProducts } from './products';
 
 function* Sagas() {
-    yield all([
-        yield takeLatest(CART_FETCH, handleFetchOfCart),        
-    ]);
+    yield takeLatest(CART_FETCH, handleFetchOfCart)
+    yield takeLatest(PRODUCTS_FETCH, handleFetchOfProducts)
 };
 
 export default Sagas;

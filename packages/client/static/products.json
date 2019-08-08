@@ -1,0 +1,1140 @@
+{
+    "starboard-go": {
+        "excerpt": "The iconic and irreplaceable GO boards: the progressive boards for improving beginners to advanced windsurfing. Your perfect first board that helps you advance from your first steps to fully planing, carve jibing.",
+        "featuredMedia": {
+            "mediaType": "Image",
+            "url": " https://d4fy9c5aoe5kg.cloudfront.net/wp-content/uploads/2018/08/28091223/2019-Starboard-Go-Windsurfer-Standing.jpg",
+            "alt": null
+        },
+        "images": [
+            {
+                "mediaType": "Image",
+                "url": " https://d4fy9c5aoe5kg.cloudfront.net/wp-content/uploads/2018/08/28091223/2019-Starboard-Go-Windsurfer-Standing.jpg",
+                "alt": null
+            },
+            {
+                "mediaType": "Image",
+                "url": " //houdini-server.web4.cloudnine.se/_images/4426c62f-dbf9-4f9e-ae69-be1920b2b4aa/WsFreeTee_S_OffPink_1_C_Low.jpg",
+                "alt": null
+            },
+            {
+                "mediaType": "Image",
+                "url": " //houdini-server.web4.cloudnine.se/_images/a3e63368-977a-4777-8ca9-43bd4fe5b451/WsFreeTee_S_OffPink_3_C_Low.jpg",
+                "alt": null
+            },
+            {
+                "mediaType": "Image",
+                "url": " //houdini-server.web4.cloudnine.se/_images/60d5a487-b6ea-4b6c-92a8-9a81e7e2f7ed/WsFreeTee_D_GroundGrey_2_C_Low.jpg",
+                "alt": null
+            }
+        ],        
+        "variants": [
+            {
+                "id": "139694022",
+                "images": [
+                    {
+                        "mediaType": "ModelImage",
+                        "url": " //houdini-server.web4.cloudnine.se/_images/24fa150e-61c6-4adf-b3cc-bd311fecd82c/WsFreeTee_D_GroundGrey_1_C_Low.jpg",
+                        "alt": null
+                    },
+                    {
+                        "mediaType": "Image",
+                        "url": " //houdini-server.web4.cloudnine.se/_images/d593e9ca-5245-4302-8ce5-389fe049e0e0/WsFreeTee_P_GroundGrey_F_1_C_Low.jpg",
+                        "alt": null
+                    },
+                    {
+                        "mediaType": "Image",
+                        "url": " //houdini-server.web4.cloudnine.se/_images/8d53849f-1051-40d5-a5fb-b71b4be93619/WsFreeTee_P_GroundGrey_S_C_Low.jpg",
+                        "alt": null
+                    },
+                    {
+                        "mediaType": "Image",
+                        "url": " //houdini-server.web4.cloudnine.se/_images/c8f9369d-5d5f-46f6-88c2-9f4b67101fca/WsFreeTee_P_GroundGrey_B_C_Low.jpg",
+                        "alt": null
+                    },
+                    {
+                        "mediaType": "IsolatedImage",
+                        "url": " //houdini-server.web4.cloudnine.se/_images/080b1661-66ec-45e2-b4c9-043d1a927b53/WsFreeTee_F_GroundGrey_C_Low.jpg",
+                        "alt": null
+                    }
+                ],
+                "sizes": [
+                    {
+                        "ssu": "1396940220",
+                        "title": "XXS",
+                        "shortTitle": "XXS",
+                        "stockBalance": 5,
+                        "price": {
+                            "reduced": null,
+                            "list": "800 SEK",
+                            "sortingPrice": "800.00"
+                        }
+                    },
+                    {
+                        "ssu": "1396940221",
+                        "title": "XS",
+                        "shortTitle": "XS",
+                        "stockBalance": 14,
+                        "price": {
+                            "reduced": null,
+                            "list": "800 SEK",
+                            "sortingPrice": "800.00"
+                        }
+                    },
+                    {
+                        "ssu": "1396940222",
+                        "title": "S",
+                        "shortTitle": "S",
+                        "stockBalance": 16,
+                        "price": {
+                            "reduced": null,
+                            "list": "800 SEK",
+                            "sortingPrice": "800.00"
+                        }
+                    },
+                    {
+                        "ssu": "1396940223",
+                        "title": "M",
+                        "shortTitle": "M",
+                        "stockBalance": 31,
+                        "price": {
+                            "reduced": null,
+                            "list": "800 SEK",
+                            "sortingPrice": "800.00"
+                        }
+                    },
+                    {
+                        "ssu": "1396940224",
+                        "title": "L",
+                        "shortTitle": "L",
+                        "stockBalance": 22,
+                        "price": {
+                            "reduced": null,
+                            "list": "800 SEK",
+                            "sortingPrice": "800.00"
+                        }
+                    }
+                ],
+                "color": {
+                    "title": "Ground Gray",
+                    "id": "#A2AAAD",
+                    "filterColor": "Grå"
+                },
+                "price": {
+                    "regularPrice": 11000.00,
+                    "salePrice": null
+                }
+            },
+            {
+                "id": "139694063",
+                "images": [
+                    {
+                        "mediaType": "ModelImage",
+                        "url": " //houdini-server.web4.cloudnine.se/_images/74325619-f0ad-48b3-add4-414f247226f2/WsFreeTee_P_OffPink_F_C_Low.jpg",
+                        "alt": null
+                    },
+                    {
+                        "mediaType": "Image",
+                        "url": " //houdini-server.web4.cloudnine.se/_images/bbf8793f-16e3-4136-a162-e98b164d3324/WsFreeTee_P_OffPink_S_C_Low.jpg",
+                        "alt": null
+                    },
+                    {
+                        "mediaType": "Image",
+                        "url": " //houdini-server.web4.cloudnine.se/_images/8db9925e-a028-4611-8961-26acff76b06b/WsFreeTee_P_OffPink_B_C_Low.jpg",
+                        "alt": null
+                    },
+                    {
+                        "mediaType": "IsolatedImage",
+                        "url": " //houdini-server.web4.cloudnine.se/_images/ca0f08b6-4c1e-4caa-b951-297fc64e2e22/WsFreeTee_F_OffPink_C_Low.jpg",
+                        "alt": null
+                    }
+                ],
+                "sizes": [
+                    {
+                        "ssu": "1396940630",
+                        "title": "XXS",
+                        "shortTitle": "XXS",
+                        "stockBalance": 5,
+                        "price": {
+                            "reduced": null,
+                            "list": "800 SEK",
+                            "sortingPrice": "800.00"
+                        }
+                    },
+                    {
+                        "ssu": "1396940631",
+                        "title": "XS",
+                        "shortTitle": "XS",
+                        "stockBalance": 12,
+                        "price": {
+                            "reduced": null,
+                            "list": "800 SEK",
+                            "sortingPrice": "800.00"
+                        }
+                    },
+                    {
+                        "ssu": "1396940632",
+                        "title": "S",
+                        "shortTitle": "S",
+                        "stockBalance": 22,
+                        "price": {
+                            "reduced": null,
+                            "list": "800 SEK",
+                            "sortingPrice": "800.00"
+                        }
+                    },
+                    {
+                        "ssu": "1396940633",
+                        "title": "M",
+                        "shortTitle": "M",
+                        "stockBalance": 7,
+                        "price": {
+                            "reduced": null,
+                            "list": "800 SEK",
+                            "sortingPrice": "800.00"
+                        }
+                    },
+                    {
+                        "ssu": "1396940634",
+                        "title": "L",
+                        "shortTitle": "L",
+                        "stockBalance": 21,
+                        "price": {
+                            "reduced": null,
+                            "list": "800 SEK",
+                            "sortingPrice": "800.00"
+                        }
+                    },
+                    {
+                        "ssu": "1396940635",
+                        "title": "XL",
+                        "shortTitle": "XL",
+                        "stockBalance": 3,
+                        "price": {
+                            "reduced": null,
+                            "list": "800 SEK",
+                            "sortingPrice": "800.00"
+                        }
+                    }
+                ],
+                "color": {
+                    "title": "Off Pink",
+                    "id": "#FBCCCC",
+                    "filterColor": "Rosa"
+                },   
+                "price": {
+                    "regularPrice": 12000.00,
+                    "salePrice": null
+                }           
+            },
+            {
+                "id": "139694668",
+                "images": [
+                    {
+                        "mediaType": "ModelImage",
+                        "url": " //houdini-server.web4.cloudnine.se/_images/1b70abd8-0667-4fcd-98d2-3ba85ff0fcb2/WsFreeTee_P_GustGreen_F_C_Low.jpg",
+                        "alt": null
+                    },
+                    {
+                        "mediaType": "Image",
+                        "url": " //houdini-server.web4.cloudnine.se/_images/93633733-93af-4b68-8396-9c98086080aa/WsFreeTee_P_GustGreen_S_C_Low.jpg",
+                        "alt": null
+                    },
+                    {
+                        "mediaType": "Image",
+                        "url": " //houdini-server.web4.cloudnine.se/_images/dda13fae-b264-4304-95d9-ed797a9e2d1d/WsFreeTee_P_GustGreen_B_C_Low.jpg",
+                        "alt": null
+                    },
+                    {
+                        "mediaType": "IsolatedImage",
+                        "url": " //houdini-server.web4.cloudnine.se/_images/8c237812-5e80-4375-9189-f4fbc0e84313/WsFreeTee_F_GustGreen_C_Low.jpg",
+                        "alt": null
+                    }
+                ],                
+                "sizes": [
+                    {
+                        "ssu": "1396946681",
+                        "title": "XS",
+                        "shortTitle": "XS",
+                        "stockBalance": 8,
+                        "price": {
+                            "reduced": null,
+                            "list": "800 SEK",
+                            "sortingPrice": "800.00"
+                        }
+                    },
+                    {
+                        "ssu": "1396946683",
+                        "title": "M",
+                        "shortTitle": "M",
+                        "stockBalance": 0,
+                        "price": {
+                            "reduced": null,
+                            "list": "800 SEK",
+                            "sortingPrice": "800.00"
+                        }
+                    },
+                    {
+                        "ssu": "1396946684",
+                        "title": "L",
+                        "shortTitle": "L",
+                        "stockBalance": 9,
+                        "price": {
+                            "reduced": null,
+                            "list": "800 SEK",
+                            "sortingPrice": "800.00"
+                        }
+                    }
+                ],
+                "color": {
+                    "title": "Gust Green",
+                    "id": "#133C32",
+                    "filterColor": "Gröna"
+                },
+                "price": {
+                    "regularPrice": 13000.00,
+                    "salePrice": null
+                }             
+            }
+        ],
+        "categories": [
+            {
+                "title": "Tröjor och t-shirts",
+                "slug": "women/shirts-and-tops",
+                "type": "Category"
+            }            
+        ],        
+        "title": "Starboard Go",
+        "label": "Nybörjare / Utveckling",
+        "slug": "product/starboard-go"        
+    },
+    "starboard-ultra-kode": {
+        "excerpt": "The ultra-allrounder. Thruster, quad or twin, it’s the dream wave board by the Dream Wave Team.",
+        "featuredMedia": {
+            "mediaType": "Image",
+            "url": " https://d4fy9c5aoe5kg.cloudfront.net/wp-content/uploads/2019/07/17123349/2020-Starboard-UltraKode-Standing-1.png",
+            "alt": null
+        },
+        "images": [
+            {
+                "mediaType": "Image",
+                "url": " https://d4fy9c5aoe5kg.cloudfront.net/wp-content/uploads/2019/07/17123349/2020-Starboard-UltraKode-Standing-1.png",
+                "alt": null
+            },
+            {
+                "mediaType": "Image",
+                "url": " //houdini-server.web4.cloudnine.se/_images/56616536-e423-4d21-a35e-f38a28ec8355/MsFreeTee_S_TrueBlack_7_C_Low.jpg",
+                "alt": null
+            },
+            {
+                "mediaType": "Image",
+                "url": " //houdini-server.web4.cloudnine.se/_images/44217e4b-9825-4b26-8d2e-66f53cb51519/MsFreeTee_S_GustGreen_5_C_Low.jpg",
+                "alt": null
+            },
+            {
+                "mediaType": "Image",
+                "url": " //houdini-server.web4.cloudnine.se/_images/bb88f546-40ac-4eac-aab1-7e5a0ff90804/MsFreeTee_S_GroundGrey_3_C_Low.jpg",
+                "alt": null
+            },
+            {
+                "mediaType": "Image",
+                "url": " //houdini-server.web4.cloudnine.se/_images/f4fe6af6-45a2-491c-bc01-d3eed2c8ea95/MsFreeTee_S_GroundGrey_1_C_Low.jpg",
+                "alt": null
+            },
+            {
+                "mediaType": "Image",
+                "url": " //houdini-server.web4.cloudnine.se/_images/0d67aa0c-6658-411f-8249-39eb4065471b/MsFreeTee_D_TrueBlack_1_C_Low.jpg",
+                "alt": null
+            },
+            {
+                "mediaType": "Image",
+                "url": " //houdini-server.web4.cloudnine.se/_images/e46d086a-a8f8-444b-b97e-a7f2a2c4dbd5/MsFreeTee_D_TrueBlack_2_C_Low.jpg",
+                "alt": null
+            }
+        ],        
+        "variants": [
+            {
+                "id": "239694900",
+                "images": [
+                    {
+                        "mediaType": "ModelImage",
+                        "url": " //houdini-server.web4.cloudnine.se/_images/923632fb-a459-4647-b6fe-137b3c6ac723/MsFreeTee_P_TrueBlack_F_C_Low.jpg",
+                        "alt": null
+                    },
+                    {
+                        "mediaType": "Image",
+                        "url": " //houdini-server.web4.cloudnine.se/_images/6d1eaaa9-5c00-445b-969e-3fecbf554d35/MsFreeTee_P_TrueBlack_S_C_Low.jpg",
+                        "alt": null
+                    },
+                    {
+                        "mediaType": "Image",
+                        "url": " //houdini-server.web4.cloudnine.se/_images/1cd1be89-b4e6-48e3-819f-656a9b7d024b/MsFreeTee_P_TrueBlack_B_C_Low.jpg",
+                        "alt": null
+                    },
+                    {
+                        "mediaType": "IsolatedImage",
+                        "url": " //houdini-server.web4.cloudnine.se/_images/d5f93117-bc54-4867-8cd9-aee91abf4d97/MsFreeTee_F_TrueBlack_C_Low.jpg",
+                        "alt": null
+                    }
+                ],
+                "sizes": [
+                    {
+                        "ssu": "2396949000",
+                        "title": "XS",
+                        "shortTitle": "XS",
+                        "stockBalance": 10,
+                        "price": {
+                            "reduced": null,
+                            "list": "800 SEK",
+                            "sortingPrice": "800.00"
+                        }
+                    },
+                    {
+                        "ssu": "2396949001",
+                        "title": "S",
+                        "shortTitle": "S",
+                        "stockBalance": 38,
+                        "price": {
+                            "reduced": null,
+                            "list": "800 SEK",
+                            "sortingPrice": "800.00"
+                        }
+                    },
+                    {
+                        "ssu": "2396949002",
+                        "title": "M",
+                        "shortTitle": "M",
+                        "stockBalance": 89,
+                        "price": {
+                            "reduced": null,
+                            "list": "800 SEK",
+                            "sortingPrice": "800.00"
+                        }
+                    },
+                    {
+                        "ssu": "2396949003",
+                        "title": "L",
+                        "shortTitle": "L",
+                        "stockBalance": 107,
+                        "price": {
+                            "reduced": null,
+                            "list": "800 SEK",
+                            "sortingPrice": "800.00"
+                        }
+                    },
+                    {
+                        "ssu": "2396949004",
+                        "title": "XL",
+                        "shortTitle": "XL",
+                        "stockBalance": 73,
+                        "price": {
+                            "reduced": null,
+                            "list": "800 SEK",
+                            "sortingPrice": "800.00"
+                        }
+                    },
+                    {
+                        "ssu": "2396949005",
+                        "title": "XXL",
+                        "shortTitle": "XXL",
+                        "stockBalance": 12,
+                        "price": {
+                            "reduced": null,
+                            "list": "800 SEK",
+                            "sortingPrice": "800.00"
+                        }
+                    }
+                ],
+                "color": {
+                    "title": "True Black",
+                    "id": "#00111A",
+                    "filterColor": "Svarta"
+                },
+                "modelWearingLabel": null
+            },
+            {
+                "id": "239694022",
+                "images": [
+                    {
+                        "mediaType": "ModelImage",
+                        "url": " //houdini-server.web4.cloudnine.se/_images/eb77c5f3-7f30-4584-9b73-4d6ddf728912/MsFreeTee_P_GroundGrey_F_C_Low.jpg",
+                        "alt": null
+                    },
+                    {
+                        "mediaType": "Image",
+                        "url": " //houdini-server.web4.cloudnine.se/_images/72441dc7-f5c5-42df-b278-7705b8f473a3/MsFreeTee_P_GroundGrey_S_C_Low.jpg",
+                        "alt": null
+                    },
+                    {
+                        "mediaType": "Image",
+                        "url": " //houdini-server.web4.cloudnine.se/_images/e0cd5d58-f410-4f59-84bf-75a57cd416f0/MsFreeTee_P_GroundGrey_B_C_Low.jpg",
+                        "alt": null
+                    },
+                    {
+                        "mediaType": "IsolatedImage",
+                        "url": " //houdini-server.web4.cloudnine.se/_images/1faf2dcb-8e94-4d23-a016-2f397133a5da/MsFreeTee_F_GroundGrey_C_Low.jpg",
+                        "alt": null
+                    }
+                ],
+                "sizes": [
+                    {
+                        "ssu": "2396940220",
+                        "title": "XS",
+                        "shortTitle": "XS",
+                        "stockBalance": 1,
+                        "price": {
+                            "reduced": null,
+                            "list": "800 SEK",
+                            "sortingPrice": "800.00"
+                        }
+                    },
+                    {
+                        "ssu": "2396940221",
+                        "title": "S",
+                        "shortTitle": "S",
+                        "stockBalance": 6,
+                        "price": {
+                            "reduced": null,
+                            "list": "800 SEK",
+                            "sortingPrice": "800.00"
+                        }
+                    },
+                    {
+                        "ssu": "2396940222",
+                        "title": "M",
+                        "shortTitle": "M",
+                        "stockBalance": 45,
+                        "price": {
+                            "reduced": null,
+                            "list": "800 SEK",
+                            "sortingPrice": "800.00"
+                        }
+                    },
+                    {
+                        "ssu": "2396940223",
+                        "title": "L",
+                        "shortTitle": "L",
+                        "stockBalance": 61,
+                        "price": {
+                            "reduced": null,
+                            "list": "800 SEK",
+                            "sortingPrice": "800.00"
+                        }
+                    },
+                    {
+                        "ssu": "2396940224",
+                        "title": "XL",
+                        "shortTitle": "XL",
+                        "stockBalance": 47,
+                        "price": {
+                            "reduced": null,
+                            "list": "800 SEK",
+                            "sortingPrice": "800.00"
+                        }
+                    }
+                ],
+                "color": {
+                    "title": "Ground Gray",
+                    "id": "#A2AAAD",
+                    "filterColor": "Grå"
+                },
+                "modelWearingLabel": null
+            },
+            {
+                "id": "239694668",
+                "images": [
+                    {
+                        "mediaType": "ModelImage",
+                        "url": " //houdini-server.web4.cloudnine.se/_images/25a086a3-9aaf-4e29-9654-a53f344c02dd/MsFreeTee_P_GustGreen_F_C_Low.jpg",
+                        "alt": null
+                    },
+                    {
+                        "mediaType": "Image",
+                        "url": " //houdini-server.web4.cloudnine.se/_images/6aca817d-390f-451f-9bf6-da4ea20ff749/MsFreeTee_P_GustGreen_S_C_Low.jpg",
+                        "alt": null
+                    },
+                    {
+                        "mediaType": "Image",
+                        "url": " //houdini-server.web4.cloudnine.se/_images/9e053f4b-d44f-4afd-b186-d8bfd3267786/MsFreeTee_P_GustGreen_B_C_Low.jpg",
+                        "alt": null
+                    },
+                    {
+                        "mediaType": "IsolatedImage",
+                        "url": " //houdini-server.web4.cloudnine.se/_images/5b418c71-e811-4ce9-a4a9-d6481a2b300a/MsFreeTee_F_GustGreen_C_Low.jpg",
+                        "alt": null
+                    }
+                ],
+                "sizes": [
+                    {
+                        "ssu": "2396946680",
+                        "title": "XS",
+                        "shortTitle": "XS",
+                        "stockBalance": 13,
+                        "price": {
+                            "reduced": null,
+                            "list": "800 SEK",
+                            "sortingPrice": "800.00"
+                        }
+                    },
+                    {
+                        "ssu": "2396946683",
+                        "title": "L",
+                        "shortTitle": "L",
+                        "stockBalance": 0,
+                        "price": {
+                            "reduced": null,
+                            "list": "800 SEK",
+                            "sortingPrice": "800.00"
+                        }
+                    },
+                    {
+                        "ssu": "2396946684",
+                        "title": "XL",
+                        "shortTitle": "XL",
+                        "stockBalance": 0,
+                        "price": {
+                            "reduced": null,
+                            "list": "800 SEK",
+                            "sortingPrice": "800.00"
+                        }
+                    }
+                ],
+                "color": {
+                    "title": "Gust Green",
+                    "id": "#133C32",
+                    "filterColor": "Gröna"
+                },
+                "modelWearingLabel": null
+            }
+        ],
+        "categories": [
+            {
+                "title": "Tröjor och t-shirts",
+                "slug": "men/shirts-and-tops",
+                "type": "Category"
+            },
+            {
+                "title": null,
+                "slug": "men/base-layers",
+                "type": "Category"
+            },
+            {
+                "title": "Produktimport",
+                "id": null,
+                "type": "Category"
+            }
+        ],        
+        "label": "Våg",
+        "title": "Starboard UltraKode",
+        "slug": "men/base-layers/ms-free-tee-239694"
+        
+    },
+    "starboard-kode": {
+        "excerpt": "Upplev en ny känsla av rörelsefrihet i dessa lätta, slitstarka och stretchiga friluftsbyxor skapade med Made to move.",
+        "featuredMedia": {
+            "mediaType": "Image",
+            "url": "https://d4fy9c5aoe5kg.cloudfront.net/wp-content/uploads/2019/07/17115741/2020-Starboard-Kode-Standing.png",
+            "alt": null
+        },
+        "images": [
+            {
+                "mediaType": "Image",
+                "url": "https://d4fy9c5aoe5kg.cloudfront.net/wp-content/uploads/2019/07/17115741/2020-Starboard-Kode-Standing.png",
+                "alt": null
+            },
+            {
+                "mediaType": "Image",
+                "url": " //houdini-server.web4.cloudnine.se/_images/15b42c43-de88-47d2-8d16-1d5e4e356f62/WsMTMThrillTwillPants_D_RockBlack_1_C_Low.jpg",
+                "alt": null
+            }
+        ],
+        "labels": [],
+        "sustainabilityOptions": [
+            {
+                "id": "Recyclable",
+                "title": "Återvinningsbar"
+            }
+        ],
+        "variants": [
+            {
+                "id": "197144910",
+                "images": [
+                    {
+                        "mediaType": "ModelImage",
+                        "url": " //houdini-server.web4.cloudnine.se/_images/a84a60a8-8e07-4d75-bcac-88937aa73e38/WsMTMThrillTwillPants_P_RockBlack_F_C_Low.jpg",
+                        "alt": null
+                    },
+                    {
+                        "mediaType": "Image",
+                        "url": " //houdini-server.web4.cloudnine.se/_images/8a0f76ec-9035-425f-a82a-6d2d8a367bea/WsMTMThrillTwillPants_P_RockBlack_S_C_Low.jpg",
+                        "alt": null
+                    },
+                    {
+                        "mediaType": "Image",
+                        "url": " //houdini-server.web4.cloudnine.se/_images/8a7f30bc-8ed4-4668-b232-0824ac1d806b/WsMTMThrillTwillPants_P_RockBlack_B_C_Low.jpg",
+                        "alt": null
+                    },
+                    {
+                        "mediaType": "IsolatedImage",
+                        "url": " //houdini-server.web4.cloudnine.se/_images/68748a13-b02b-4d92-bcde-d1dc2f4daa76/WsMTMThrillTwillPants_F_RockBlack_C_Low.jpg",
+                        "alt": null
+                    }
+                ],
+                "sizes": [
+                    {
+                        "ssu": "1971449101",
+                        "title": "XS",
+                        "shortTitle": "XS",
+                        "stockBalance": 16,
+                        "price": {
+                            "reduced": null,
+                            "list": "1 400 SEK",
+                            "sortingPrice": "1400.00"
+                        }
+                    },
+                    {
+                        "ssu": "1971449102",
+                        "title": "S",
+                        "shortTitle": "S",
+                        "stockBalance": 45,
+                        "price": {
+                            "reduced": null,
+                            "list": "1 400 SEK",
+                            "sortingPrice": "1400.00"
+                        }
+                    },
+                    {
+                        "ssu": "1971449103",
+                        "title": "M",
+                        "shortTitle": "M",
+                        "stockBalance": 43,
+                        "price": {
+                            "reduced": null,
+                            "list": "1 400 SEK",
+                            "sortingPrice": "1400.00"
+                        }
+                    },
+                    {
+                        "ssu": "1971449104",
+                        "title": "L",
+                        "shortTitle": "L",
+                        "stockBalance": 25,
+                        "price": {
+                            "reduced": null,
+                            "list": "1 400 SEK",
+                            "sortingPrice": "1400.00"
+                        }
+                    },
+                    {
+                        "ssu": "1971449105",
+                        "title": "XL",
+                        "shortTitle": "XL",
+                        "stockBalance": 1,
+                        "price": {
+                            "reduced": null,
+                            "list": "1 400 SEK",
+                            "sortingPrice": "1400.00"
+                        }
+                    }
+                ],
+                "color": {
+                    "title": "Rock Black",
+                    "id": "#3B3A3C",
+                    "filterColor": "Svarta"
+                },
+                "modelWearingLabel": null
+            },
+            {
+                "id": "197144967",
+                "images": [
+                    {
+                        "mediaType": "ModelImage",
+                        "url": " //houdini-server.web4.cloudnine.se/_images/c2b4ed97-de14-4a90-9de0-d4351600a773/WsMTMThrillTwillPants_P_ReedBeige_F_C_Low.jpg",
+                        "alt": null
+                    },
+                    {
+                        "mediaType": "Image",
+                        "url": " //houdini-server.web4.cloudnine.se/_images/3dafa7e0-51b1-4280-8e64-9f6ba0416034/WsMTMThrillTwillPants_P_ReedBeige_S_C_Low.jpg",
+                        "alt": null
+                    },
+                    {
+                        "mediaType": "Image",
+                        "url": " //houdini-server.web4.cloudnine.se/_images/85506208-acb9-4fa5-8f6c-e3562f5248a4/WsMTMThrillTwillPants_P_ReedBeige_B_C_Low.jpg",
+                        "alt": null
+                    },
+                    {
+                        "mediaType": "IsolatedImage",
+                        "url": " //houdini-server.web4.cloudnine.se/_images/29ea9939-88e4-412f-8c8d-75006631d403/WsMTMThrillTwillPants_F_ReedBeige_C_Low.jpg",
+                        "alt": null
+                    }
+                ],
+                "sizes": [
+                    {
+                        "ssu": "1971449671",
+                        "title": "XS",
+                        "shortTitle": "XS",
+                        "stockBalance": 5,
+                        "price": {
+                            "reduced": null,
+                            "list": "1 400 SEK",
+                            "sortingPrice": "1400.00"
+                        }
+                    },
+                    {
+                        "ssu": "1971449672",
+                        "title": "S",
+                        "shortTitle": "S",
+                        "stockBalance": 5,
+                        "price": {
+                            "reduced": null,
+                            "list": "1 400 SEK",
+                            "sortingPrice": "1400.00"
+                        }
+                    },
+                    {
+                        "ssu": "1971449673",
+                        "title": "M",
+                        "shortTitle": "M",
+                        "stockBalance": 4,
+                        "price": {
+                            "reduced": null,
+                            "list": "1 400 SEK",
+                            "sortingPrice": "1400.00"
+                        }
+                    },
+                    {
+                        "ssu": "1971449674",
+                        "title": "L",
+                        "shortTitle": "L",
+                        "stockBalance": 10,
+                        "price": {
+                            "reduced": null,
+                            "list": "1 400 SEK",
+                            "sortingPrice": "1400.00"
+                        }
+                    }
+                ],
+                "color": {
+                    "title": "Reed Beige",
+                    "id": "#8E8472",
+                    "filterColor": "Beiges"
+                },
+                "modelWearingLabel": null
+            }
+        ],
+        "categories": [
+            {
+                "title": "Byxor",
+                "slug": "women/pants",
+                "type": "Category"
+            },
+            {
+                "title": "Produktimport",
+                "id": null,
+                "type": "Category"
+            }
+        ],
+        "activities": [
+            {
+                "title": "Klättring",
+                "id": "shop-by-activity/climbing",
+                "type": "Activity"
+            }
+        ],
+        "gender": [
+            {
+                "id": "Female",
+                "title": "Kvinna"
+            }
+        ],
+        "function": [
+            {
+                "id": "Made to move",
+                "title": "Made to move"
+            }
+        ],
+        "label": "Freestyle Våg",
+        "title": "Starboard Kode",
+        "slug": "product/starboard-kode"
+        
+    },
+    "startboard-ignite": {
+        "excerpt": "Tunna och stretchiga friluftsbyxor skapade med Made to move, en ny metod att konstruera plagg som ger full rörelsefrihet.",
+        "featuredImage": {
+            "mediaType": "Image",
+            "url": "https://d4fy9c5aoe5kg.cloudfront.net/wp-content/uploads/2019/07/17123342/2020-Starboard-Ignite-Standing-1.png",
+            "alt": null
+        },
+        "images": [
+            {
+                "mediaType": "Image",
+                "url": "https://d4fy9c5aoe5kg.cloudfront.net/wp-content/uploads/2019/07/17123342/2020-Starboard-Ignite-Standing-1.png",
+                "alt": null
+            }
+        ],
+        "labels": [],
+        "sustainabilityOptions": [
+            {
+                "id": "Recyclable",
+                "title": "Återvinningsbar"
+            }
+        ],
+        "variants": [
+            {
+                "id": "297144362",
+                "images": [
+                    {
+                        "mediaType": "ModelImage",
+                        "url": " //houdini-server.web4.cloudnine.se/_images/0f478b64-833a-43ee-99d4-96c48b550403/MsMTMThrillTwillPants_P_ThunderBlue_F_C_Low.jpg",
+                        "alt": null
+                    },
+                    {
+                        "mediaType": "Image",
+                        "url": " //houdini-server.web4.cloudnine.se/_images/3cfbae27-81d2-408b-a795-a544d51da7b6/MsMTMThrillTwillPants_P_ThunderBlue_S_C_Low.jpg",
+                        "alt": null
+                    },
+                    {
+                        "mediaType": "Image",
+                        "url": " //houdini-server.web4.cloudnine.se/_images/695ffab6-e156-4c95-b5c8-05463cfed630/MsMTMThrillTwillPants_P_ThunderBlue_B_C_Low.jpg",
+                        "alt": null
+                    },
+                    {
+                        "mediaType": "IsolatedImage",
+                        "url": " //houdini-server.web4.cloudnine.se/_images/db49b864-407b-4459-aaae-e1e821b68a4e/MsMTMThrillTwillPants_F_ThunderBlue_C_Low.jpg",
+                        "alt": null
+                    }
+                ],
+                "sizes": [
+                    {
+                        "ssu": "2971443621",
+                        "title": "S",
+                        "shortTitle": "S",
+                        "stockBalance": 3,
+                        "price": {
+                            "reduced": null,
+                            "list": "1 400 SEK",
+                            "sortingPrice": "1400.00"
+                        }
+                    },
+                    {
+                        "ssu": "2971443622",
+                        "title": "M",
+                        "shortTitle": "M",
+                        "stockBalance": 25,
+                        "price": {
+                            "reduced": null,
+                            "list": "1 400 SEK",
+                            "sortingPrice": "1400.00"
+                        }
+                    },
+                    {
+                        "ssu": "2971443623",
+                        "title": "L",
+                        "shortTitle": "L",
+                        "stockBalance": 35,
+                        "price": {
+                            "reduced": null,
+                            "list": "1 400 SEK",
+                            "sortingPrice": "1400.00"
+                        }
+                    },
+                    {
+                        "ssu": "2971443624",
+                        "title": "XL",
+                        "shortTitle": "XL",
+                        "stockBalance": 15,
+                        "price": {
+                            "reduced": null,
+                            "list": "1 400 SEK",
+                            "sortingPrice": "1400.00"
+                        }
+                    },
+                    {
+                        "ssu": "2971443625",
+                        "title": "XXL",
+                        "shortTitle": "XXL",
+                        "stockBalance": 1,
+                        "price": {
+                            "reduced": null,
+                            "list": "1 400 SEK",
+                            "sortingPrice": "1400.00"
+                        }
+                    }
+                ],
+                "color": {
+                    "title": "Thunder Blue",
+                    "id": "#465560",
+                    "filterColor": "Blå"
+                },
+                "modelWearingLabel": null
+            },
+            {
+                "id": "297144910",
+                "images": [
+                    {
+                        "mediaType": "ModelImage",
+                        "url": " //houdini-server.web4.cloudnine.se/_images/c5dd25f6-63f7-4f18-aa36-73876391d939/MsMTMThrillTwillPants_P_RockBlack_F_C_Low.jpg",
+                        "alt": null
+                    },
+                    {
+                        "mediaType": "Image",
+                        "url": " //houdini-server.web4.cloudnine.se/_images/b452835e-41ef-4646-a6a1-66ed832a49a9/MsMTMThrillTwillPants_P_RockBlack_S_C_Low.jpg",
+                        "alt": null
+                    },
+                    {
+                        "mediaType": "Image",
+                        "url": " //houdini-server.web4.cloudnine.se/_images/d259b86b-eb8c-4d3b-857b-a3c2454e012e/MsMTMThrillTwillPants_P_RockBlack_B_C_Low.jpg",
+                        "alt": null
+                    },
+                    {
+                        "mediaType": "IsolatedImage",
+                        "url": " //houdini-server.web4.cloudnine.se/_images/92590bdc-9c12-4c97-9d44-25fd75a8ee56/MsMTMThrillTwillPants_F_RockBlack_C_Low.jpg",
+                        "alt": null
+                    }
+                ],
+                "sizes": [
+                    {
+                        "ssu": "2971449101",
+                        "title": "S",
+                        "shortTitle": "S",
+                        "stockBalance": 49,
+                        "price": {
+                            "reduced": null,
+                            "list": "1 400 SEK",
+                            "sortingPrice": "1400.00"
+                        }
+                    },
+                    {
+                        "ssu": "2971449103",
+                        "title": "L",
+                        "shortTitle": "L",
+                        "stockBalance": 200,
+                        "price": {
+                            "reduced": null,
+                            "list": "1 400 SEK",
+                            "sortingPrice": "1400.00"
+                        }
+                    },
+                    {
+                        "ssu": "2971449102",
+                        "title": "M",
+                        "shortTitle": "M",
+                        "stockBalance": 142,
+                        "price": {
+                            "reduced": null,
+                            "list": "1 400 SEK",
+                            "sortingPrice": "1400.00"
+                        }
+                    },
+                    {
+                        "ssu": "2971449104",
+                        "title": "XL",
+                        "shortTitle": "XL",
+                        "stockBalance": 114,
+                        "price": {
+                            "reduced": null,
+                            "list": "1 400 SEK",
+                            "sortingPrice": "1400.00"
+                        }
+                    },
+                    {
+                        "ssu": "2971449105",
+                        "title": "XXL",
+                        "shortTitle": "XXL",
+                        "stockBalance": 9,
+                        "price": {
+                            "reduced": null,
+                            "list": "1 400 SEK",
+                            "sortingPrice": "1400.00"
+                        }
+                    }
+                ],
+                "color": {
+                    "title": "Rock Black",
+                    "id": "#3B3A3C",
+                    "filterColor": "Svarta"
+                },
+                "modelWearingLabel": null
+            },
+            {
+                "id": "297144967",
+                "images": [
+                    {
+                        "mediaType": "ModelImage",
+                        "url": " //houdini-server.web4.cloudnine.se/_images/a2849859-b2c4-48eb-a309-0551c25f1949/MsMTMThrillTwillPants_P_ReedBeige_F_C_Low.jpg",
+                        "alt": null
+                    },
+                    {
+                        "mediaType": "Image",
+                        "url": " //houdini-server.web4.cloudnine.se/_images/3dd38f7f-39cb-4659-8a71-fa4de7b9f9f7/MsMTMThrillTwillPants_P_ReedBeige_S_C_Low.jpg",
+                        "alt": null
+                    },
+                    {
+                        "mediaType": "Image",
+                        "url": " //houdini-server.web4.cloudnine.se/_images/f2e13048-ea05-4ea7-a4d2-27c69ce4d1f1/MsMTMThrillTwillPants_P_ReedBeige_B_C_Low.jpg",
+                        "alt": null
+                    },
+                    {
+                        "mediaType": "IsolatedImage",
+                        "url": " //houdini-server.web4.cloudnine.se/_images/874490dc-c3c9-403a-a91b-f8b0c9cfa4b2/MsMTMThrillTwillPants_F_ReedBeige_C_Low.jpg",
+                        "alt": null
+                    }
+                ],
+                "sizes": [
+                    {
+                        "ssu": "2971449671",
+                        "title": "S",
+                        "shortTitle": "S",
+                        "stockBalance": 3,
+                        "price": {
+                            "reduced": null,
+                            "list": "1 400 SEK",
+                            "sortingPrice": "1400.00"
+                        }
+                    }
+                ],
+                "color": {
+                    "title": "Reed Beige",
+                    "id": "#8E8472",
+                    "filterColor": "Beiges"
+                },
+                "modelWearingLabel": null
+            }
+        ],
+        "categories": [
+            {
+                "title": "Byxor",
+                "slug": "men/pants",
+                "type": "Category"
+            },
+            {
+                "title": "Produktimport",
+                "id": null,
+                "type": "Category"
+            }
+        ],
+        "activities": [
+            {
+                "title": "Klättring",
+                "id": "shop-by-activity/climbing",
+                "type": "Activity"
+            }
+        ],
+        "gender": [
+            {
+                "id": "Male",
+                "title": "Man"
+            }
+        ],
+        "function": [
+            {
+                "id": "Made to move",
+                "title": "Made to move"
+            }
+        ],
+        "title": "Starboard Ignite",
+        "label": "Freestyle",
+        "slug": "product/starboard-ignite"
+        
+    }
+}
