@@ -1,16 +1,31 @@
 import React, { memo } from 'react';
+import classNames from 'classnames';
 
 // Styling
 import './header.scss';
 import { MiniCart } from './MiniCart';
 
-const HeaderComponent = () => {
+// Types
+interface IProps {
+    fixed?: boolean
+}
+
+const HeaderComponent = ({ fixed }: IProps) => {
+
+    const classes = classNames('site-header', {
+        'site-header--fixed': fixed
+    });
+
     return (
-        <header className={'site-header'}>
+        <header className={classes}>
             <h1>SurfShop</h1>
             <MiniCart />
         </header>
     )
+}
+
+HeaderComponent.defaultProps = {
+    fixed: false,
 }
 
 export const Header = memo(HeaderComponent);

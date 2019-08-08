@@ -10,6 +10,7 @@ import { Store } from '../typeDefs/store';
 // Components
 import { PageLayout } from '../components/PageLayout';
 import { Head } from '../components/Head';
+import { Hero } from '../components/Hero';
 
 
 const Home = () => {
@@ -21,8 +22,9 @@ const Home = () => {
   }
 
   return (
-    <PageLayout>
+    <PageLayout headerFixed={true}>
       <Head title={'Welcome to Next.js!'} description={'Start coding'} />
+      <Hero title={'Nytt från Starboard 2020'} backgroundImage={'/static/images/windsurfing.jpg'}/>
       <h1>Welcome to Next.js!</h1>
       <code>
         <pre>{JSON.stringify(viewstate)}</pre>

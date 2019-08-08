@@ -1,0 +1,31 @@
+@import '../../utils/theme.scss';
+@import '../../utils/style-mixins.scss';
+
+.hero {
+    position: relative;
+    min-height: 450px;
+    height: 75vh;
+    max-height: 700px;
+    overflow: hidden;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $color-white;
+    background-color: $color-deepBlue;    
+
+    @include for-tablet-portrait-up {
+        max-height: 900px;
+        height: 90vh;
+    }
+
+    @include for-big-desktop-up {
+        height: 75vh;
+    }
+
+}
+
+.hero--backgroundImage {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}

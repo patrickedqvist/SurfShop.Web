@@ -2,11 +2,11 @@
 
 .top-bar {
     width: 100%;
-    background: $color-sand;
-    padding: 10px 5%;
+    background: $color-blue;
+    padding: 8px 5%;
     font-size: 13px;
     font-style: italic;
-    color: darken($color: $color-sand, $amount: 70);
+    color: lighten($color: $color-blue, $amount: 20);
     text-align: center;
 }
 

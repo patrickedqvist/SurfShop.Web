@@ -1,3 +1,5 @@
+@import '../../utils/theme.scss';
+
 .site-header {
     display: flex;
     flex-direction: row;
@@ -5,6 +7,14 @@
     justify-content: space-between;
     border-bottom: 1px solid rgba(0, 0, 0, 0.12);
     padding: 1rem 5%;
+}
+
+.site-header--fixed {
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    border-bottom: 0 none;
+    color: $color-white;
 }
 
 .site-header h1 {
