@@ -2,7 +2,7 @@ import { merge, getOr } from 'lodash/fp';
 import { combineReducers } from 'redux';
 
 // Redux
-import { PRODUCTS_RECEIVE, PRODUCT_RECEIVE } from '../definitions';
+import { PRODUCTS_RECEIVE, PRODUCT_RECEIVE, PRODUCTS_FETCH } from '../definitions';
 
 // typeDefs
 import { Action } from '../../typeDefs/store';
@@ -25,13 +25,28 @@ const data = (state = initialState, { type, payload }: Action) => {
 };
 
 
-const status = (state = {}, { type, error, meta }: Action) => {
+const status = (state = {}, { payload, type, error, meta }: Action) => {
     switch (type) {
+
+        case PRODUCTS_FETCH:
+            return merge({ 'products': {
+                status: 'LOADING',
+                statusCode: null
+            }}, state)
+
         case PRODUCTS_RECEIVE:
             return merge({ 'products': {
                 status: error ? 'ERROR' : 'SUCCESS',
                 statusCode: getOr('', 'statusCode', meta)
             }}, state)
+
+        case PRODUCTS_FETCH:
+            return merge({
+                [payload.slug]: {
+                    status: 'LOADING',
+                    statusCode: null
+                }
+            }, state)
 
         case PRODUCT_RECEIVE:
             return merge({

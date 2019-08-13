@@ -625,8 +625,8 @@
             }
         ],        
         "label": "Våg",
-        "title": "Starboard UltraKode",
-        "slug": "starboard-ultrakode"
+        "title": "Starboard Ultra Kode",
+        "slug": "starboard-ultra-kode"
         
     },
     "starboard-kode": {
@@ -858,7 +858,7 @@
         "slug": "starboard-kode"
         
     },
-    "startboard-ignite": {
+    "starboard-ignite": {
         "excerpt": "Tunna och stretchiga friluftsbyxor skapade med Made to move, en ny metod att konstruera plagg som ger full rörelsefrihet.",
         "featuredImage": {
             "mediaType": "Image",
