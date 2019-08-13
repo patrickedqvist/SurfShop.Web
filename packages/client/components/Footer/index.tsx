@@ -2,6 +2,7 @@ import React, { memo } from 'react'
 
 // Components
 import { Widget } from '../Widget';
+import { InternalLink } from '../InternalLink';
 
 // Style
 import './footer.scss'
@@ -15,13 +16,13 @@ const FooterComponent = () => {
                 </Widget>
                 <Widget type={'menu'} title={'Behöver du hjälp?'}>
                     <ul>
-                        <li><a href="/customer-service">Kundtjänst</a></li>
-                        <li><a href="/customer-service/faq">Vanliga frågor</a></li>
-                        <li><a href="/customer-service/shipping-delivery">Frakt & leverans</a></li>
-                        <li><a href="/customer-service/returns-exchange">Retur & byten</a></li>
-                        <li><a href="/customer-service/payment">Betalning</a></li>
-                        <li><a href="/customer-service/reclaims-repairs">Reklamation & reperationer</a></li>
-                        <li><a href="/customer-service/privacy-policy">Integritetspolicy & cookies</a></li>
+                        <li><InternalLink type={'page'} url={'/page/kundtjänst'} title={'Kundtjänst'}>Kundtjänst</InternalLink></li>
+                        <li><InternalLink type={'page'} url={'/page/faq'} title={'Vanliga Frågor'}>Vanliga frågor</InternalLink></li>
+                        <li><InternalLink type={'page'} url={'/page/shipping-delivery'} title={'Frakt & leverans'}>Frakt & leverans</InternalLink></li>
+                        <li><InternalLink type={'page'} url={'/page/returns-exchange'} title={'Retur & byten'}>Retur & byten</InternalLink></li>
+                        <li><InternalLink type={'page'} url={'/page/payment'} title={'Betalning'}>Betalning</InternalLink></li>
+                        <li><InternalLink type={'page'} url={'/page/reclaims-repairs'} title={'Reklamation & reperationer'}>Reklamation & reperationer</InternalLink></li>
+                        <li><InternalLink type={'page'} url={'/page/privacy-policy'} title={'Integritetspolicy & cookies'}>Integritetspolicy & cookies</InternalLink></li>                                                
                     </ul>
                 </Widget>                    
                 <Widget type={'menu'} title={'Mer om oss'}>
@@ -65,7 +66,7 @@ const FooterComponent = () => {
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.linkedin.com/company/houdini-sportswear/" title={'Besök oss på Linkedin'} rel="noreferrer noopener" target="_blank">
+                                <a href="https://www.linkedin.com/company/houdini-sportswear/" title={'Besök oss på InternalLinkedin'} rel="noreferrer noopener" target="_blank">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="14px" height="14px" viewBox="0 0 14.03 14">
                                         <path d="M3.14,14H.23V4.65H3.14ZM1.69,3.37A1.69,1.69,0,1,1,3.37,1.69,1.68,1.68,0,0,1,1.69,3.37ZM14,14H11.12V9.45c0-1.08,0-2.48-1.51-2.48S7.87,8.15,7.87,9.37V14H5V4.65H7.75V5.93h0a3,3,0,0,1,2.75-1.51C13.48,4.42,14,6.35,14,8.87Z"></path>
                                     </svg>

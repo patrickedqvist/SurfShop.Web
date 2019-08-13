@@ -34,7 +34,7 @@ const Home: NextPage = () => {
 Home.getInitialProps = async (ctx) => {
   ctx.store.dispatch(getProducts());
 
-  if (ctx.isServer) {
+  if ( ctx.isServer ) {
     await setServerResponseStatusCode({ 
       context: ctx,
       waitForActions: [PRODUCTS_RECEIVE],

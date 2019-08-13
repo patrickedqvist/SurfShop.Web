@@ -11,10 +11,11 @@ interface IProps {
     title: string
     description: string
     canonical?: string
-    metaTags?: MetaTag[]
+    metaTags?: MetaTag[],
+    children?: React.ReactNode | React.ReactNode[]
 }
 
-export const Head = ({ title, description, canonical, metaTags }: IProps) => {
+export const Head = ({ title, description, canonical, metaTags, children }: IProps) => {
 
     const metaKeys = Object.keys(metaTags || {});
     const meta = !isEmpty(metaTags) ? map((tag: string) => <meta key={tag} name={tag} content={metaTags[tag]} />, metaKeys) : null;
@@ -33,12 +34,14 @@ export const Head = ({ title, description, canonical, metaTags }: IProps) => {
             {meta}
             {canonical && <link href={canonical} rel="canonical" />}
             <link rel={'stylesheet'} href={'https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css'} type={'text/css'} />
-            <link href="https://fonts.googleapis.com/css?family=Yrsa&display=swap" rel="stylesheet" />              
+            <link href="https://fonts.googleapis.com/css?family=Yrsa&display=swap" rel="stylesheet" />
+            {children}
         </NextHead>
     )
 }
 
 Head.defaultProps = {    
     metaTags: [],
-    canonical: ''
+    canonical: '',
+    children: null
 }
