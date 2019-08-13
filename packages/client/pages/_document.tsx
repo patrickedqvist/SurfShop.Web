@@ -8,10 +8,8 @@ class MyDocument extends Document {
 
   render() {
     return (
-      <Html>
+      <Html lang={'sv-se'}>
         <Head />
-        <link rel={'stylesheet'} href={'https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css'} type={'text/css'} />
-        <link href="https://fonts.googleapis.com/css?family=Yrsa&display=swap" rel="stylesheet" />
         <body>
           <Main />
           <NextScript />

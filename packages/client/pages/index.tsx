@@ -4,7 +4,7 @@ import { NextPage } from 'next';
 
 // Redux
 import { getProducts } from '../redux/actions/products';
-import { PRODUCTS_FETCH } from '../redux/definitions';
+import { PRODUCTS_RECEIVE } from '../redux/definitions';
 
 // typeDefs
 import { Store } from '../typeDefs/store';
@@ -37,7 +37,7 @@ Home.getInitialProps = async (ctx) => {
   if (ctx.isServer) {
     await setServerResponseStatusCode({ 
       context: ctx,
-      waitForActions: PRODUCTS_FETCH,
+      waitForActions: [PRODUCTS_RECEIVE],
       storeLocation: 'products'
     })
   }

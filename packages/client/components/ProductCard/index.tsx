@@ -1,6 +1,7 @@
 import React, { memo } from 'react';
 import classNames from 'classnames'
 import { get } from 'lodash/fp';
+import Link from 'next/link';
 
 // Styles
 import './product-card.scss'
@@ -22,9 +23,10 @@ export const ProductCardComponent = ({ product, highlight }: IProps) => {
         'product-card--highlight': highlight
     })
 
-    const imageStyle = {
-        backgroundImage: `url(${get('featuredMedia.url', product)})`
-    }
+    const backgroundUrl = get('featuredMedia.url', product);
+    const imageStyle = backgroundUrl ? {
+        backgroundImage: `url(${backgroundUrl})`
+    } : {}
 
     const prices = getVariationPrices(product.variants);
 
@@ -36,6 +38,9 @@ export const ProductCardComponent = ({ product, highlight }: IProps) => {
                 <h1 className={'product-card-title'}>{product.title}</h1>
                 <p className={'product-card-excerpt'}>{product.excerpt}</p>
                 {prices && <span className={'product-card-price'}>{`${prices.min}-${prices.max} kr`}</span>}
+                <Link href={'/product/[pslug]'} as={`/product/${product.slug}`} passHref>
+                    <a title={`Visa ${product.title}`}>Visa</a>
+                </Link>
             </div>
             
         </div>

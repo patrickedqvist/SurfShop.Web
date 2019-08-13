@@ -5,12 +5,14 @@ import classNames from 'classnames';
 // Components
 import { TopBar } from '../TopBar';
 import { Header } from '../Header';
+import { Footer } from '../Footer';
 
 // Redux
 import { getCart } from '../../redux/actions/cart';
 
 // Styles
 import './page-layout.scss'
+import { BottomBar } from '../BottomBar';
 
 // Types
 interface Props {
@@ -35,7 +37,8 @@ export const PageLayout = (props: Props) => {
             <main className={'main'}>
                 {props.children}
             </main>
-            <footer className={'footer'}></footer>
+            <Footer />
+            <BottomBar />
         </div>
     )
 }

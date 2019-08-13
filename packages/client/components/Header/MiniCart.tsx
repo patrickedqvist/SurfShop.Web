@@ -11,7 +11,7 @@ const MiniCartComponent = () => {
     return (
         <div className={'mini-cart'}>
             <span>{cart.totalAmount} kr</span>
-            <img src={'static/icon-bag.svg'} alt={'bag'} />
+            <img src={'/static/icon-bag.svg'} alt={'bag'} />
         </div>
     )
 }

@@ -9,10 +9,6 @@ export const getVariationPrices = (variations: ProductVariant[]) => {
         }
     }, variations);
 
-    if ( allPrices.includes(undefined) ) {
-        return false;
-    }
-
     return {
         min: min(allPrices),
         max: max(allPrices)

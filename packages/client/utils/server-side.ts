@@ -8,7 +8,7 @@ export const FAILURE = 'FAILURE';
 
 interface Arguments {
     context: NextPageContext 
-    waitForActions: string | string[]
+    waitForActions: string[]
     storeLocation: string
     id?: string
 }
@@ -30,9 +30,7 @@ export const setServerResponseStatusCode = async ({ context, waitForActions, sto
 
         // Get the updated request status.
         const updatedStatus = get(statusKeyPath, updatedState);
-        const updatedStatusCode = get(statusCodeKeyPath, updatedState);
-        
-        console.log('context -->', context);        
+        const updatedStatusCode = get(statusCodeKeyPath, updatedState);            
 
         // Set HTTP status code to 404 if the request failed.
         if (updatedStatus && updatedStatus === FAILURE && context.res) {

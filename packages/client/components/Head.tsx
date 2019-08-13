@@ -32,7 +32,8 @@ export const Head = ({ title, description, canonical, metaTags }: IProps) => {
             <link rel="icon" href="/static/favicon.ico" />
             {meta}
             {canonical && <link href={canonical} rel="canonical" />}
-            
+            <link rel={'stylesheet'} href={'https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css'} type={'text/css'} />
+            <link href="https://fonts.googleapis.com/css?family=Yrsa&display=swap" rel="stylesheet" />              
         </NextHead>
     )
 }

@@ -306,7 +306,7 @@
         ],        
         "title": "Starboard Go",
         "label": "Nybörjare / Utveckling",
-        "slug": "product/starboard-go"        
+        "slug": "starboard-go"        
     },
     "starboard-ultra-kode": {
         "excerpt": "The ultra-allrounder. Thruster, quad or twin, it’s the dream wave board by the Dream Wave Team.",
@@ -626,7 +626,7 @@
         ],        
         "label": "Våg",
         "title": "Starboard UltraKode",
-        "slug": "men/base-layers/ms-free-tee-239694"
+        "slug": "starboard-ultrakode"
         
     },
     "starboard-kode": {
@@ -855,7 +855,7 @@
         ],
         "label": "Freestyle Våg",
         "title": "Starboard Kode",
-        "slug": "product/starboard-kode"
+        "slug": "starboard-kode"
         
     },
     "startboard-ignite": {
@@ -1134,7 +1134,7 @@
         ],
         "title": "Starboard Ignite",
         "label": "Freestyle",
-        "slug": "product/starboard-ignite"
+        "slug": "starboard-ignite"
         
     }
 }
