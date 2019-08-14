@@ -26,8 +26,8 @@ const ProductPage: NextPage = () => {
     const product = useSelector((store: Store) => find((p => p.slug === pslug), store.products.data))
     const productStatus: RequestStatus = useSelector((store: Store) => get(pslug, store.products.status))
 
-    if (productStatus.statusCode !== 200) {
-        return <Error statusCode={productStatus.statusCode} />
+    if (get('statusCode', productStatus) !== 200) {
+        return <Error statusCode={get('statusCode', productStatus)} />
     }
 
     return (

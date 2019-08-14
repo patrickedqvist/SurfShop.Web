@@ -28,8 +28,8 @@ const StandardPage: NextPage = () => {
     const page: Page = useSelector((store: Store) => get(slug, store.pages.data))
     const pageStatus: RequestStatus = useSelector((store: Store) => get(slug, store.pages.status))
 
-    if ( pageStatus.statusCode !== 200 ) {
-        return <Error statusCode={pageStatus.statusCode} />
+    if (get('statusCode', pageStatus) !== 200) {
+        return <Error statusCode={get('statusCode', pageStatus)} />
     }
 
     return (
