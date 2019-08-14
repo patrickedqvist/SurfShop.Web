@@ -19,7 +19,7 @@ const FooterComponent = () => {
                         <li><InternalLink type={'page'} url={'/page/kundtjänst'} title={'Kundtjänst'}>Kundtjänst</InternalLink></li>
                         <li><InternalLink type={'page'} url={'/page/faq'} title={'Vanliga Frågor'}>Vanliga frågor</InternalLink></li>
                         <li><InternalLink type={'page'} url={'/page/shipping-delivery'} title={'Frakt & leverans'}>Frakt & leverans</InternalLink></li>
-                        <li><InternalLink type={'page'} url={'/page/returns-exchange'} title={'Retur & byten'}>Retur & byten</InternalLink></li>
+                        <li><InternalLink type={'page'} url={'/page/returer-byten'} title={'Retur & byten'}>Retur & byten</InternalLink></li>
                         <li><InternalLink type={'page'} url={'/page/payment'} title={'Betalning'}>Betalning</InternalLink></li>
                         <li><InternalLink type={'page'} url={'/page/reclaims-repairs'} title={'Reklamation & reperationer'}>Reklamation & reperationer</InternalLink></li>
                         <li><InternalLink type={'page'} url={'/page/privacy-policy'} title={'Integritetspolicy & cookies'}>Integritetspolicy & cookies</InternalLink></li>                                                

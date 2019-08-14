@@ -32,10 +32,15 @@ const StandardPage: NextPage = () => {
         return <Error statusCode={get('statusCode', pageStatus)} />
     }
 
+    const body = { __html: page.content.body }
+
     return (
         <PageLayout>
-            <Head title={'Welcome to Next.js!'} description={'Start coding'} />
-            <Hero title={page.content.title} backgroundImage={'/static/images/windsurfing.jpg'} />
+            <Head title={`${page.content.title} | SurfShop`} description={'Start coding'} />
+            <article className={'page-article'}>
+                <h1 className={'page-article-title'}>{page.content.title}</h1>
+                <div className={'page-article-content'} dangerouslySetInnerHTML={body} />
+            </article>
         </PageLayout>
     );
 }

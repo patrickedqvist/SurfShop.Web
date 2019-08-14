@@ -22,9 +22,9 @@ import { setServerResponseStatusCode } from '../../utils/server-side';
 
 const ProductPage: NextPage = () => {
     const router = useRouter();
-    const { pslug } = router.query;
-    const product = useSelector((store: Store) => find((p => p.slug === pslug), store.products.data))
-    const productStatus: RequestStatus = useSelector((store: Store) => get(pslug, store.products.status))
+    const { slug } = router.query;
+    const product = useSelector((store: Store) => find((p => p.slug === slug), store.products.data))
+    const productStatus: RequestStatus = useSelector((store: Store) => get(slug, store.products.status))
 
     if (get('statusCode', productStatus) !== 200) {
         return <Error statusCode={get('statusCode', productStatus)} />
@@ -40,7 +40,7 @@ const ProductPage: NextPage = () => {
 
 ProductPage.getInitialProps = async (ctx) => {
     
-    const slug = ctx.query.pslug as string
+    const slug = ctx.query.slug as string
     ctx.store.dispatch(getProductBySlug( slug ));
 
     if (ctx.isServer) {

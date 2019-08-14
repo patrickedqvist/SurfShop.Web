@@ -33,7 +33,7 @@
     "typescript": "^3.5.3"
   },
   "scripts": {
-    "start": "nodemon --watch 'src/**/*' -e ts,tsx --exec ts-node ./src/index.ts"
+    "start": "nodemon --watch 'src/**/*' -e ts,tsx,json --exec ts-node ./src/index.ts"
   },
   "repository": {
     "type": "git",
