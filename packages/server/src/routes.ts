@@ -4,6 +4,7 @@ import * as Router from 'koa-router';
 // import OrdersController from './controllers/orders';
 import CartController from './controllers/cart';
 import ProductsController from './controllers/products';
+import PagesController from './controllers/pages';
 
 const router = new Router({
   prefix: '/v1'
@@ -27,6 +28,9 @@ router.delete('/cart/:reference', CartController.removeProductInCart);
 // Products
 router.get('/products', ProductsController.getProducts)
 router.get('/products/:slug', ProductsController.getProductBySlug)
+
+// Pages
+router.get('/pages/:slug', PagesController.getPageBySlug)
 
 
 export { router };

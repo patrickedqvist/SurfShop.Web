@@ -3,11 +3,13 @@ import { combineReducers } from 'redux';
 import { viewstate } from './viewstate';
 import { cart } from './cart';
 import { products } from './products';
+import { pages } from './pages';
 
 const combinedReducers = combineReducers({  
-  cart,
+  cart,  
+  products,
+  pages,
   viewstate,
-  products
 });
 
 export default combinedReducers;

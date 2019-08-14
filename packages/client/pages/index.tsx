@@ -37,8 +37,8 @@ Home.getInitialProps = async (ctx) => {
   if ( ctx.isServer ) {
     await setServerResponseStatusCode({ 
       context: ctx,
-      waitForActions: [PRODUCTS_RECEIVE],
-      storeLocation: 'products'
+      waitForActions: PRODUCTS_RECEIVE,
+      statusLocation: ['products', 'status', 'products']
     })
   }
 

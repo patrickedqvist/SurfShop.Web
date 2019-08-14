@@ -2,14 +2,15 @@ import React from 'react';
 import { useSelector } from 'react-redux';
 import { NextPage } from 'next';
 import { useRouter } from 'next/router';
-import { find } from 'lodash/fp'
+import { find, get } from 'lodash/fp'
+import Error from 'next/error';
 
 // Redux
 import { getProductBySlug } from '../../redux/actions/products';
 import { PRODUCT_RECEIVE } from '../../redux/definitions';
 
 // typeDefs
-import { Store } from '../../typeDefs/store';
+import { Store, RequestStatus } from '../../typeDefs/store';
 
 // Components
 import { PageLayout } from '../../components/PageLayout';
@@ -23,9 +24,10 @@ const ProductPage: NextPage = () => {
     const router = useRouter();
     const { pslug } = router.query;
     const product = useSelector((store: Store) => find((p => p.slug === pslug), store.products.data))
+    const productStatus: RequestStatus = useSelector((store: Store) => get(pslug, store.products.status))
 
-    if ( !product ) {
-        return null;
+    if (productStatus.statusCode !== 200) {
+        return <Error statusCode={productStatus.statusCode} />
     }
 
     return (
@@ -45,8 +47,7 @@ ProductPage.getInitialProps = async (ctx) => {
         await setServerResponseStatusCode({
             context: ctx,
             waitForActions: [PRODUCT_RECEIVE],
-            storeLocation: 'product',
-            id: slug
+            statusLocation: ['products', 'status', slug]
         })
     }
 

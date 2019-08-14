@@ -1,6 +1,7 @@
 import { Viewstate } from './viewstate'
 import { ICart } from './cart';
 import { Product } from './product';
+import { Page } from './page';
 
 export interface Action {
     type: string,
@@ -10,7 +11,7 @@ export interface Action {
 }
 
 export interface RequestStatus {
-    status: 'ERROR' | 'SUCCESS',
+    status: 'REQUEST_SUCCESS' | 'REQUEST_FAILURE' | 'REQUEST_LOADING',
     statusCode: number
 }
 
@@ -19,6 +20,10 @@ export interface Store {
     cart: ICart,
     products: {
         data: Product[],
+        status: RequestStatus
+    },
+    pages: {
+        data: Page[],
         status: RequestStatus
     }
 }

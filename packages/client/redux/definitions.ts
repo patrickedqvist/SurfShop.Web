@@ -15,3 +15,12 @@ export const PRODUCT_FETCH = 'PRODUCT_FETCH';
 
 export const PRODUCTS_RECEIVE = 'PRODUCTS_RECEIVE';
 export const PRODUCT_RECEIVE = 'PRODUCT_RECEIVE';
+
+// Pages
+export const PAGE_FETCH = 'PAGE_FETCH'
+export const PAGE_RECEIVE = 'PAGE_RECEIVE'
+
+// Request
+export const REQUEST_SUCCESS = 'REQUEST_SUCCESS'
+export const REQUEST_FAILURE = 'REQUEST_FAILURE'
+export const REQUEST_LOADING = 'REQUEST_LOADING'

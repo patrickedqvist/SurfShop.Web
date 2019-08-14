@@ -1,0 +1,13 @@
+[
+    {
+        "slug": "faq",
+        "content": {
+            "title": "Vanliga frågor",
+            "body": "Här ligger en massa frågor och svar",
+            "author": "Patrick Edqvist"
+        },
+        "meta": {
+            "published": "2019-08-13"
+        }
+    }
+]

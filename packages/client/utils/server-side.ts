@@ -1,23 +1,19 @@
 import { NextPageContext } from 'next';
 import { waitFor } from 'redux-wait-for-ssr';
-import { get, identity } from 'lodash/fp';
-
-export const SUCCESS = 'SUCCESS';
-export const LOADING = 'LOADING';
-export const FAILURE = 'FAILURE';
+import { get, identity, concat } from 'lodash/fp';
+import { REQUEST_FAILURE } from '../redux/definitions';
 
 interface Arguments {
     context: NextPageContext 
-    waitForActions: string[]
-    storeLocation: string
-    id?: string
+    waitForActions: string | string[]
+    statusLocation: string[]
 }
 
-export const setServerResponseStatusCode = async ({ context, waitForActions, storeLocation, id }: Arguments) => {
+export const setServerResponseStatusCode = async ({ context, waitForActions, statusLocation }: Arguments) => {
     const { store } = context;
 
-    const keyPath = id ? [storeLocation, 'status', id, 'status'] : [storeLocation, 'status', 'status'];
-    const keyPathStatusCode = id ? [storeLocation, 'status', id, 'statusCode'] : [storeLocation, 'status', 'statusCode'];
+    const keyPath = concat(statusLocation, ['status']);
+    const keyPathStatusCode = concat(statusLocation, ['statusCode']);
     const statusKeyPath = keyPath.filter(identity);
     const statusCodeKeyPath = keyPathStatusCode.filter(identity);
 
@@ -30,18 +26,16 @@ export const setServerResponseStatusCode = async ({ context, waitForActions, sto
 
         // Get the updated request status.
         const updatedStatus = get(statusKeyPath, updatedState);
-        const updatedStatusCode = get(statusCodeKeyPath, updatedState);            
+        const updatedStatusCode = get(statusCodeKeyPath, updatedState);          
 
         // Set HTTP status code to 404 if the request failed.
-        if (updatedStatus && updatedStatus === FAILURE && context.res) {
-            // eslint-disable-next-line no-param-reassign
+        if (updatedStatus && updatedStatus === REQUEST_FAILURE && context.res) {            
             context.res.statusCode = updatedStatusCode || 404;
         } else {
             context.res.statusCode = 200;
         }
     } catch (e) {
         if (context.res) {
-            // eslint-disable-next-line no-param-reassign
             context.res.statusCode = 500;
         }
     }
