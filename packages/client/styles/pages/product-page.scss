@@ -1,0 +1,32 @@
+@import '../theme.scss';
+
+.productPage {
+
+    .grid-container {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+
+    &-gallery {
+        grid-column-start: col-one;
+        grid-column-end: col-six;
+    }
+
+    &-info {
+        grid-column-start: col-eight;
+        grid-column-end: col-twelve;
+    }
+
+    &-title {
+        font-size: 36px;
+        line-height: 54px;
+        margin: 0 0 1rem;
+    }
+
+    &-excerpt {
+        font-size: 20px;
+        line-height: 28px;
+        font-family: $font-serif;
+    }
+
+}

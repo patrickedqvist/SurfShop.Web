@@ -16,7 +16,6 @@ import { Page } from '../../typeDefs/page';
 // Components
 import { PageLayout } from '../../components/PageLayout';
 import { Head } from '../../components/Head';
-import { Hero } from '../../components/Hero';
 
 // Utils
 import { setServerResponseStatusCode } from '../../utils/server-side';

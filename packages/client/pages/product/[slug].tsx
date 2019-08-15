@@ -15,10 +15,13 @@ import { Store, RequestStatus } from '../../typeDefs/store';
 // Components
 import { PageLayout } from '../../components/PageLayout';
 import { Head } from '../../components/Head';
-import { Hero } from '../../components/Hero';
+import { ImageGallery } from '../../components/ImageGallery';
 
 // Utils
 import { setServerResponseStatusCode } from '../../utils/server-side';
+
+// Styling
+import '../../styles/pages/product-page.scss';
 
 const ProductPage: NextPage = () => {
     const router = useRouter();
@@ -31,9 +34,17 @@ const ProductPage: NextPage = () => {
     }
 
     return (
-        <PageLayout>
+        <PageLayout className={'productPage'}>
             <Head title={'Welcome to Next.js!'} description={'Start coding'} />
-            <Hero title={product.title} backgroundImage={'/static/images/windsurfing.jpg'} />            
+            <article className={'grid-container'}>
+                <div className={'productPage-gallery'}>
+                    <ImageGallery images={product.images} />
+                </div>
+                <div className={'productPage-info'}>
+                    <h1 className={'productPage-title'}>{product.title}</h1>
+                    <p className={'productPage-excerpt'}>{product.excerpt}</p>
+                </div>
+            </article>
         </PageLayout>
     );
 }

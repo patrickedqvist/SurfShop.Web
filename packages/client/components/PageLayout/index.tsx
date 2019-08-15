@@ -6,18 +6,20 @@ import classNames from 'classnames';
 import { TopBar } from '../TopBar';
 import { Header } from '../Header';
 import { Footer } from '../Footer';
+import { BottomBar } from '../BottomBar';
 
 // Redux
 import { getCart } from '../../redux/actions/cart';
 
 // Styles
 import './page-layout.scss'
-import { BottomBar } from '../BottomBar';
+import '../../styles/global.scss'
 
 // Types
 interface Props {
     children: React.ReactNode[],
-    headerFixed?: boolean
+    headerFixed?: boolean,
+    className?: string | string[]
 }
 
 export const PageLayout = (props: Props) => {
@@ -28,7 +30,7 @@ export const PageLayout = (props: Props) => {
         dispatch(getCart())
     }, [])
 
-    const classes = classNames('page');
+    const classes = classNames('page', props.className);
 
     return (
         <div className={classes}>
@@ -44,5 +46,6 @@ export const PageLayout = (props: Props) => {
 }
 
 PageLayout.defaultProps = {
-    headerFixed: false
+    headerFixed: false,
+    className: ''
 }

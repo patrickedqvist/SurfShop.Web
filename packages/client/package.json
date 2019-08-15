@@ -35,7 +35,8 @@
     "redux": "^4.0.4",
     "redux-devtools-extension": "^2.13.8",
     "redux-saga": "^1.0.5",
-    "redux-wait-for-ssr": "^1.2.0"
+    "redux-wait-for-ssr": "^1.2.0",
+    "swiper": "^4.5.0"
   },
   "devDependencies": {
     "@types/lodash": "^4.14.136",
@@ -43,6 +44,7 @@
     "@types/node": "^12.6.9",
     "@types/react": "^16.8.24",
     "@types/redux-saga": "^0.10.5",
+    "@types/swiper": "^4.4.4",
     "cssnano": "^4.1.10",
     "typescript": "^3.5.3"
   }
