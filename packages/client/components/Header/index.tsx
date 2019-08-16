@@ -1,5 +1,6 @@
 import React, { memo } from 'react';
 import classNames from 'classnames';
+import Link from 'next/link';
 
 // Styling
 import './header.scss';
@@ -18,7 +19,11 @@ const HeaderComponent = ({ fixed }: IProps) => {
 
     return (
         <header className={classes}>
-            <h1>SurfShop</h1>
+            <Link href={'/'} passHref>
+                <a title={'Home'}>
+                    <h1>SurfShop</h1>
+                </a>                
+            </Link>
             <MiniCart />
         </header>
     )

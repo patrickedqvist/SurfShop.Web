@@ -38,7 +38,7 @@ const ProductPage: NextPage = () => {
             <Head title={'Welcome to Next.js!'} description={'Start coding'} />
             <article className={'grid-container'}>
                 <div className={'productPage-gallery'}>
-                    <ImageGallery images={product.images} />
+                    <ImageGallery images={product.images} useThumbnails={true} />
                 </div>
                 <div className={'productPage-info'}>
                     <h1 className={'productPage-title'}>{product.title}</h1>

@@ -1,7 +1,7 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useRef } from 'react';
 import Swiper, { SwiperOptions } from 'swiper';
 import classNames from 'classnames';
-import { map, merge } from 'lodash/fp';
+import { map, merge, has } from 'lodash/fp';
 
 // Styling
 import './swiper.scss'
@@ -12,56 +12,88 @@ import { Media } from '../../typeDefs/media';
 
 interface IProps {
     images: Media[],
-    swiperSettings?: SwiperOptions
+    mainSettings?: SwiperOptions,
+    useThumbnails?: boolean
 }
 
-const defaultSettings: SwiperOptions = {
-    navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-    },
-}
+const defaultSettings: SwiperOptions = {}
 
-export const ImageGallery = ({ images, swiperSettings }: IProps) => {
+const createSlides = ( images: Media[], asBackground: boolean = false ) => {
+    if ( asBackground ) {
+        return map((image: Media) => (
+            <div key={image.url} className="swiper-slide" style={{ backgroundImage: `url(${image.url})` }} />
+        ), images)
+    }
 
-    useEffect(() => {
-        const initSwiper = async () => {
-            new Swiper('.swiper-container', swiperSettings);
-        }
-
-        initSwiper();
-    })
-
-    const classes = classNames('imageGallery');
-
-    const slides = map((image: Media) => (
-        <div className="swiper-slide" key={image.url}>
+    return map((image: Media) => (
+        <div key={image.url} className="swiper-slide">
             <img src={image.url} alt={image.alt} />
         </div>
     ), images)
+    
+}
+
+export const ImageGallery = ({ images, mainSettings, useThumbnails }: IProps) => {
+
+    const galleryThumbs = useRef(null);
+    const galleryMain = useRef(null);
+
+    useEffect(() => {
+
+        const initSwiper = async () => {
+
+            galleryThumbs.current = new Swiper('.gallery-thumbs', {
+                spaceBetween: 10,
+                slidesPerView: 4,
+                freeMode: true,
+                watchSlidesVisibility: true,
+                watchSlidesProgress: true,
+                direction: 'vertical'
+            });
+
+            const thumbnailSettings = {
+                thumbs: {
+                    swiper: galleryThumbs.current
+                }
+            }
+
+            const settings = useThumbnails ? merge(thumbnailSettings, mainSettings) : mainSettings;
+
+            galleryMain.current = new Swiper('.gallery-main', settings);
+        }
+
+        initSwiper();
+    }, [images])
+
+    const classes = classNames('imageGallery', {
+        'imageGallery--thumbnails': useThumbnails
+    });
+
+    const mainSlides = createSlides(images);
+    const thumbs = useThumbnails ? createSlides(images, true) : null;
 
     return (
         <div className={classes}>
-            <div className="swiper-container">                
-                
-                <div className="swiper-wrapper">                
-                    {slides}
+
+            {useThumbnails && (
+                <div className="swiper-container gallery-thumbs">
+                    <div className="swiper-wrapper">
+                        {thumbs}
+                    </div>
                 </div>
-                
+            )}
 
-                {swiperSettings.pagination && <div className="swiper-pagination"></div>}
-                
-                <div className="swiper-button-prev"></div>
-                <div className="swiper-button-next"></div>
-                
-                {swiperSettings.scrollbar &&<div className="swiper-scrollbar"></div>}
-
+            <div className="swiper-container gallery-main">                                
+                <div className="swiper-wrapper">                
+                    {mainSlides}
+                </div>                                                
             </div>
-        </div>
-        
+
+        </div>        
     )
 }
 
 ImageGallery.defaultProps = {
-    swiperSettings: defaultSettings
+    swiperSettings: defaultSettings,
+    useThumbnails: false
 }
