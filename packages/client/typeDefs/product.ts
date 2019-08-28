@@ -8,9 +8,9 @@ export interface ProductVariantSize {
 }
 
 export interface ProductVariantColor {
-    title: string
     id: string
-    filterColor: string
+    hex: string
+    title: string
 }
 
 export interface ProductVariantPrice {
@@ -29,17 +29,22 @@ export interface ProductVariant {
 
 export interface ProductCategory {
     title: string
-    id: string | null
+    slug: string | null
     type: 'Category'
 }
 
-export interface Product {
-    excerpt: string
-    featuredMedia: Media
-    images: Media[]    
-    variants: ProductVariant[]
-    categories: ProductCategory[]    
+export interface ProductLabel {
+    id: string
     title: string
-    label: string
-    slug: string   
+}
+
+export interface Product {
+    id: number
+    title: string    
+    slug: string  
+    excerpt: string
+    price: number
+    labels: ProductLabel[]  
+    images: Media[]    
+    categories: ProductCategory[]         
 }

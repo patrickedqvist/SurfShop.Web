@@ -1,13 +1,10 @@
 import React, { memo } from 'react';
 import classNames from 'classnames'
-import { get } from 'lodash/fp';
+import { get, map, isEmpty } from 'lodash/fp';
 import Link from 'next/link';
 
 // Styles
 import './product-card.scss'
-
-// Utils
-import { getVariationPrices } from '../../utils/prices';
 
 // Types
 import { Product } from '../../typeDefs/product';
@@ -23,25 +20,35 @@ export const ProductCardComponent = ({ product, highlight }: IProps) => {
         'product-card--highlight': highlight
     })
 
-    const backgroundUrl = get('featuredMedia.url', product);
+    const backgroundUrl = get('images[0].src', product);
     const imageStyle = backgroundUrl ? {
         backgroundImage: `url(${backgroundUrl})`
-    } : {}
+    } : {};
 
-    const prices = getVariationPrices(product.variants);
+    const labels = !isEmpty(product.labels) ? map((label) => (
+        <span key={label.id} className={'product-card-label'}>{label.title}</span>
+    ), product.labels) : null;
 
     return (
         <div className={classes}>
-            <div className={'product-card-image'} style={imageStyle} />
+            
+            <Link href={'/product/[pslug]'} as={`/product/${product.slug}`} passHref>
+                <a title={get('images[0].alt', product)}>
+                    <div className={'product-card-image'} style={imageStyle} />
+                </a>
+            </Link>
+            
             <div className={'product-card-content'}>
-                <span className={'product-card-label'}>{get('label', product)}</span>
-                <h1 className={'product-card-title'}>{product.title}</h1>
-                <p className={'product-card-excerpt'}>{product.excerpt}</p>
-                {prices && <span className={'product-card-price'}>{`${prices.min}-${prices.max} kr`}</span>}
                 <Link href={'/product/[pslug]'} as={`/product/${product.slug}`} passHref>
-                    <a title={`Visa ${product.title}`}>Visa</a>
+                    <a className={'product-card-title'} title={product.title}>{product.title}</a>
                 </Link>
+                <p className={'product-card-excerpt'}>{product.excerpt}</p>
+                <p className={'product-card-price'}>{`${product.price} kr`}</p>
             </div>
+
+            {!isEmpty(product.labels) && <div className={'product-card-labels'}>
+                {labels}
+            </div>}
             
         </div>
     )
@@ -52,3 +59,4 @@ ProductCardComponent.defaultProps = {
 }
 
 export const ProductCard = memo(ProductCardComponent);
+ProductCard.displayName = 'ProductCardMemo'

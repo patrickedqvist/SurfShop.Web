@@ -21,13 +21,13 @@ const defaultSettings: SwiperOptions = {}
 const createSlides = ( images: Media[], asBackground: boolean = false ) => {
     if ( asBackground ) {
         return map((image: Media) => (
-            <div key={image.url} className="swiper-slide" style={{ backgroundImage: `url(${image.url})` }} />
+            <div key={image.src} className="swiper-slide" style={{ backgroundImage: `url(${image.src})` }} />
         ), images)
     }
 
     return map((image: Media) => (
-        <div key={image.url} className="swiper-slide">
-            <img src={image.url} alt={image.alt} />
+        <div key={image.src} className="swiper-slide">
+            <img src={image.src} alt={image.alt} />
         </div>
     ), images)
     

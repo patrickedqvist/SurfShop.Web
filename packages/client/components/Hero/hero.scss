@@ -15,7 +15,8 @@
 
     @include for-tablet-portrait-up {
         max-height: 900px;
-        height: 90vh;
+        min-height: 400px;
+        height: 50vh;
     }
 
     @include for-big-desktop-up {

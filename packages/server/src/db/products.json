@@ -1,1140 +1,2226 @@
-{
-    "starboard-go": {
-        "excerpt": "The iconic and irreplaceable GO boards: the progressive boards for improving beginners to advanced windsurfing. Your perfect first board that helps you advance from your first steps to fully planing, carve jibing.",
-        "featuredMedia": {
-            "mediaType": "Image",
-            "url": " https://d4fy9c5aoe5kg.cloudfront.net/wp-content/uploads/2018/08/28091223/2019-Starboard-Go-Windsurfer-Standing.jpg",
-            "alt": null
-        },
-        "images": [
-            {
-                "mediaType": "Image",
-                "url": " https://d4fy9c5aoe5kg.cloudfront.net/wp-content/uploads/2018/08/28091223/2019-Starboard-Go-Windsurfer-Standing.jpg",
-                "alt": null
-            },
-            {
-                "mediaType": "Image",
-                "url": " //houdini-server.web4.cloudnine.se/_images/4426c62f-dbf9-4f9e-ae69-be1920b2b4aa/WsFreeTee_S_OffPink_1_C_Low.jpg",
-                "alt": null
-            },
-            {
-                "mediaType": "Image",
-                "url": " //houdini-server.web4.cloudnine.se/_images/a3e63368-977a-4777-8ca9-43bd4fe5b451/WsFreeTee_S_OffPink_3_C_Low.jpg",
-                "alt": null
-            },
-            {
-                "mediaType": "Image",
-                "url": " //houdini-server.web4.cloudnine.se/_images/60d5a487-b6ea-4b6c-92a8-9a81e7e2f7ed/WsFreeTee_D_GroundGrey_2_C_Low.jpg",
-                "alt": null
-            }
-        ],        
-        "variants": [
-            {
-                "id": "139694022",
-                "images": [
-                    {
-                        "mediaType": "ModelImage",
-                        "url": " //houdini-server.web4.cloudnine.se/_images/24fa150e-61c6-4adf-b3cc-bd311fecd82c/WsFreeTee_D_GroundGrey_1_C_Low.jpg",
-                        "alt": null
-                    },
-                    {
-                        "mediaType": "Image",
-                        "url": " //houdini-server.web4.cloudnine.se/_images/d593e9ca-5245-4302-8ce5-389fe049e0e0/WsFreeTee_P_GroundGrey_F_1_C_Low.jpg",
-                        "alt": null
-                    },
-                    {
-                        "mediaType": "Image",
-                        "url": " //houdini-server.web4.cloudnine.se/_images/8d53849f-1051-40d5-a5fb-b71b4be93619/WsFreeTee_P_GroundGrey_S_C_Low.jpg",
-                        "alt": null
-                    },
-                    {
-                        "mediaType": "Image",
-                        "url": " //houdini-server.web4.cloudnine.se/_images/c8f9369d-5d5f-46f6-88c2-9f4b67101fca/WsFreeTee_P_GroundGrey_B_C_Low.jpg",
-                        "alt": null
-                    },
-                    {
-                        "mediaType": "IsolatedImage",
-                        "url": " //houdini-server.web4.cloudnine.se/_images/080b1661-66ec-45e2-b4c9-043d1a927b53/WsFreeTee_F_GroundGrey_C_Low.jpg",
-                        "alt": null
-                    }
-                ],
-                "sizes": [
-                    {
-                        "ssu": "1396940220",
-                        "title": "XXS",
-                        "shortTitle": "XXS",
-                        "stockBalance": 5,
-                        "price": {
-                            "reduced": null,
-                            "list": "800 SEK",
-                            "sortingPrice": "800.00"
-                        }
-                    },
-                    {
-                        "ssu": "1396940221",
-                        "title": "XS",
-                        "shortTitle": "XS",
-                        "stockBalance": 14,
-                        "price": {
-                            "reduced": null,
-                            "list": "800 SEK",
-                            "sortingPrice": "800.00"
-                        }
-                    },
-                    {
-                        "ssu": "1396940222",
-                        "title": "S",
-                        "shortTitle": "S",
-                        "stockBalance": 16,
-                        "price": {
-                            "reduced": null,
-                            "list": "800 SEK",
-                            "sortingPrice": "800.00"
-                        }
-                    },
-                    {
-                        "ssu": "1396940223",
-                        "title": "M",
-                        "shortTitle": "M",
-                        "stockBalance": 31,
-                        "price": {
-                            "reduced": null,
-                            "list": "800 SEK",
-                            "sortingPrice": "800.00"
-                        }
-                    },
-                    {
-                        "ssu": "1396940224",
-                        "title": "L",
-                        "shortTitle": "L",
-                        "stockBalance": 22,
-                        "price": {
-                            "reduced": null,
-                            "list": "800 SEK",
-                            "sortingPrice": "800.00"
-                        }
-                    }
-                ],
-                "color": {
-                    "title": "Ground Gray",
-                    "id": "#A2AAAD",
-                    "filterColor": "Grå"
-                },
-                "price": {
-                    "regularPrice": 11000.00,
-                    "salePrice": null
-                }
-            },
-            {
-                "id": "139694063",
-                "images": [
-                    {
-                        "mediaType": "ModelImage",
-                        "url": " //houdini-server.web4.cloudnine.se/_images/74325619-f0ad-48b3-add4-414f247226f2/WsFreeTee_P_OffPink_F_C_Low.jpg",
-                        "alt": null
-                    },
-                    {
-                        "mediaType": "Image",
-                        "url": " //houdini-server.web4.cloudnine.se/_images/bbf8793f-16e3-4136-a162-e98b164d3324/WsFreeTee_P_OffPink_S_C_Low.jpg",
-                        "alt": null
-                    },
-                    {
-                        "mediaType": "Image",
-                        "url": " //houdini-server.web4.cloudnine.se/_images/8db9925e-a028-4611-8961-26acff76b06b/WsFreeTee_P_OffPink_B_C_Low.jpg",
-                        "alt": null
-                    },
-                    {
-                        "mediaType": "IsolatedImage",
-                        "url": " //houdini-server.web4.cloudnine.se/_images/ca0f08b6-4c1e-4caa-b951-297fc64e2e22/WsFreeTee_F_OffPink_C_Low.jpg",
-                        "alt": null
-                    }
-                ],
-                "sizes": [
-                    {
-                        "ssu": "1396940630",
-                        "title": "XXS",
-                        "shortTitle": "XXS",
-                        "stockBalance": 5,
-                        "price": {
-                            "reduced": null,
-                            "list": "800 SEK",
-                            "sortingPrice": "800.00"
-                        }
-                    },
-                    {
-                        "ssu": "1396940631",
-                        "title": "XS",
-                        "shortTitle": "XS",
-                        "stockBalance": 12,
-                        "price": {
-                            "reduced": null,
-                            "list": "800 SEK",
-                            "sortingPrice": "800.00"
-                        }
-                    },
-                    {
-                        "ssu": "1396940632",
-                        "title": "S",
-                        "shortTitle": "S",
-                        "stockBalance": 22,
-                        "price": {
-                            "reduced": null,
-                            "list": "800 SEK",
-                            "sortingPrice": "800.00"
-                        }
-                    },
-                    {
-                        "ssu": "1396940633",
-                        "title": "M",
-                        "shortTitle": "M",
-                        "stockBalance": 7,
-                        "price": {
-                            "reduced": null,
-                            "list": "800 SEK",
-                            "sortingPrice": "800.00"
-                        }
-                    },
-                    {
-                        "ssu": "1396940634",
-                        "title": "L",
-                        "shortTitle": "L",
-                        "stockBalance": 21,
-                        "price": {
-                            "reduced": null,
-                            "list": "800 SEK",
-                            "sortingPrice": "800.00"
-                        }
-                    },
-                    {
-                        "ssu": "1396940635",
-                        "title": "XL",
-                        "shortTitle": "XL",
-                        "stockBalance": 3,
-                        "price": {
-                            "reduced": null,
-                            "list": "800 SEK",
-                            "sortingPrice": "800.00"
-                        }
-                    }
-                ],
-                "color": {
-                    "title": "Off Pink",
-                    "id": "#FBCCCC",
-                    "filterColor": "Rosa"
-                },   
-                "price": {
-                    "regularPrice": 12000.00,
-                    "salePrice": null
-                }           
-            },
-            {
-                "id": "139694668",
-                "images": [
-                    {
-                        "mediaType": "ModelImage",
-                        "url": " //houdini-server.web4.cloudnine.se/_images/1b70abd8-0667-4fcd-98d2-3ba85ff0fcb2/WsFreeTee_P_GustGreen_F_C_Low.jpg",
-                        "alt": null
-                    },
-                    {
-                        "mediaType": "Image",
-                        "url": " //houdini-server.web4.cloudnine.se/_images/93633733-93af-4b68-8396-9c98086080aa/WsFreeTee_P_GustGreen_S_C_Low.jpg",
-                        "alt": null
-                    },
-                    {
-                        "mediaType": "Image",
-                        "url": " //houdini-server.web4.cloudnine.se/_images/dda13fae-b264-4304-95d9-ed797a9e2d1d/WsFreeTee_P_GustGreen_B_C_Low.jpg",
-                        "alt": null
-                    },
-                    {
-                        "mediaType": "IsolatedImage",
-                        "url": " //houdini-server.web4.cloudnine.se/_images/8c237812-5e80-4375-9189-f4fbc0e84313/WsFreeTee_F_GustGreen_C_Low.jpg",
-                        "alt": null
-                    }
-                ],                
-                "sizes": [
-                    {
-                        "ssu": "1396946681",
-                        "title": "XS",
-                        "shortTitle": "XS",
-                        "stockBalance": 8,
-                        "price": {
-                            "reduced": null,
-                            "list": "800 SEK",
-                            "sortingPrice": "800.00"
-                        }
-                    },
-                    {
-                        "ssu": "1396946683",
-                        "title": "M",
-                        "shortTitle": "M",
-                        "stockBalance": 0,
-                        "price": {
-                            "reduced": null,
-                            "list": "800 SEK",
-                            "sortingPrice": "800.00"
-                        }
-                    },
-                    {
-                        "ssu": "1396946684",
-                        "title": "L",
-                        "shortTitle": "L",
-                        "stockBalance": 9,
-                        "price": {
-                            "reduced": null,
-                            "list": "800 SEK",
-                            "sortingPrice": "800.00"
-                        }
-                    }
-                ],
-                "color": {
-                    "title": "Gust Green",
-                    "id": "#133C32",
-                    "filterColor": "Gröna"
-                },
-                "price": {
-                    "regularPrice": 13000.00,
-                    "salePrice": null
-                }             
-            }
-        ],
-        "categories": [
-            {
-                "title": "Tröjor och t-shirts",
-                "slug": "women/shirts-and-tops",
-                "type": "Category"
-            }            
-        ],        
-        "title": "Starboard Go",
-        "label": "Nybörjare / Utveckling",
-        "slug": "starboard-go"        
-    },
-    "starboard-ultra-kode": {
-        "excerpt": "The ultra-allrounder. Thruster, quad or twin, it’s the dream wave board by the Dream Wave Team.",
-        "featuredMedia": {
-            "mediaType": "Image",
-            "url": " https://d4fy9c5aoe5kg.cloudfront.net/wp-content/uploads/2019/07/17123349/2020-Starboard-UltraKode-Standing-1.png",
-            "alt": null
-        },
-        "images": [
-            {
-                "mediaType": "Image",
-                "url": " https://d4fy9c5aoe5kg.cloudfront.net/wp-content/uploads/2019/07/17123349/2020-Starboard-UltraKode-Standing-1.png",
-                "alt": null
-            },
-            {
-                "mediaType": "Image",
-                "url": " //houdini-server.web4.cloudnine.se/_images/56616536-e423-4d21-a35e-f38a28ec8355/MsFreeTee_S_TrueBlack_7_C_Low.jpg",
-                "alt": null
-            },
-            {
-                "mediaType": "Image",
-                "url": " //houdini-server.web4.cloudnine.se/_images/44217e4b-9825-4b26-8d2e-66f53cb51519/MsFreeTee_S_GustGreen_5_C_Low.jpg",
-                "alt": null
-            },
-            {
-                "mediaType": "Image",
-                "url": " //houdini-server.web4.cloudnine.se/_images/bb88f546-40ac-4eac-aab1-7e5a0ff90804/MsFreeTee_S_GroundGrey_3_C_Low.jpg",
-                "alt": null
-            },
-            {
-                "mediaType": "Image",
-                "url": " //houdini-server.web4.cloudnine.se/_images/f4fe6af6-45a2-491c-bc01-d3eed2c8ea95/MsFreeTee_S_GroundGrey_1_C_Low.jpg",
-                "alt": null
-            },
-            {
-                "mediaType": "Image",
-                "url": " //houdini-server.web4.cloudnine.se/_images/0d67aa0c-6658-411f-8249-39eb4065471b/MsFreeTee_D_TrueBlack_1_C_Low.jpg",
-                "alt": null
-            },
-            {
-                "mediaType": "Image",
-                "url": " //houdini-server.web4.cloudnine.se/_images/e46d086a-a8f8-444b-b97e-a7f2a2c4dbd5/MsFreeTee_D_TrueBlack_2_C_Low.jpg",
-                "alt": null
-            }
-        ],        
-        "variants": [
-            {
-                "id": "239694900",
-                "images": [
-                    {
-                        "mediaType": "ModelImage",
-                        "url": " //houdini-server.web4.cloudnine.se/_images/923632fb-a459-4647-b6fe-137b3c6ac723/MsFreeTee_P_TrueBlack_F_C_Low.jpg",
-                        "alt": null
-                    },
-                    {
-                        "mediaType": "Image",
-                        "url": " //houdini-server.web4.cloudnine.se/_images/6d1eaaa9-5c00-445b-969e-3fecbf554d35/MsFreeTee_P_TrueBlack_S_C_Low.jpg",
-                        "alt": null
-                    },
-                    {
-                        "mediaType": "Image",
-                        "url": " //houdini-server.web4.cloudnine.se/_images/1cd1be89-b4e6-48e3-819f-656a9b7d024b/MsFreeTee_P_TrueBlack_B_C_Low.jpg",
-                        "alt": null
-                    },
-                    {
-                        "mediaType": "IsolatedImage",
-                        "url": " //houdini-server.web4.cloudnine.se/_images/d5f93117-bc54-4867-8cd9-aee91abf4d97/MsFreeTee_F_TrueBlack_C_Low.jpg",
-                        "alt": null
-                    }
-                ],
-                "sizes": [
-                    {
-                        "ssu": "2396949000",
-                        "title": "XS",
-                        "shortTitle": "XS",
-                        "stockBalance": 10,
-                        "price": {
-                            "reduced": null,
-                            "list": "800 SEK",
-                            "sortingPrice": "800.00"
-                        }
-                    },
-                    {
-                        "ssu": "2396949001",
-                        "title": "S",
-                        "shortTitle": "S",
-                        "stockBalance": 38,
-                        "price": {
-                            "reduced": null,
-                            "list": "800 SEK",
-                            "sortingPrice": "800.00"
-                        }
-                    },
-                    {
-                        "ssu": "2396949002",
-                        "title": "M",
-                        "shortTitle": "M",
-                        "stockBalance": 89,
-                        "price": {
-                            "reduced": null,
-                            "list": "800 SEK",
-                            "sortingPrice": "800.00"
-                        }
-                    },
-                    {
-                        "ssu": "2396949003",
-                        "title": "L",
-                        "shortTitle": "L",
-                        "stockBalance": 107,
-                        "price": {
-                            "reduced": null,
-                            "list": "800 SEK",
-                            "sortingPrice": "800.00"
-                        }
-                    },
-                    {
-                        "ssu": "2396949004",
-                        "title": "XL",
-                        "shortTitle": "XL",
-                        "stockBalance": 73,
-                        "price": {
-                            "reduced": null,
-                            "list": "800 SEK",
-                            "sortingPrice": "800.00"
-                        }
-                    },
-                    {
-                        "ssu": "2396949005",
-                        "title": "XXL",
-                        "shortTitle": "XXL",
-                        "stockBalance": 12,
-                        "price": {
-                            "reduced": null,
-                            "list": "800 SEK",
-                            "sortingPrice": "800.00"
-                        }
-                    }
-                ],
-                "color": {
-                    "title": "True Black",
-                    "id": "#00111A",
-                    "filterColor": "Svarta"
-                },
-                "modelWearingLabel": null
-            },
-            {
-                "id": "239694022",
-                "images": [
-                    {
-                        "mediaType": "ModelImage",
-                        "url": " //houdini-server.web4.cloudnine.se/_images/eb77c5f3-7f30-4584-9b73-4d6ddf728912/MsFreeTee_P_GroundGrey_F_C_Low.jpg",
-                        "alt": null
-                    },
-                    {
-                        "mediaType": "Image",
-                        "url": " //houdini-server.web4.cloudnine.se/_images/72441dc7-f5c5-42df-b278-7705b8f473a3/MsFreeTee_P_GroundGrey_S_C_Low.jpg",
-                        "alt": null
-                    },
-                    {
-                        "mediaType": "Image",
-                        "url": " //houdini-server.web4.cloudnine.se/_images/e0cd5d58-f410-4f59-84bf-75a57cd416f0/MsFreeTee_P_GroundGrey_B_C_Low.jpg",
-                        "alt": null
-                    },
-                    {
-                        "mediaType": "IsolatedImage",
-                        "url": " //houdini-server.web4.cloudnine.se/_images/1faf2dcb-8e94-4d23-a016-2f397133a5da/MsFreeTee_F_GroundGrey_C_Low.jpg",
-                        "alt": null
-                    }
-                ],
-                "sizes": [
-                    {
-                        "ssu": "2396940220",
-                        "title": "XS",
-                        "shortTitle": "XS",
-                        "stockBalance": 1,
-                        "price": {
-                            "reduced": null,
-                            "list": "800 SEK",
-                            "sortingPrice": "800.00"
-                        }
-                    },
-                    {
-                        "ssu": "2396940221",
-                        "title": "S",
-                        "shortTitle": "S",
-                        "stockBalance": 6,
-                        "price": {
-                            "reduced": null,
-                            "list": "800 SEK",
-                            "sortingPrice": "800.00"
-                        }
-                    },
-                    {
-                        "ssu": "2396940222",
-                        "title": "M",
-                        "shortTitle": "M",
-                        "stockBalance": 45,
-                        "price": {
-                            "reduced": null,
-                            "list": "800 SEK",
-                            "sortingPrice": "800.00"
-                        }
-                    },
-                    {
-                        "ssu": "2396940223",
-                        "title": "L",
-                        "shortTitle": "L",
-                        "stockBalance": 61,
-                        "price": {
-                            "reduced": null,
-                            "list": "800 SEK",
-                            "sortingPrice": "800.00"
-                        }
-                    },
-                    {
-                        "ssu": "2396940224",
-                        "title": "XL",
-                        "shortTitle": "XL",
-                        "stockBalance": 47,
-                        "price": {
-                            "reduced": null,
-                            "list": "800 SEK",
-                            "sortingPrice": "800.00"
-                        }
-                    }
-                ],
-                "color": {
-                    "title": "Ground Gray",
-                    "id": "#A2AAAD",
-                    "filterColor": "Grå"
-                },
-                "modelWearingLabel": null
-            },
-            {
-                "id": "239694668",
-                "images": [
-                    {
-                        "mediaType": "ModelImage",
-                        "url": " //houdini-server.web4.cloudnine.se/_images/25a086a3-9aaf-4e29-9654-a53f344c02dd/MsFreeTee_P_GustGreen_F_C_Low.jpg",
-                        "alt": null
-                    },
-                    {
-                        "mediaType": "Image",
-                        "url": " //houdini-server.web4.cloudnine.se/_images/6aca817d-390f-451f-9bf6-da4ea20ff749/MsFreeTee_P_GustGreen_S_C_Low.jpg",
-                        "alt": null
-                    },
-                    {
-                        "mediaType": "Image",
-                        "url": " //houdini-server.web4.cloudnine.se/_images/9e053f4b-d44f-4afd-b186-d8bfd3267786/MsFreeTee_P_GustGreen_B_C_Low.jpg",
-                        "alt": null
-                    },
-                    {
-                        "mediaType": "IsolatedImage",
-                        "url": " //houdini-server.web4.cloudnine.se/_images/5b418c71-e811-4ce9-a4a9-d6481a2b300a/MsFreeTee_F_GustGreen_C_Low.jpg",
-                        "alt": null
-                    }
-                ],
-                "sizes": [
-                    {
-                        "ssu": "2396946680",
-                        "title": "XS",
-                        "shortTitle": "XS",
-                        "stockBalance": 13,
-                        "price": {
-                            "reduced": null,
-                            "list": "800 SEK",
-                            "sortingPrice": "800.00"
-                        }
-                    },
-                    {
-                        "ssu": "2396946683",
-                        "title": "L",
-                        "shortTitle": "L",
-                        "stockBalance": 0,
-                        "price": {
-                            "reduced": null,
-                            "list": "800 SEK",
-                            "sortingPrice": "800.00"
-                        }
-                    },
-                    {
-                        "ssu": "2396946684",
-                        "title": "XL",
-                        "shortTitle": "XL",
-                        "stockBalance": 0,
-                        "price": {
-                            "reduced": null,
-                            "list": "800 SEK",
-                            "sortingPrice": "800.00"
-                        }
-                    }
-                ],
-                "color": {
-                    "title": "Gust Green",
-                    "id": "#133C32",
-                    "filterColor": "Gröna"
-                },
-                "modelWearingLabel": null
-            }
-        ],
-        "categories": [
-            {
-                "title": "Tröjor och t-shirts",
-                "slug": "men/shirts-and-tops",
-                "type": "Category"
-            },
-            {
-                "title": null,
-                "slug": "men/base-layers",
-                "type": "Category"
-            },
-            {
-                "title": "Produktimport",
-                "id": null,
-                "type": "Category"
-            }
-        ],        
-        "label": "Våg",
-        "title": "Starboard Ultra Kode",
-        "slug": "starboard-ultra-kode"
-        
-    },
-    "starboard-kode": {
-        "excerpt": "Upplev en ny känsla av rörelsefrihet i dessa lätta, slitstarka och stretchiga friluftsbyxor skapade med Made to move.",
-        "featuredMedia": {
-            "mediaType": "Image",
-            "url": "https://d4fy9c5aoe5kg.cloudfront.net/wp-content/uploads/2019/07/17115741/2020-Starboard-Kode-Standing.png",
-            "alt": null
-        },
-        "images": [
-            {
-                "mediaType": "Image",
-                "url": "https://d4fy9c5aoe5kg.cloudfront.net/wp-content/uploads/2019/07/17115741/2020-Starboard-Kode-Standing.png",
-                "alt": null
-            },
-            {
-                "mediaType": "Image",
-                "url": " //houdini-server.web4.cloudnine.se/_images/15b42c43-de88-47d2-8d16-1d5e4e356f62/WsMTMThrillTwillPants_D_RockBlack_1_C_Low.jpg",
-                "alt": null
-            }
-        ],
-        "labels": [],
-        "sustainabilityOptions": [
-            {
-                "id": "Recyclable",
-                "title": "Återvinningsbar"
-            }
-        ],
-        "variants": [
-            {
-                "id": "197144910",
-                "images": [
-                    {
-                        "mediaType": "ModelImage",
-                        "url": " //houdini-server.web4.cloudnine.se/_images/a84a60a8-8e07-4d75-bcac-88937aa73e38/WsMTMThrillTwillPants_P_RockBlack_F_C_Low.jpg",
-                        "alt": null
-                    },
-                    {
-                        "mediaType": "Image",
-                        "url": " //houdini-server.web4.cloudnine.se/_images/8a0f76ec-9035-425f-a82a-6d2d8a367bea/WsMTMThrillTwillPants_P_RockBlack_S_C_Low.jpg",
-                        "alt": null
-                    },
-                    {
-                        "mediaType": "Image",
-                        "url": " //houdini-server.web4.cloudnine.se/_images/8a7f30bc-8ed4-4668-b232-0824ac1d806b/WsMTMThrillTwillPants_P_RockBlack_B_C_Low.jpg",
-                        "alt": null
-                    },
-                    {
-                        "mediaType": "IsolatedImage",
-                        "url": " //houdini-server.web4.cloudnine.se/_images/68748a13-b02b-4d92-bcde-d1dc2f4daa76/WsMTMThrillTwillPants_F_RockBlack_C_Low.jpg",
-                        "alt": null
-                    }
-                ],
-                "sizes": [
-                    {
-                        "ssu": "1971449101",
-                        "title": "XS",
-                        "shortTitle": "XS",
-                        "stockBalance": 16,
-                        "price": {
-                            "reduced": null,
-                            "list": "1 400 SEK",
-                            "sortingPrice": "1400.00"
-                        }
-                    },
-                    {
-                        "ssu": "1971449102",
-                        "title": "S",
-                        "shortTitle": "S",
-                        "stockBalance": 45,
-                        "price": {
-                            "reduced": null,
-                            "list": "1 400 SEK",
-                            "sortingPrice": "1400.00"
-                        }
-                    },
-                    {
-                        "ssu": "1971449103",
-                        "title": "M",
-                        "shortTitle": "M",
-                        "stockBalance": 43,
-                        "price": {
-                            "reduced": null,
-                            "list": "1 400 SEK",
-                            "sortingPrice": "1400.00"
-                        }
-                    },
-                    {
-                        "ssu": "1971449104",
-                        "title": "L",
-                        "shortTitle": "L",
-                        "stockBalance": 25,
-                        "price": {
-                            "reduced": null,
-                            "list": "1 400 SEK",
-                            "sortingPrice": "1400.00"
-                        }
-                    },
-                    {
-                        "ssu": "1971449105",
-                        "title": "XL",
-                        "shortTitle": "XL",
-                        "stockBalance": 1,
-                        "price": {
-                            "reduced": null,
-                            "list": "1 400 SEK",
-                            "sortingPrice": "1400.00"
-                        }
-                    }
-                ],
-                "color": {
-                    "title": "Rock Black",
-                    "id": "#3B3A3C",
-                    "filterColor": "Svarta"
-                },
-                "modelWearingLabel": null
-            },
-            {
-                "id": "197144967",
-                "images": [
-                    {
-                        "mediaType": "ModelImage",
-                        "url": " //houdini-server.web4.cloudnine.se/_images/c2b4ed97-de14-4a90-9de0-d4351600a773/WsMTMThrillTwillPants_P_ReedBeige_F_C_Low.jpg",
-                        "alt": null
-                    },
-                    {
-                        "mediaType": "Image",
-                        "url": " //houdini-server.web4.cloudnine.se/_images/3dafa7e0-51b1-4280-8e64-9f6ba0416034/WsMTMThrillTwillPants_P_ReedBeige_S_C_Low.jpg",
-                        "alt": null
-                    },
-                    {
-                        "mediaType": "Image",
-                        "url": " //houdini-server.web4.cloudnine.se/_images/85506208-acb9-4fa5-8f6c-e3562f5248a4/WsMTMThrillTwillPants_P_ReedBeige_B_C_Low.jpg",
-                        "alt": null
-                    },
-                    {
-                        "mediaType": "IsolatedImage",
-                        "url": " //houdini-server.web4.cloudnine.se/_images/29ea9939-88e4-412f-8c8d-75006631d403/WsMTMThrillTwillPants_F_ReedBeige_C_Low.jpg",
-                        "alt": null
-                    }
-                ],
-                "sizes": [
-                    {
-                        "ssu": "1971449671",
-                        "title": "XS",
-                        "shortTitle": "XS",
-                        "stockBalance": 5,
-                        "price": {
-                            "reduced": null,
-                            "list": "1 400 SEK",
-                            "sortingPrice": "1400.00"
-                        }
-                    },
-                    {
-                        "ssu": "1971449672",
-                        "title": "S",
-                        "shortTitle": "S",
-                        "stockBalance": 5,
-                        "price": {
-                            "reduced": null,
-                            "list": "1 400 SEK",
-                            "sortingPrice": "1400.00"
-                        }
-                    },
-                    {
-                        "ssu": "1971449673",
-                        "title": "M",
-                        "shortTitle": "M",
-                        "stockBalance": 4,
-                        "price": {
-                            "reduced": null,
-                            "list": "1 400 SEK",
-                            "sortingPrice": "1400.00"
-                        }
-                    },
-                    {
-                        "ssu": "1971449674",
-                        "title": "L",
-                        "shortTitle": "L",
-                        "stockBalance": 10,
-                        "price": {
-                            "reduced": null,
-                            "list": "1 400 SEK",
-                            "sortingPrice": "1400.00"
-                        }
-                    }
-                ],
-                "color": {
-                    "title": "Reed Beige",
-                    "id": "#8E8472",
-                    "filterColor": "Beiges"
-                },
-                "modelWearingLabel": null
-            }
-        ],
-        "categories": [
-            {
-                "title": "Byxor",
-                "slug": "women/pants",
-                "type": "Category"
-            },
-            {
-                "title": "Produktimport",
-                "id": null,
-                "type": "Category"
-            }
-        ],
-        "activities": [
-            {
-                "title": "Klättring",
-                "id": "shop-by-activity/climbing",
-                "type": "Activity"
-            }
-        ],
-        "gender": [
-            {
-                "id": "Female",
-                "title": "Kvinna"
-            }
-        ],
-        "function": [
-            {
-                "id": "Made to move",
-                "title": "Made to move"
-            }
-        ],
-        "label": "Freestyle Våg",
-        "title": "Starboard Kode",
-        "slug": "starboard-kode"
-        
-    },
-    "starboard-ignite": {
-        "excerpt": "Tunna och stretchiga friluftsbyxor skapade med Made to move, en ny metod att konstruera plagg som ger full rörelsefrihet.",
-        "featuredImage": {
-            "mediaType": "Image",
-            "url": "https://d4fy9c5aoe5kg.cloudfront.net/wp-content/uploads/2019/07/17123342/2020-Starboard-Ignite-Standing-1.png",
-            "alt": null
-        },
-        "images": [
-            {
-                "mediaType": "Image",
-                "url": "https://d4fy9c5aoe5kg.cloudfront.net/wp-content/uploads/2019/07/17123342/2020-Starboard-Ignite-Standing-1.png",
-                "alt": null
-            }
-        ],
-        "labels": [],
-        "sustainabilityOptions": [
-            {
-                "id": "Recyclable",
-                "title": "Återvinningsbar"
-            }
-        ],
-        "variants": [
-            {
-                "id": "297144362",
-                "images": [
-                    {
-                        "mediaType": "ModelImage",
-                        "url": " //houdini-server.web4.cloudnine.se/_images/0f478b64-833a-43ee-99d4-96c48b550403/MsMTMThrillTwillPants_P_ThunderBlue_F_C_Low.jpg",
-                        "alt": null
-                    },
-                    {
-                        "mediaType": "Image",
-                        "url": " //houdini-server.web4.cloudnine.se/_images/3cfbae27-81d2-408b-a795-a544d51da7b6/MsMTMThrillTwillPants_P_ThunderBlue_S_C_Low.jpg",
-                        "alt": null
-                    },
-                    {
-                        "mediaType": "Image",
-                        "url": " //houdini-server.web4.cloudnine.se/_images/695ffab6-e156-4c95-b5c8-05463cfed630/MsMTMThrillTwillPants_P_ThunderBlue_B_C_Low.jpg",
-                        "alt": null
-                    },
-                    {
-                        "mediaType": "IsolatedImage",
-                        "url": " //houdini-server.web4.cloudnine.se/_images/db49b864-407b-4459-aaae-e1e821b68a4e/MsMTMThrillTwillPants_F_ThunderBlue_C_Low.jpg",
-                        "alt": null
-                    }
-                ],
-                "sizes": [
-                    {
-                        "ssu": "2971443621",
-                        "title": "S",
-                        "shortTitle": "S",
-                        "stockBalance": 3,
-                        "price": {
-                            "reduced": null,
-                            "list": "1 400 SEK",
-                            "sortingPrice": "1400.00"
-                        }
-                    },
-                    {
-                        "ssu": "2971443622",
-                        "title": "M",
-                        "shortTitle": "M",
-                        "stockBalance": 25,
-                        "price": {
-                            "reduced": null,
-                            "list": "1 400 SEK",
-                            "sortingPrice": "1400.00"
-                        }
-                    },
-                    {
-                        "ssu": "2971443623",
-                        "title": "L",
-                        "shortTitle": "L",
-                        "stockBalance": 35,
-                        "price": {
-                            "reduced": null,
-                            "list": "1 400 SEK",
-                            "sortingPrice": "1400.00"
-                        }
-                    },
-                    {
-                        "ssu": "2971443624",
-                        "title": "XL",
-                        "shortTitle": "XL",
-                        "stockBalance": 15,
-                        "price": {
-                            "reduced": null,
-                            "list": "1 400 SEK",
-                            "sortingPrice": "1400.00"
-                        }
-                    },
-                    {
-                        "ssu": "2971443625",
-                        "title": "XXL",
-                        "shortTitle": "XXL",
-                        "stockBalance": 1,
-                        "price": {
-                            "reduced": null,
-                            "list": "1 400 SEK",
-                            "sortingPrice": "1400.00"
-                        }
-                    }
-                ],
-                "color": {
-                    "title": "Thunder Blue",
-                    "id": "#465560",
-                    "filterColor": "Blå"
-                },
-                "modelWearingLabel": null
-            },
-            {
-                "id": "297144910",
-                "images": [
-                    {
-                        "mediaType": "ModelImage",
-                        "url": " //houdini-server.web4.cloudnine.se/_images/c5dd25f6-63f7-4f18-aa36-73876391d939/MsMTMThrillTwillPants_P_RockBlack_F_C_Low.jpg",
-                        "alt": null
-                    },
-                    {
-                        "mediaType": "Image",
-                        "url": " //houdini-server.web4.cloudnine.se/_images/b452835e-41ef-4646-a6a1-66ed832a49a9/MsMTMThrillTwillPants_P_RockBlack_S_C_Low.jpg",
-                        "alt": null
-                    },
-                    {
-                        "mediaType": "Image",
-                        "url": " //houdini-server.web4.cloudnine.se/_images/d259b86b-eb8c-4d3b-857b-a3c2454e012e/MsMTMThrillTwillPants_P_RockBlack_B_C_Low.jpg",
-                        "alt": null
-                    },
-                    {
-                        "mediaType": "IsolatedImage",
-                        "url": " //houdini-server.web4.cloudnine.se/_images/92590bdc-9c12-4c97-9d44-25fd75a8ee56/MsMTMThrillTwillPants_F_RockBlack_C_Low.jpg",
-                        "alt": null
-                    }
-                ],
-                "sizes": [
-                    {
-                        "ssu": "2971449101",
-                        "title": "S",
-                        "shortTitle": "S",
-                        "stockBalance": 49,
-                        "price": {
-                            "reduced": null,
-                            "list": "1 400 SEK",
-                            "sortingPrice": "1400.00"
-                        }
-                    },
-                    {
-                        "ssu": "2971449103",
-                        "title": "L",
-                        "shortTitle": "L",
-                        "stockBalance": 200,
-                        "price": {
-                            "reduced": null,
-                            "list": "1 400 SEK",
-                            "sortingPrice": "1400.00"
-                        }
-                    },
-                    {
-                        "ssu": "2971449102",
-                        "title": "M",
-                        "shortTitle": "M",
-                        "stockBalance": 142,
-                        "price": {
-                            "reduced": null,
-                            "list": "1 400 SEK",
-                            "sortingPrice": "1400.00"
-                        }
-                    },
-                    {
-                        "ssu": "2971449104",
-                        "title": "XL",
-                        "shortTitle": "XL",
-                        "stockBalance": 114,
-                        "price": {
-                            "reduced": null,
-                            "list": "1 400 SEK",
-                            "sortingPrice": "1400.00"
-                        }
-                    },
-                    {
-                        "ssu": "2971449105",
-                        "title": "XXL",
-                        "shortTitle": "XXL",
-                        "stockBalance": 9,
-                        "price": {
-                            "reduced": null,
-                            "list": "1 400 SEK",
-                            "sortingPrice": "1400.00"
-                        }
-                    }
-                ],
-                "color": {
-                    "title": "Rock Black",
-                    "id": "#3B3A3C",
-                    "filterColor": "Svarta"
-                },
-                "modelWearingLabel": null
-            },
-            {
-                "id": "297144967",
-                "images": [
-                    {
-                        "mediaType": "ModelImage",
-                        "url": " //houdini-server.web4.cloudnine.se/_images/a2849859-b2c4-48eb-a309-0551c25f1949/MsMTMThrillTwillPants_P_ReedBeige_F_C_Low.jpg",
-                        "alt": null
-                    },
-                    {
-                        "mediaType": "Image",
-                        "url": " //houdini-server.web4.cloudnine.se/_images/3dd38f7f-39cb-4659-8a71-fa4de7b9f9f7/MsMTMThrillTwillPants_P_ReedBeige_S_C_Low.jpg",
-                        "alt": null
-                    },
-                    {
-                        "mediaType": "Image",
-                        "url": " //houdini-server.web4.cloudnine.se/_images/f2e13048-ea05-4ea7-a4d2-27c69ce4d1f1/MsMTMThrillTwillPants_P_ReedBeige_B_C_Low.jpg",
-                        "alt": null
-                    },
-                    {
-                        "mediaType": "IsolatedImage",
-                        "url": " //houdini-server.web4.cloudnine.se/_images/874490dc-c3c9-403a-a91b-f8b0c9cfa4b2/MsMTMThrillTwillPants_F_ReedBeige_C_Low.jpg",
-                        "alt": null
-                    }
-                ],
-                "sizes": [
-                    {
-                        "ssu": "2971449671",
-                        "title": "S",
-                        "shortTitle": "S",
-                        "stockBalance": 3,
-                        "price": {
-                            "reduced": null,
-                            "list": "1 400 SEK",
-                            "sortingPrice": "1400.00"
-                        }
-                    }
-                ],
-                "color": {
-                    "title": "Reed Beige",
-                    "id": "#8E8472",
-                    "filterColor": "Beiges"
-                },
-                "modelWearingLabel": null
-            }
-        ],
-        "categories": [
-            {
-                "title": "Byxor",
-                "slug": "men/pants",
-                "type": "Category"
-            },
-            {
-                "title": "Produktimport",
-                "id": null,
-                "type": "Category"
-            }
-        ],
-        "activities": [
-            {
-                "title": "Klättring",
-                "id": "shop-by-activity/climbing",
-                "type": "Activity"
-            }
-        ],
-        "gender": [
-            {
-                "id": "Male",
-                "title": "Man"
-            }
-        ],
-        "function": [
-            {
-                "id": "Made to move",
-                "title": "Made to move"
-            }
-        ],
-        "title": "Starboard Ignite",
-        "label": "Freestyle",
-        "slug": "starboard-ignite"
-        
-    }
-}
+[
+  {
+    "id" : 209,
+    "title" : "W's Free Tee",
+    "slug" : "ws-free-tee-139694",
+    "excerpt" : "Tunn t-shirt i 100% superfin merinoull. Skapad med vår Made to move-teknik för full rörelsefrihet.",
+    "price" : 1791,
+    "images" : [
+      {
+        "type" : "Image",
+        "src" : "//api.houdinisportswear.com/_images/86e6340d-c6b6-41e0-9738-8aeb0cedc945/WsFreeTee_S_GustGreen_1_C_Low.jpg",
+        "alt" : null
+      },
+      {
+        "type" : "Image",
+        "src" : "//api.houdinisportswear.com/_images/4426c62f-dbf9-4f9e-ae69-be1920b2b4aa/WsFreeTee_S_OffPink_1_C_Low.jpg",
+        "alt" : null
+      },
+      {
+        "type" : "Image",
+        "src" : "//api.houdinisportswear.com/_images/a3e63368-977a-4777-8ca9-43bd4fe5b451/WsFreeTee_S_OffPink_3_C_Low.jpg",
+        "alt" : null
+      },
+      {
+        "type" : "Image",
+        "src" : "//api.houdinisportswear.com/_images/60d5a487-b6ea-4b6c-92a8-9a81e7e2f7ed/WsFreeTee_D_GroundGrey_2_C_Low.jpg",
+        "alt" : null
+      }
+    ],
+    "labels" : [
+      {
+        "id" : "New Colors",
+        "title" : "Nya färger"
+      }
+    ],
+    "sustainabilityOptions" : [
+      {
+        "id" : "Circular",
+        "title" : "Cirkulär"
+      },
+      {
+        "id" : "Biodegradable",
+        "title" : "Nedbrytbar"
+      },
+      {
+        "id" : "Renewable",
+        "title" : "Förnybar"
+      }
+    ],
+    "categories" : [
+      {
+        "title" : "Tröjor och t-shirts",
+        "slug" : "women/shirts-and-tops",
+        "type" : "Category"
+      },
+      {
+        "title" : "Underställ",
+        "slug" : "women/base-layers",
+        "type" : "Category"
+      },
+      {
+        "title" : "Rea",
+        "slug" : "sale",
+        "type" : "Category"
+      },
+      {
+        "title" : "Rea Dam",
+        "slug" : "sale/womens-sale",
+        "type" : "Category"
+      }
+    ],
+    "activities" : [
+      {
+        "title" : "Klättring",
+        "slug" : "shop-by-activity/climbing",
+        "type" : "Activity"
+      },
+      {
+        "title" : "Träning",
+        "slug" : "shop-by-activity/training",
+        "type" : "Activity"
+      }
+    ],
+    "gender" : [
+      {
+        "id" : "Female",
+        "title" : "Kvinna"
+      }
+    ],
+    "function" : [
+      {
+        "id" : "Made to move",
+        "title" : "Made to move"
+      }
+    ]
+  },
+  {
+    "id" : 61,
+    "title" : "M's Free Tee",
+    "slug" : "ms-free-tee-239694",
+    "excerpt" : "Tunn t-shirt i 100% superfin merinoull. Vårt designkoncept Made to move ger plagget en helt ny känsla av rörelsefrihet.",
+    "price" : 2118,
+    "images" : [
+      {
+        "type" : "Image",
+        "src" : "//api.houdinisportswear.com/_images/bb3039bf-f708-4369-a67c-ad23572be6c6/MsFreeTee_S_TrueBlack_9_C_Low.jpg",
+        "alt" : null
+      },
+      {
+        "type" : "Image",
+        "src" : "//api.houdinisportswear.com/_images/56616536-e423-4d21-a35e-f38a28ec8355/MsFreeTee_S_TrueBlack_7_C_Low.jpg",
+        "alt" : null
+      },
+      {
+        "type" : "Image",
+        "src" : "//api.houdinisportswear.com/_images/44217e4b-9825-4b26-8d2e-66f53cb51519/MsFreeTee_S_GustGreen_5_C_Low.jpg",
+        "alt" : null
+      },
+      {
+        "type" : "Image",
+        "src" : "//api.houdinisportswear.com/_images/bb88f546-40ac-4eac-aab1-7e5a0ff90804/MsFreeTee_S_GroundGrey_3_C_Low.jpg",
+        "alt" : null
+      },
+      {
+        "type" : "Image",
+        "src" : "//api.houdinisportswear.com/_images/f4fe6af6-45a2-491c-bc01-d3eed2c8ea95/MsFreeTee_S_GroundGrey_1_C_Low.jpg",
+        "alt" : null
+      },
+      {
+        "type" : "Image",
+        "src" : "//api.houdinisportswear.com/_images/0d67aa0c-6658-411f-8249-39eb4065471b/MsFreeTee_D_TrueBlack_1_C_Low.jpg",
+        "alt" : null
+      },
+      {
+        "type" : "Image",
+        "src" : "//api.houdinisportswear.com/_images/e46d086a-a8f8-444b-b97e-a7f2a2c4dbd5/MsFreeTee_D_TrueBlack_2_C_Low.jpg",
+        "alt" : null
+      }
+    ],
+    "labels" : [
+      {
+        "id" : "New Colors",
+        "title" : "Nya färger"
+      }
+    ],
+    "sustainabilityOptions" : [
+      {
+        "id" : "Circular",
+        "title" : "Cirkulär"
+      },
+      {
+        "id" : "Biodegradable",
+        "title" : "Nedbrytbar"
+      },
+      {
+        "id" : "Renewable",
+        "title" : "Förnybar"
+      }
+    ],
+    "categories" : [
+      {
+        "title" : "Tröjor och t-shirts",
+        "slug" : "men/shirts-and-tops",
+        "type" : "Category"
+      },
+      {
+        "title" : "Underställ",
+        "slug" : "men/base-layers",
+        "type" : "Category"
+      },
+      {
+        "title" : "Produktimport",
+        "id" : null,
+        "type" : "Category"
+      },
+      {
+        "title" : "Rea",
+        "slug" : "sale",
+        "type" : "Category"
+      },
+      {
+        "title" : "Deals",
+        "slug" : "deals",
+        "type" : "Category"
+      },
+      {
+        "title" : "Deals Herr",
+        "slug" : "deals/deals-men",
+        "type" : "Category"
+      },
+      {
+        "title" : null,
+        "id" : null,
+        "type" : "Category"
+      },
+      {
+        "title" : "Rea Herr",
+        "slug" : "sale/mens-sale",
+        "type" : "Category"
+      },
+      {
+        "title" : null,
+        "id" : null,
+        "type" : "Category"
+      }
+    ],
+    "activities" : [
+      {
+        "title" : "Klättring",
+        "slug" : "shop-by-activity/climbing",
+        "type" : "Activity"
+      },
+      {
+        "title" : "Träning",
+        "slug" : "shop-by-activity/training",
+        "type" : "Activity"
+      }
+    ],
+    "gender" : [
+      {
+        "id" : "Male",
+        "title" : "Man"
+      }
+    ],
+    "function" : [
+      {
+        "id" : "Made to move",
+        "title" : "Made to move"
+      }
+    ]
+  },
+  {
+    "id" : 448,
+    "title" : "W's MTM Thrill Twill Pants",
+    "slug" : "ws-mtm-thrill-twill-pants-197144",
+    "excerpt" : "Upplev en ny känsla av rörelsefrihet i dessa lätta, slitstarka och stretchiga friluftsbyxor skapade med Made to move.",
+    "price" : 861,
+    "images" : [
+      {
+        "type" : "Image",
+        "src" : "//api.houdinisportswear.com/_images/56c94f3c-eaf8-4ecd-8462-8a374e9a58b9/WsMTMThrillTwillPants_S_RockBlack_1_C_Low.jpg",
+        "alt" : null
+      },
+      {
+        "type" : "Image",
+        "src" : "//api.houdinisportswear.com/_images/15b42c43-de88-47d2-8d16-1d5e4e356f62/WsMTMThrillTwillPants_D_RockBlack_1_C_Low.jpg",
+        "alt" : null
+      }
+    ],
+    "labels" : [
+      {
+        "id" : "New Colors",
+        "title" : "Nya färger"
+      }
+    ],
+    "sustainabilityOptions" : [
+      {
+        "id" : "Recyclable",
+        "title" : "Återvinningsbar"
+      }
+    ],
+    "categories" : [
+      {
+        "title" : "Byxor",
+        "slug" : "women/pants",
+        "type" : "Category"
+      },
+      {
+        "title" : "Produktimport",
+        "id" : null,
+        "type" : "Category"
+      }
+    ],
+    "activities" : [
+      {
+        "title" : "Klättring",
+        "slug" : "shop-by-activity/climbing",
+        "type" : "Activity"
+      }
+    ],
+    "gender" : [
+      {
+        "id" : "Female",
+        "title" : "Kvinna"
+      }
+    ],
+    "function" : [
+      {
+        "id" : "Made to move",
+        "title" : "Made to move"
+      }
+    ]
+  },
+  {
+    "id" : 342,
+    "title" : "M's MTM Thrill Twill Pants",
+    "slug" : "ms-mtm-thrill-twill-pants-297144",
+    "excerpt" : "Tunna och stretchiga friluftsbyxor skapade med Made to move, en ny metod att konstruera plagg som ger full rörelsefrihet.",
+    "price" : 2318,
+    "images" : [
+      {
+        "type" : "Image",
+        "src" : "//api.houdinisportswear.com/_images/128afc27-f2f3-45d4-8bd7-a51e97b0b611/MsMTMThrillTwillPants_S_RockBlack_1_C_Low.jpg",
+        "alt" : null
+      }
+    ],
+    "labels" : [],
+    "sustainabilityOptions" : [
+      {
+        "id" : "Recyclable",
+        "title" : "Återvinningsbar"
+      }
+    ],
+    "categories" : [
+      {
+        "title" : "Byxor",
+        "slug" : "men/pants",
+        "type" : "Category"
+      }
+    ],
+    "activities" : [
+      {
+        "title" : "Klättring",
+        "slug" : "shop-by-activity/climbing",
+        "type" : "Activity"
+      }
+    ],
+    "gender" : [
+      {
+        "id" : "Male",
+        "title" : "Man"
+      }
+    ],
+    "function" : [
+      {
+        "id" : "Made to move",
+        "title" : "Made to move"
+      }
+    ]
+  },
+  {
+    "id" : 303,
+    "title" : "W's Big Up Tank",
+    "slug" : "ws-big-up-tank-157494",
+    "excerpt" : "Avslappnat linne i tunn, mjuk och snabbtorkande polyester. Passar lika bra för träning som för lata sommardagar.",
+    "price" : 1052,
+    "images" : [
+      {
+        "type" : "Image",
+        "src" : "//api.houdinisportswear.com/_images/ca4d3fa9-f927-4bb6-bc1d-092cbe49a23a/WsBigUpTank_S_RockBlack_1_C_Low.jpg",
+        "alt" : null
+      },
+      {
+        "type" : "Image",
+        "src" : "//api.houdinisportswear.com/_images/41a65724-458a-49e6-b634-783a9ad8248d/WsBigUpTank_D_TrueBlack_1_C_Low.jpg",
+        "alt" : null
+      },
+      {
+        "type" : "Image",
+        "src" : "//api.houdinisportswear.com/_images/24db9c15-158b-4801-aa79-0e4982af83df/WsBigUpTank_D_TrueBlack_2_C_Low.jpg",
+        "alt" : null
+      }
+    ],
+    "labels" : [],
+    "sustainabilityOptions" : [
+      {
+        "id" : "Recyclable",
+        "title" : "Återvinningsbar"
+      }
+    ],
+    "categories" : [
+      {
+        "title" : "Tröjor och t-shirts",
+        "slug" : "women/shirts-and-tops",
+        "type" : "Category"
+      },
+      {
+        "title" : "Rea",
+        "slug" : "sale",
+        "type" : "Category"
+      },
+      {
+        "title" : "Rea Dam",
+        "slug" : "sale/womens-sale",
+        "type" : "Category"
+      }
+    ],
+    "activities" : [
+      {
+        "title" : "Klättring",
+        "slug" : "shop-by-activity/climbing",
+        "type" : "Activity"
+      },
+      {
+        "title" : "Träning",
+        "slug" : "shop-by-activity/training",
+        "type" : "Activity"
+      }
+    ],
+    "gender" : [
+      {
+        "id" : "Female",
+        "title" : "Kvinna"
+      }
+    ],
+    "function" : []
+  },
+  {
+    "id" : 494,
+    "title" : "M's Big Up Tank",
+    "slug" : "ms-big-up-tank-257494",
+    "excerpt" : "Avslappnat linne i mjuk, tunn och snabbtorkande polyester. Perfekt för träning eller en aktiv vardag. OBS! årets upplaga är förskjuten i storleken, S=M, M=L etc.",
+    "price" : 1189,
+    "images" : [
+      {
+        "type" : "Image",
+        "src" : "//api.houdinisportswear.com/_images/2dba768e-3c77-4584-a1f9-6afa8d04541c/MsBigUpTank_S_TrueBlack_1_C_Low.jpg",
+        "alt" : null
+      },
+      {
+        "type" : "Image",
+        "src" : "//api.houdinisportswear.com/_images/e0fa5616-bdc4-434f-b7a6-4518cafbd032/MsBigUpTank_D_StormGreen_1_C_Low.jpg",
+        "alt" : null
+      },
+      {
+        "type" : "Image",
+        "src" : "//api.houdinisportswear.com/_images/5f442867-0db5-4fd6-88ec-b7e59cd56ee4/MsBigUpTank_D_StormGreen_Material_C_Low.jpg",
+        "alt" : null
+      }
+    ],
+    "labels" : [],
+    "sustainabilityOptions" : [
+      {
+        "id" : "Recyclable",
+        "title" : "Återvinningsbar"
+      }
+    ],
+    "categories" : [
+      {
+        "title" : "Tröjor och t-shirts",
+        "slug" : "men/shirts-and-tops",
+        "type" : "Category"
+      },
+      {
+        "title" : "Produktimport",
+        "id" : null,
+        "type" : "Category"
+      },
+      {
+        "title" : "Rea",
+        "slug" : "sale",
+        "type" : "Category"
+      },
+      {
+        "title" : "Deals",
+        "slug" : "deals",
+        "type" : "Category"
+      },
+      {
+        "title" : "Deals Herr",
+        "slug" : "deals/deals-men",
+        "type" : "Category"
+      },
+      {
+        "title" : null,
+        "id" : null,
+        "type" : "Category"
+      },
+      {
+        "title" : "Rea Herr",
+        "slug" : "sale/mens-sale",
+        "type" : "Category"
+      },
+      {
+        "title" : null,
+        "id" : null,
+        "type" : "Category"
+      }
+    ],
+    "activities" : [
+      {
+        "title" : "Klättring",
+        "slug" : "shop-by-activity/climbing",
+        "type" : "Activity"
+      },
+      {
+        "title" : "Träning",
+        "slug" : "shop-by-activity/training",
+        "type" : "Activity"
+      }
+    ],
+    "gender" : [
+      {
+        "id" : "Male",
+        "title" : "Man"
+      }
+    ],
+    "function" : []
+  },
+  {
+    "id" : 415,
+    "title" : "M's Crux Shorts",
+    "slug" : "ms-crux-shorts-267634",
+    "excerpt" : "De perfekta funkar-för-allt-shortsen tillverkade i vårt väl beprövade Liquid Rock-tyg. Lätta, stretchiga och väldigt slitstarka.",
+    "price" : 1841,
+    "images" : [
+      {
+        "type" : "Image",
+        "src" : "//api.houdinisportswear.com/_images/8418b4be-331c-4828-83c3-ea7cd83b4ce5/MsCruxShorts_S_LastRoundRed_1_C_Low.jpg",
+        "alt" : null
+      },
+      {
+        "type" : "Image",
+        "src" : "//api.houdinisportswear.com/_images/ecf37777-0e69-4fae-a0b5-9d272829dfe2/MsCruxShorts_D_SorrowBlue_1_C_Low.jpg",
+        "alt" : null
+      },
+      {
+        "type" : "Image",
+        "src" : "//api.houdinisportswear.com/_images/c3477e19-309c-4819-90ed-c8533ba41eb8/MsCruxShorts_D_SorrowBlue_2_Low.jpg",
+        "alt" : null
+      }
+    ],
+    "labels" : [],
+    "sustainabilityOptions" : [
+      {
+        "id" : "Recyclable",
+        "title" : "Återvinningsbar"
+      }
+    ],
+    "categories" : [
+      {
+        "title" : "Shorts",
+        "slug" : "men/shorts",
+        "type" : "Category"
+      },
+      {
+        "title" : "Produktimport",
+        "id" : null,
+        "type" : "Category"
+      },
+      {
+        "title" : "Rea",
+        "slug" : "sale",
+        "type" : "Category"
+      },
+      {
+        "title" : "Rea Herr",
+        "slug" : "sale/mens-sale",
+        "type" : "Category"
+      },
+      {
+        "title" : null,
+        "id" : null,
+        "type" : "Category"
+      },
+      {
+        "title" : null,
+        "id" : null,
+        "type" : "Category"
+      }
+    ],
+    "activities" : [
+      {
+        "title" : "Klättring",
+        "slug" : "shop-by-activity/climbing",
+        "type" : "Activity"
+      },
+      {
+        "title" : "Vandring",
+        "slug" : "shop-by-activity/hiking",
+        "type" : "Activity"
+      },
+      {
+        "title" : "Kayak",
+        "slug" : "shop-by-activity/kayaking",
+        "type" : "Activity"
+      }
+    ],
+    "gender" : [
+      {
+        "id" : "Male",
+        "title" : "Man"
+      }
+    ],
+    "function" : []
+  },
+  {
+    "id" : 358,
+    "title" : "W's Liquid Rock Shorts",
+    "slug" : "ws-liquid-rock-shorts-166244",
+    "excerpt" : "Tunna nog för stranden. Slitstarka nog för klätterklippan. Packbara shorts som passar alla sommarens äventyr.",
+    "price" : 1625,
+    "images" : [
+      {
+        "type" : "Image",
+        "src" : "//api.houdinisportswear.com/_images/9fe7ef2f-3c4b-4133-8dd9-ad62f947906a/WsLiquidRockShorts_D_RockBlack_2_C_Low.jpg",
+        "alt" : null
+      },
+      {
+        "type" : "Image",
+        "src" : "//api.houdinisportswear.com/_images/cd059d74-793c-40fc-b8e8-143e6789f98f/WsLiquidRockShorts_D_RockBlack_3_C_Low.jpg",
+        "alt" : null
+      },
+      {
+        "type" : "Image",
+        "src" : "//api.houdinisportswear.com/_images/9e7aace4-8fa9-47d3-8e2b-b837f384a3c1/WsLiquidRockShorts_D_RockBlack_1_C_Low.jpg",
+        "alt" : null
+      }
+    ],
+    "labels" : [],
+    "sustainabilityOptions" : [
+      {
+        "id" : "Bluesign",
+        "title" : "Bluesign"
+      }
+    ],
+    "categories" : [
+      {
+        "title" : "Shorts",
+        "slug" : "women/shorts",
+        "type" : "Category"
+      },
+      {
+        "title" : "Produktimport",
+        "id" : null,
+        "type" : "Category"
+      },
+      {
+        "title" : "Rea",
+        "slug" : "sale",
+        "type" : "Category"
+      },
+      {
+        "title" : "Rea Dam",
+        "slug" : "sale/womens-sale",
+        "type" : "Category"
+      },
+      {
+        "title" : null,
+        "id" : null,
+        "type" : "Category"
+      }
+    ],
+    "activities" : [
+      {
+        "title" : "Klättring",
+        "slug" : "shop-by-activity/climbing",
+        "type" : "Activity"
+      },
+      {
+        "title" : "Vandring",
+        "slug" : "shop-by-activity/hiking",
+        "type" : "Activity"
+      },
+      {
+        "title" : "Kayak",
+        "slug" : "shop-by-activity/kayaking",
+        "type" : "Activity"
+      }
+    ],
+    "gender" : [
+      {
+        "id" : "Female",
+        "title" : "Kvinna"
+      }
+    ],
+    "function" : [
+      {
+        "id" : "Stowable",
+        "title" : "Packbar"
+      }
+    ]
+  },
+  {
+    "id" : 469,
+    "title" : "M's Liquid Rock Pants",
+    "slug" : "ms-liquid-rock-pants-265564",
+    "excerpt" : "Klassiska Houdini-byxor skapad för alla typer av sommaräventyr. Lätta, tåliga och snabbtorkande byxor för varma klimat.",
+    "price" : 659,
+    "images" : [
+      {
+        "type" : "Image",
+        "src" : "//api.houdinisportswear.com/_images/7b072d9d-003c-41ee-b94e-a3a61bd8ff13/MsLiquidRockPants_S_ReedBeige_1_C_Low.jpg",
+        "alt" : null
+      }
+    ],
+    "labels" : [],
+    "sustainabilityOptions" : [
+      {
+        "id" : "Bluesign",
+        "title" : "Bluesign"
+      }
+    ],
+    "categories" : [
+      {
+        "title" : "Byxor",
+        "slug" : "men/pants",
+        "type" : "Category"
+      },
+      {
+        "title" : "Produktimport",
+        "id" : null,
+        "type" : "Category"
+      },
+      {
+        "title" : "Rea",
+        "slug" : "sale",
+        "type" : "Category"
+      },
+      {
+        "title" : "Rea Herr",
+        "slug" : "sale/mens-sale",
+        "type" : "Category"
+      },
+      {
+        "title" : null,
+        "id" : null,
+        "type" : "Category"
+      }
+    ],
+    "activities" : [
+      {
+        "title" : "Klättring",
+        "slug" : "shop-by-activity/climbing",
+        "type" : "Activity"
+      },
+      {
+        "title" : "Kayak",
+        "slug" : "shop-by-activity/kayaking",
+        "type" : "Activity"
+      }
+    ],
+    "gender" : [
+      {
+        "id" : "Male",
+        "title" : "Man"
+      }
+    ],
+    "function" : [
+      {
+        "id" : "Stowable",
+        "title" : "Packbar"
+      }
+    ]
+  },
+  {
+    "id" : 5,
+    "title" : "W's Liquid Rock Pants",
+    "slug" : "ws-liquid-rock-pants-165564",
+    "excerpt" : "Klassisk Houdini-byxa för alla sommaräventyr. Mjuk, ultralätt och snabbtorkande byxor skapade för varma klimat.",
+    "price" : 1974,
+    "images" : [
+      {
+        "type" : "Image",
+        "src" : "//api.houdinisportswear.com/_images/514667ed-ab6d-4611-8474-6e5a2ba5bb84/WsLiquidRockPants_S_RockBlack_1_C_Low.jpg",
+        "alt" : null
+      }
+    ],
+    "labels" : [],
+    "sustainabilityOptions" : [
+      {
+        "id" : "Bluesign",
+        "title" : "Bluesign"
+      }
+    ],
+    "categories" : [
+      {
+        "title" : "Byxor",
+        "slug" : "women/pants",
+        "type" : "Category"
+      },
+      {
+        "title" : "Produktimport",
+        "id" : null,
+        "type" : "Category"
+      },
+      {
+        "title" : "Rea",
+        "slug" : "sale",
+        "type" : "Category"
+      },
+      {
+        "title" : "Rea Dam",
+        "slug" : "sale/womens-sale",
+        "type" : "Category"
+      },
+      {
+        "title" : null,
+        "id" : null,
+        "type" : "Category"
+      }
+    ],
+    "activities" : [
+      {
+        "title" : "Klättring",
+        "slug" : "shop-by-activity/climbing",
+        "type" : "Activity"
+      },
+      {
+        "title" : "Kayak",
+        "slug" : "shop-by-activity/kayaking",
+        "type" : "Activity"
+      }
+    ],
+    "gender" : [
+      {
+        "id" : "Female",
+        "title" : "Kvinna"
+      }
+    ],
+    "function" : [
+      {
+        "id" : "Stowable",
+        "title" : "Packbar"
+      }
+    ]
+  },
+  {
+    "id" : 193,
+    "title" : "W's Activist Message Tee",
+    "slug" : "ws-activist-message-tee-137484",
+    "excerpt" : "T-shirt i merinoull med tryck som passar för äventyr eller vardag hela året runt. Mjuk, tunn och naturligt skön.",
+    "price" : 1133,
+    "images" : [
+      {
+        "type" : "Image",
+        "src" : "//api.houdinisportswear.com/_images/55809a44-bbfb-408e-8003-0db852c2a2b0/WsActivistMessageTee_BoostBlue---0811.jpg",
+        "alt" : null
+      },
+      {
+        "type" : "Image",
+        "src" : "//api.houdinisportswear.com/_images/21e80f84-4160-41a1-9d1b-cddac5c1dbef/WsActivistMessageTee_D_BoostBlue_2_C_Low.jpg",
+        "alt" : null
+      },
+      {
+        "type" : "Image",
+        "src" : "//api.houdinisportswear.com/_images/6a61c5c0-44fe-488e-93e1-853e008e5ce6/WsActivistMessageTee_D_BoostBlue_Material_C_Low.jpg",
+        "alt" : null
+      }
+    ],
+    "labels" : [
+      {
+        "id" : "New Colors",
+        "title" : "Nya färger"
+      }
+    ],
+    "sustainabilityOptions" : [
+      {
+        "id" : "Circular",
+        "title" : "Cirkulär"
+      },
+      {
+        "id" : "Biodegradable",
+        "title" : "Nedbrytbar"
+      },
+      {
+        "id" : "Renewable",
+        "title" : "Förnybar"
+      }
+    ],
+    "categories" : [
+      {
+        "title" : "Tröjor och t-shirts",
+        "slug" : "women/shirts-and-tops",
+        "type" : "Category"
+      },
+      {
+        "title" : "Underställ",
+        "slug" : "women/base-layers",
+        "type" : "Category"
+      },
+      {
+        "title" : "Produktimport",
+        "id" : null,
+        "type" : "Category"
+      },
+      {
+        "title" : "Rea",
+        "slug" : "sale",
+        "type" : "Category"
+      },
+      {
+        "title" : "Deals",
+        "slug" : "deals",
+        "type" : "Category"
+      },
+      {
+        "title" : "Deals Dam",
+        "slug" : "deals/deals-women",
+        "type" : "Category"
+      },
+      {
+        "title" : null,
+        "id" : null,
+        "type" : "Category"
+      },
+      {
+        "title" : "Rea Dam",
+        "slug" : "sale/womens-sale",
+        "type" : "Category"
+      },
+      {
+        "title" : null,
+        "id" : null,
+        "type" : "Category"
+      }
+    ],
+    "activities" : [
+      {
+        "title" : "Klättring",
+        "slug" : "shop-by-activity/climbing",
+        "type" : "Activity"
+      },
+      {
+        "title" : "Vandring",
+        "slug" : "shop-by-activity/hiking",
+        "type" : "Activity"
+      }
+    ],
+    "gender" : [
+      {
+        "id" : "Female",
+        "title" : "Kvinna"
+      }
+    ],
+    "function" : []
+  },
+  {
+    "id" : 301,
+    "title" : "M's Activist Message Tee",
+    "slug" : "ms-activist-message-tee-237484",
+    "excerpt" : "Tryckt t-shirt i tunn och mjuk merinoull. Naturlig komfort för alla typer av aktiviteter hela året runt.",
+    "price" : 2117,
+    "images" : [
+      {
+        "type" : "Image",
+        "src" : "//api.houdinisportswear.com/_images/28d2bd07-3404-468c-a9d7-b5b0615c3061/MsActivistMessageTee_S_LastRoundRed_1_C_Low.jpg",
+        "alt" : null
+      }
+    ],
+    "labels" : [
+      {
+        "id" : "New Colors",
+        "title" : "Nya färger"
+      }
+    ],
+    "sustainabilityOptions" : [
+      {
+        "id" : "Circular",
+        "title" : "Cirkulär"
+      },
+      {
+        "id" : "Biodegradable",
+        "title" : "Nedbrytbar"
+      },
+      {
+        "id" : "Renewable",
+        "title" : "Förnybar"
+      }
+    ],
+    "categories" : [
+      {
+        "title" : "Tröjor och t-shirts",
+        "slug" : "men/shirts-and-tops",
+        "type" : "Category"
+      },
+      {
+        "title" : "Underställ",
+        "slug" : "men/base-layers",
+        "type" : "Category"
+      },
+      {
+        "title" : "Produktimport",
+        "id" : null,
+        "type" : "Category"
+      },
+      {
+        "title" : "Rea",
+        "slug" : "sale",
+        "type" : "Category"
+      },
+      {
+        "title" : "Rea Herr",
+        "slug" : "sale/mens-sale",
+        "type" : "Category"
+      },
+      {
+        "title" : null,
+        "id" : null,
+        "type" : "Category"
+      }
+    ],
+    "activities" : [
+      {
+        "title" : "Klättring",
+        "slug" : "shop-by-activity/climbing",
+        "type" : "Activity"
+      },
+      {
+        "title" : "Vandring",
+        "slug" : "shop-by-activity/hiking",
+        "type" : "Activity"
+      }
+    ],
+    "gender" : [
+      {
+        "id" : "Male",
+        "title" : "Man"
+      }
+    ],
+    "function" : []
+  },
+  {
+    "id" : 385,
+    "title" : "W's Come Along Jacket",
+    "slug" : "ws-come-along-jacket-147694",
+    "excerpt" : "Ultralätt och extremt slitstark skaljacka. Vind- och vattenresistent. Packas ned till en boll i satsumastorlek i den inbyggd packfickan.",
+    "price" : 1688,
+    "images" : [
+      {
+        "type" : "Image",
+        "src" : "//api.houdinisportswear.com/_images/5ba29e01-324d-42a3-8197-5012873fcacc/WsComeAlongJacket_S_TrueBlack_1_C_Low.jpg",
+        "alt" : null
+      },
+      {
+        "type" : "Image",
+        "src" : "//api.houdinisportswear.com/_images/531b765b-3024-492f-882f-5126ae4372b4/WsComeAlongJacket_S_HazeGrey_7_C_Low.jpg",
+        "alt" : null
+      },
+      {
+        "type" : "Image",
+        "src" : "//api.houdinisportswear.com/_images/0ff8654e-9b49-4c44-add8-d312f6e0ae25/WsComeAlongJacket_S_HazeGrey_3_C_Low.jpg",
+        "alt" : null
+      },
+      {
+        "type" : "Image",
+        "src" : "//api.houdinisportswear.com/_images/9f14d760-0441-464c-b761-d44131e4efdd/WsComeAlongJacket_S_LastRoundRed_1_C_Low.jpg",
+        "alt" : null
+      },
+      {
+        "type" : "Image",
+        "src" : "//api.houdinisportswear.com/_images/a34e98b9-57cc-493c-93d7-76e107304598/WsComeAlongJacket_S_LastRoundRed_2_C_Low.jpg",
+        "alt" : null
+      },
+      {
+        "type" : "Image",
+        "src" : "//api.houdinisportswear.com/_images/cbacd5e7-f265-4a2b-aaf9-8dcadd7162c4/WsComeAlongJacket_S_LastRoundRed_3_C_Low.jpg",
+        "alt" : null
+      }
+    ],
+    "labels" : [],
+    "sustainabilityOptions" : [
+      {
+        "id" : "Recycled",
+        "title" : "Återvunnen"
+      },
+      {
+        "id" : "Bluesign",
+        "title" : "Bluesign"
+      }
+    ],
+    "categories" : [
+      {
+        "title" : "Jackor",
+        "slug" : "women/jackets",
+        "type" : "Category"
+      },
+      {
+        "title" : "Produktimport",
+        "id" : null,
+        "type" : "Category"
+      },
+      {
+        "title" : "Rea",
+        "slug" : "sale",
+        "type" : "Category"
+      },
+      {
+        "title" : "Rea Dam",
+        "slug" : "sale/womens-sale",
+        "type" : "Category"
+      },
+      {
+        "title" : null,
+        "id" : null,
+        "type" : "Category"
+      }
+    ],
+    "activities" : [
+      {
+        "title" : "Klättring",
+        "slug" : "shop-by-activity/climbing",
+        "type" : "Activity"
+      },
+      {
+        "title" : "Vandring",
+        "slug" : "shop-by-activity/hiking",
+        "type" : "Activity"
+      }
+    ],
+    "gender" : [
+      {
+        "id" : "Female",
+        "title" : "Kvinna"
+      }
+    ],
+    "function" : [
+      {
+        "id" : "Windproof",
+        "title" : "Vindtät"
+      },
+      {
+        "id" : "Water resistant",
+        "title" : "Vattenresistent"
+      },
+      {
+        "id" : "Stowable",
+        "title" : "Packbar"
+      }
+    ]
+  },
+  {
+    "id" : 325,
+    "title" : "M's Come Along Jacket",
+    "slug" : "ms-come-along-jacket-247694",
+    "excerpt" : "Ultralätt och extremt slitstark skaljacka. Kan packas väldigt liten i egen packficka. Vind- och vattenresistent.",
+    "price" : 608,
+    "images" : [],
+    "labels" : [],
+    "sustainabilityOptions" : [
+      {
+        "id" : "Recycled",
+        "title" : "Återvunnen"
+      },
+      {
+        "id" : "Bluesign",
+        "title" : "Bluesign"
+      }
+    ],
+    "categories" : [
+      {
+        "title" : "Jackor",
+        "slug" : "men/jackets",
+        "type" : "Category"
+      },
+      {
+        "title" : "Produktimport",
+        "id" : null,
+        "type" : "Category"
+      },
+      {
+        "title" : "Rea",
+        "slug" : "sale",
+        "type" : "Category"
+      },
+      {
+        "title" : "Rea Herr",
+        "slug" : "sale/mens-sale",
+        "type" : "Category"
+      },
+      {
+        "title" : null,
+        "id" : null,
+        "type" : "Category"
+      }
+    ],
+    "activities" : [
+      {
+        "title" : "Klättring",
+        "slug" : "shop-by-activity/climbing",
+        "type" : "Activity"
+      },
+      {
+        "title" : "Vandring",
+        "slug" : "shop-by-activity/hiking",
+        "type" : "Activity"
+      }
+    ],
+    "gender" : [
+      {
+        "id" : "Male",
+        "title" : "Man"
+      }
+    ],
+    "function" : [
+      {
+        "id" : "Stowable",
+        "title" : "Packbar"
+      },
+      {
+        "id" : "Water resistant",
+        "title" : "Vattenresistent"
+      },
+      {
+        "id" : "Wind resistant",
+        "title" : "Vindresistent"
+      }
+    ]
+  },
+  {
+    "id" : 402,
+    "title" : "W's Daybreak Jacket",
+    "slug" : "ws-daybreak-jacket-149864",
+    "excerpt" : "Vindjacka i slitstark, stretchig polyester. Det lätta, tåliga tyget passar utmärkt för aktiviteter så som vandring, klättring eller cykling. OBS på färgen Deeper green är dragkedjan i samma färg som det övriga plagget, ej kontrastfärgad som på bilden.",
+    "price" : 1255,
+    "images" : [
+      {
+        "type" : "Image",
+        "src" : "//api.houdinisportswear.com/_images/01653b7e-9872-4cb3-9fa9-8225e49d7b30/WsDaybreakJacket_S_GiddyGrape_1_C_Low.jpg",
+        "alt" : null
+      }
+    ],
+    "labels" : [],
+    "sustainabilityOptions" : [
+      {
+        "id" : "Bluesign",
+        "title" : "Bluesign"
+      },
+      {
+        "id" : "Recyclable",
+        "title" : "Återvinningsbar"
+      }
+    ],
+    "categories" : [
+      {
+        "title" : "Jackor",
+        "slug" : "women/jackets",
+        "type" : "Category"
+      },
+      {
+        "title" : "Produktimport",
+        "id" : null,
+        "type" : "Category"
+      },
+      {
+        "title" : "Rea",
+        "slug" : "sale",
+        "type" : "Category"
+      },
+      {
+        "title" : "Rea Dam",
+        "slug" : "sale/womens-sale",
+        "type" : "Category"
+      },
+      {
+        "title" : null,
+        "id" : null,
+        "type" : "Category"
+      }
+    ],
+    "activities" : [
+      {
+        "title" : "Löpning",
+        "slug" : "shop-by-activity/running",
+        "type" : "Activity"
+      },
+      {
+        "title" : "Klättring",
+        "slug" : "shop-by-activity/climbing",
+        "type" : "Activity"
+      },
+      {
+        "title" : "Vandring",
+        "slug" : "shop-by-activity/hiking",
+        "type" : "Activity"
+      },
+      {
+        "title" : "Cykling",
+        "slug" : "shop-by-activity/biking",
+        "type" : "Activity"
+      },
+      {
+        "title" : "Kayak",
+        "slug" : "shop-by-activity/kayaking",
+        "type" : "Activity"
+      }
+    ],
+    "gender" : [
+      {
+        "id" : "Female",
+        "title" : "Kvinna"
+      }
+    ],
+    "function" : [
+      {
+        "id" : "Water resistant",
+        "title" : "Vattenresistent"
+      },
+      {
+        "id" : "Wind resistant",
+        "title" : "Vindresistent"
+      }
+    ]
+  },
+  {
+    "id" : 117,
+    "title" : "M's Daybreak Jacket",
+    "slug" : "ms-daybreak-jacket-249864",
+    "excerpt" : "Vindjacka i slitstark, stretchig polyester. Ta med dem på en vandrings- eller klättertur och du kommer att älska det lätta, tåliga tyget.",
+    "price" : 1537,
+    "images" : [
+      {
+        "type" : "Image",
+        "src" : "//api.houdinisportswear.com/_images/360953fd-ffb9-47f3-8853-d5977d69c9c3/MsDaybreakJacket_S_LastRoundRed_1_C_Low.jpg",
+        "alt" : null
+      },
+      {
+        "type" : "Image",
+        "src" : "//api.houdinisportswear.com/_images/9d5f768f-484c-485b-8fb4-78fa9dfa1465/MsDaybreakJacket_S_LastRoundRed_4_C_Low.jpg",
+        "alt" : null
+      }
+    ],
+    "labels" : [],
+    "sustainabilityOptions" : [
+      {
+        "id" : "Bluesign",
+        "title" : "Bluesign"
+      },
+      {
+        "id" : "Recyclable",
+        "title" : "Återvinningsbar"
+      }
+    ],
+    "categories" : [
+      {
+        "title" : "Jackor",
+        "slug" : "men/jackets",
+        "type" : "Category"
+      },
+      {
+        "title" : "Produktimport",
+        "id" : null,
+        "type" : "Category"
+      },
+      {
+        "title" : "Rea",
+        "slug" : "sale",
+        "type" : "Category"
+      },
+      {
+        "title" : "Rea Herr",
+        "slug" : "sale/mens-sale",
+        "type" : "Category"
+      },
+      {
+        "title" : null,
+        "id" : null,
+        "type" : "Category"
+      }
+    ],
+    "activities" : [
+      {
+        "title" : "Löpning",
+        "slug" : "shop-by-activity/running",
+        "type" : "Activity"
+      },
+      {
+        "title" : "Klättring",
+        "slug" : "shop-by-activity/climbing",
+        "type" : "Activity"
+      },
+      {
+        "title" : "Vandring",
+        "slug" : "shop-by-activity/hiking",
+        "type" : "Activity"
+      },
+      {
+        "title" : "Cykling",
+        "slug" : "shop-by-activity/biking",
+        "type" : "Activity"
+      },
+      {
+        "title" : "Kayak",
+        "slug" : "shop-by-activity/kayaking",
+        "type" : "Activity"
+      }
+    ],
+    "gender" : [
+      {
+        "id" : "Male",
+        "title" : "Man"
+      }
+    ],
+    "function" : [
+      {
+        "id" : "Water resistant",
+        "title" : "Vattenresistent"
+      },
+      {
+        "id" : "Wind resistant",
+        "title" : "Vindresistent"
+      }
+    ]
+  },
+  {
+    "id" : 322,
+    "title" : "W's MTM Thrill Twill Shorts",
+    "slug" : "ws-mtm-thrill-twill-shorts-197554",
+    "excerpt" : "Stretchiga och snabbtorkande shorts skapade med Made to Move, ett nytt sätt att konstruera plagg. Perfekta för klätting eller vandring.",
+    "price" : 1118,
+    "images" : [
+      {
+        "type" : "Image",
+        "src" : "//api.houdinisportswear.com/_images/70d77f65-ce40-413c-9212-99c7709843a2/WsMTMThrillTwillShorts_S_RockBlack_1_C_Low.jpg",
+        "alt" : null
+      },
+      {
+        "type" : "Image",
+        "src" : "//api.houdinisportswear.com/_images/f778f64c-5bc5-4296-b6e9-f7dc44d5c90d/WsMTMThrillTwillShorts_D_RockBlack_1_C_Low.jpg",
+        "alt" : null
+      },
+      {
+        "type" : "Image",
+        "src" : "//api.houdinisportswear.com/_images/9d6c2b1b-b654-4e29-bb9f-8cabfc29d6ef/WsMTMThrillTwillShorts_D_RockBlack_2_C_Low.jpg",
+        "alt" : null
+      }
+    ],
+    "labels" : [],
+    "sustainabilityOptions" : [
+      {
+        "id" : "Recyclable",
+        "title" : "Återvinningsbar"
+      }
+    ],
+    "categories" : [
+      {
+        "title" : "Shorts",
+        "slug" : "women/shorts",
+        "type" : "Category"
+      },
+      {
+        "title" : "Produktimport",
+        "id" : null,
+        "type" : "Category"
+      }
+    ],
+    "activities" : [
+      {
+        "title" : "Klättring",
+        "slug" : "shop-by-activity/climbing",
+        "type" : "Activity"
+      }
+    ],
+    "gender" : [
+      {
+        "id" : "Female",
+        "title" : "Kvinna"
+      }
+    ],
+    "function" : [
+      {
+        "id" : "Made to move",
+        "title" : "Made to move"
+      }
+    ]
+  },
+  {
+    "id" : 452,
+    "title" : "M's MTM Thrill Twill Shorts",
+    "slug" : "ms-mtm-thrill-twill-shorts-297554",
+    "excerpt" : "Stretchiga och snabbtorkande shorts skapade med Made to Move, ett nytt sätt att konstruera plagg. Perfekta för klätting eller vandring.",
+    "price" : 1533,
+    "images" : [
+      {
+        "type" : "Image",
+        "src" : "//api.houdinisportswear.com/_images/3064a2d2-1a10-412c-bd68-9f8dd607b83d/MsMTMThrillTwillShorts_S_RockBlack_1_C_Low.jpg",
+        "alt" : null
+      }
+    ],
+    "labels" : [],
+    "sustainabilityOptions" : [
+      {
+        "id" : "Recyclable",
+        "title" : "Återvinningsbar"
+      }
+    ],
+    "categories" : [
+      {
+        "title" : "Shorts",
+        "slug" : "men/shorts",
+        "type" : "Category"
+      },
+      {
+        "title" : "Produktimport",
+        "id" : null,
+        "type" : "Category"
+      },
+      {
+        "title" : "Rea",
+        "slug" : "sale",
+        "type" : "Category"
+      },
+      {
+        "title" : "Deals",
+        "slug" : "deals",
+        "type" : "Category"
+      },
+      {
+        "title" : "Deals Herr",
+        "slug" : "deals/deals-men",
+        "type" : "Category"
+      },
+      {
+        "title" : null,
+        "id" : null,
+        "type" : "Category"
+      },
+      {
+        "title" : "Rea Herr",
+        "slug" : "sale/mens-sale",
+        "type" : "Category"
+      },
+      {
+        "title" : null,
+        "id" : null,
+        "type" : "Category"
+      }
+    ],
+    "activities" : [
+      {
+        "title" : "Klättring",
+        "slug" : "shop-by-activity/climbing",
+        "type" : "Activity"
+      },
+      {
+        "title" : "Vandring",
+        "slug" : "shop-by-activity/hiking",
+        "type" : "Activity"
+      }
+    ],
+    "gender" : [
+      {
+        "id" : "Male",
+        "title" : "Man"
+      }
+    ],
+    "function" : [
+      {
+        "id" : "Made to move",
+        "title" : "Made to move"
+      }
+    ]
+  },
+  {
+    "id" : 204,
+    "title" : "W's Jo Pants",
+    "slug" : "ws-jo-pants-149654",
+    "excerpt" : "Vattentäta och ventilerande skalbyxor för skidåkning, vandring, alpinism och andra krävande aktiviteter året runt.",
+    "price" : 1555,
+    "images" : [
+      {
+        "type" : "Image",
+        "src" : "//api.houdinisportswear.com/_images/44e9a0aa-2590-4c9c-9706-78e81c846a5b/WsJoPants_S_ReedBeige_1_C_Low.jpg",
+        "alt" : null
+      },
+      {
+        "type" : "Image",
+        "src" : "//api.houdinisportswear.com/_images/7fad636a-ebcd-4204-b89c-5712c64f8bc4/WsJoPants_S_ReedBeige2_C_Low.jpg",
+        "alt" : null
+      }
+    ],
+    "labels" : [],
+    "sustainabilityOptions" : [
+      {
+        "id" : "Circular",
+        "title" : "Cirkulär"
+      },
+      {
+        "id" : "Recycled",
+        "title" : "Återvunnen"
+      },
+      {
+        "id" : "Recyclable",
+        "title" : "Återvinningsbar"
+      },
+      {
+        "id" : "Bluesign",
+        "title" : "Bluesign"
+      }
+    ],
+    "categories" : [
+      {
+        "title" : "Byxor",
+        "slug" : "women/pants",
+        "type" : "Category"
+      },
+      {
+        "title" : "Produktimport",
+        "id" : null,
+        "type" : "Category"
+      },
+      {
+        "title" : "Rea",
+        "slug" : "sale",
+        "type" : "Category"
+      },
+      {
+        "title" : "Deals",
+        "slug" : "deals",
+        "type" : "Category"
+      },
+      {
+        "title" : "Deals Dam",
+        "slug" : "deals/deals-women",
+        "type" : "Category"
+      },
+      {
+        "title" : null,
+        "id" : null,
+        "type" : "Category"
+      },
+      {
+        "title" : "Rea Dam",
+        "slug" : "sale/womens-sale",
+        "type" : "Category"
+      },
+      {
+        "title" : null,
+        "id" : null,
+        "type" : "Category"
+      }
+    ],
+    "activities" : [
+      {
+        "title" : "Klättring",
+        "slug" : "shop-by-activity/climbing",
+        "type" : "Activity"
+      },
+      {
+        "title" : "Skiing",
+        "id" : null,
+        "type" : "Activity"
+      }
+    ],
+    "gender" : [
+      {
+        "id" : "Female",
+        "title" : "Kvinna"
+      }
+    ],
+    "function" : [
+      {
+        "id" : "Waterproof",
+        "title" : "Vattentät"
+      },
+      {
+        "id" : "Windproof",
+        "title" : "Vindtät"
+      },
+      {
+        "id" : "Made to move",
+        "title" : "Made to move"
+      }
+    ]
+  },
+  {
+    "id" : 131,
+    "title" : "M's Jo Pants",
+    "slug" : "ms-jo-pants-249654",
+    "excerpt" : "Vattentäta och ventilerande skalbyxor för skidåkning, vandring, alpinism och andra krävande aktiviteter. Passar året runt.",
+    "price" : 1370,
+    "images" : [
+      {
+        "type" : "Image",
+        "src" : "//api.houdinisportswear.com/_images/dd4b0c33-807e-4d3e-97a6-7240bcec3797/MsJoPants_S_ReedBeige_1_C_Low.jpg",
+        "alt" : null
+      },
+      {
+        "type" : "Image",
+        "src" : "//api.houdinisportswear.com/_images/3c8b6891-906a-4978-8718-da65ce6769f2/MsJoPants_S_ReedBeige_2_C_Low.jpg",
+        "alt" : null
+      }
+    ],
+    "labels" : [
+      {
+        "id" : "New Colors",
+        "title" : "Nya färger"
+      }
+    ],
+    "sustainabilityOptions" : [
+      {
+        "id" : "Circular",
+        "title" : "Cirkulär"
+      },
+      {
+        "id" : "Recycled",
+        "title" : "Återvunnen"
+      },
+      {
+        "id" : "Recyclable",
+        "title" : "Återvinningsbar"
+      },
+      {
+        "id" : "Bluesign",
+        "title" : "Bluesign"
+      }
+    ],
+    "categories" : [
+      {
+        "title" : "Byxor",
+        "slug" : "men/pants",
+        "type" : "Category"
+      },
+      {
+        "title" : "Produktimport",
+        "id" : null,
+        "type" : "Category"
+      },
+      {
+        "title" : "Rea",
+        "slug" : "sale",
+        "type" : "Category"
+      },
+      {
+        "title" : "Rea Herr",
+        "slug" : "sale/mens-sale",
+        "type" : "Category"
+      },
+      {
+        "title" : null,
+        "id" : null,
+        "type" : "Category"
+      }
+    ],
+    "activities" : [
+      {
+        "title" : "Klättring",
+        "slug" : "shop-by-activity/climbing",
+        "type" : "Activity"
+      },
+      {
+        "title" : "Skiing",
+        "id" : null,
+        "type" : "Activity"
+      }
+    ],
+    "gender" : [
+      {
+        "id" : "Male",
+        "title" : "Man"
+      }
+    ],
+    "function" : [
+      {
+        "id" : "Made to move",
+        "title" : "Made to move"
+      },
+      {
+        "id" : "Windproof",
+        "title" : "Vindtät"
+      },
+      {
+        "id" : "Waterproof",
+        "title" : "Vattentät"
+      }
+    ]
+  },
+  {
+    "id" : 232,
+    "title" : "W's Power Houdi",
+    "slug" : "ws-power-houdi-125984",
+    "excerpt" : "Klassisk Houdini-fleece tillverkad i det exceptionella tyget Power Stretch® Pro™ från Polartec®. Varm, mysig och extremt slitstark.",
+    "price" : 523,
+    "images" : [
+      {
+        "type" : "Image",
+        "src" : "//api.houdinisportswear.com/_images/aa12d50b-85c3-4527-8547-fe09d902aacd/WsPowerHoudi_S_InTheMoodNude_1_C_Low.jpg",
+        "alt" : null
+      },
+      {
+        "type" : "Image",
+        "src" : "//api.houdinisportswear.com/_images/923c18b4-dd77-487a-9f42-cb35a87ac6c9/WsPowerHoudi_S_InTheMoodNude_2_C_Low.jpg",
+        "alt" : null
+      },
+      {
+        "type" : "Image",
+        "src" : "//api.houdinisportswear.com/_images/5846998d-f83a-46d7-995c-89d1330e2f45/WsPowerHoudi_S_SorrowBlue_1_C_Low.jpg",
+        "alt" : null
+      },
+      {
+        "type" : "Image",
+        "src" : "//api.houdinisportswear.com/_images/f0449e3d-1638-49be-9bc1-5b6a622d23b8/WsPowerHoudi_S_SorrowBlue_2_C_Low.jpg",
+        "alt" : null
+      },
+      {
+        "type" : "DetailImage",
+        "src" : "//api.houdinisportswear.com/_images/df6114b8-6d64-4d12-868b-15de989bd43b/WsPowerHoudi_D_TrueBlack_1_C_Low.jpg",
+        "alt" : null
+      },
+      {
+        "type" : "DetailImage",
+        "src" : "//api.houdinisportswear.com/_images/0702a29a-2567-441f-af3f-5d5fad0e6f70/WsPowerHoudi_D_TrueBlack_3_C_Low.jpg",
+        "alt" : null
+      },
+      {
+        "type" : "DetailImage",
+        "src" : "//api.houdinisportswear.com/_images/a0b9df19-8aaf-4bfa-83b1-92a76d5c306b/WsPowerHoudi_D_TrueBlack_4_Low.jpg",
+        "alt" : null
+      },
+      {
+        "type" : "DetailImage",
+        "src" : "//api.houdinisportswear.com/_images/f333f895-5390-4294-b56d-44101b938ae5/WsPowerHoudi_D_TrueBlack_6_C_Low.jpg",
+        "alt" : null
+      },
+      {
+        "type" : "DetailImage",
+        "src" : "//api.houdinisportswear.com/_images/4ff11dd7-7a35-486c-aa1a-811b83f533d2/WsPowerHoudi_D_TrueBlack_7_Low.jpg",
+        "alt" : null
+      },
+      {
+        "type" : "DetailImage",
+        "src" : "//api.houdinisportswear.com/_images/b6e88dee-6259-4bd0-bf08-b53e90d6d421/WsPowerHoudi_D_TrueBlack_8_C_Low.jpg",
+        "alt" : null
+      },
+      {
+        "type" : "Image",
+        "src" : "//api.houdinisportswear.com/_images/73523f15-e5d1-4d28-b9ca-90e5458c36ab/WsPowerHoudi_D_TrueBlack_10_C_Low.jpg",
+        "alt" : null
+      }
+    ],
+    "labels" : [
+      {
+        "id" : "New Colors",
+        "title" : "Nya färger"
+      }
+    ],
+    "sustainabilityOptions" : [
+      {
+        "id" : "Bluesign",
+        "title" : "Bluesign"
+      }
+    ],
+    "categories" : [
+      {
+        "title" : "Fleece- och mellanlager",
+        "slug" : "women/fleece-and-mid-layer",
+        "type" : "Category"
+      },
+      {
+        "title" : "Produktimport",
+        "id" : null,
+        "type" : "Category"
+      }
+    ],
+    "activities" : [
+      {
+        "title" : "Klättring",
+        "slug" : "shop-by-activity/climbing",
+        "type" : "Activity"
+      },
+      {
+        "title" : "Vandring",
+        "slug" : "shop-by-activity/hiking",
+        "type" : "Activity"
+      },
+      {
+        "title" : "Träning",
+        "slug" : "shop-by-activity/training",
+        "type" : "Activity"
+      },
+      {
+        "title" : "Kayak",
+        "slug" : "shop-by-activity/kayaking",
+        "type" : "Activity"
+      }
+    ],
+    "gender" : [
+      {
+        "id" : "Female",
+        "title" : "Kvinna"
+      }
+    ],
+    "function" : []
+  },
+  {
+    "id" : 370,
+    "title" : "M's Power Houdi",
+    "slug" : "ms-power-houdi-225984",
+    "excerpt" : "Klassisk Houdini-fleece tillverkad i det exceptionella Power Stretch® Pro™ från Polartec®. Varm, skön och extremt slitstark kvalitet.",
+    "price" : 2318,
+    "images" : [
+      {
+        "type" : "Image",
+        "src" : "//api.houdinisportswear.com/_images/3630bbc0-2636-456e-b685-1e371144f23d/MsPowerHoudi_S_TrueBlackTrueBlack_2_C_Low.jpg",
+        "alt" : null
+      },
+      {
+        "type" : "Image",
+        "src" : "//api.houdinisportswear.com/_images/123d6ae4-d718-4e8f-a130-4f45d1e4545c/MsPowerHoudi_S_GladeGreen_4_C_Low.jpg",
+        "alt" : null
+      },
+      {
+        "type" : "Image",
+        "src" : "//api.houdinisportswear.com/_images/2254185b-fec7-4027-b35d-79d4935ab841/MsPowerHoudi_S_DreamsofBlue_2.jpg",
+        "alt" : null
+      },
+      {
+        "type" : "Image",
+        "src" : "//api.houdinisportswear.com/_images/a8150783-707e-494b-8ad2-85101a23099c/MsPowerHoudi_S_SorrowBlue_2.jpg",
+        "alt" : null
+      }
+    ],
+    "labels" : [
+      {
+        "id" : "New Colors",
+        "title" : "Nya färger"
+      }
+    ],
+    "sustainabilityOptions" : [
+      {
+        "id" : "Bluesign",
+        "title" : "Bluesign"
+      }
+    ],
+    "categories" : [
+      {
+        "title" : "Fleece- och mellanlager",
+        "slug" : "men/fleece-and-mid-layer",
+        "type" : "Category"
+      },
+      {
+        "title" : "Produktimport",
+        "id" : null,
+        "type" : "Category"
+      }
+    ],
+    "activities" : [
+      {
+        "title" : "Klättring",
+        "slug" : "shop-by-activity/climbing",
+        "type" : "Activity"
+      },
+      {
+        "title" : "Vandring",
+        "slug" : "shop-by-activity/hiking",
+        "type" : "Activity"
+      },
+      {
+        "title" : "Träning",
+        "slug" : "shop-by-activity/training",
+        "type" : "Activity"
+      },
+      {
+        "title" : "Kayak",
+        "slug" : "shop-by-activity/kayaking",
+        "type" : "Activity"
+      }
+    ],
+    "gender" : [
+      {
+        "id" : "Male",
+        "title" : "Man"
+      }
+    ],
+    "function" : []
+  },
+  {
+    "id" : 283,
+    "title" : "W's Light Shorts",
+    "slug" : "ws-light-shorts-157534",
+    "excerpt" : "Ultralätta shorts skapade för löpning, yoga, beachvolley eller annan träning i varma klimat. Tillverkade i återvunnen polyester och elastan.",
+    "price" : 715,
+    "images" : [
+      {
+        "type" : "Image",
+        "src" : "//api.houdinisportswear.com/_images/0739fa82-aaf3-430e-809b-cab681aebed9/WsLightShorts_S_SorrowBlue_1.jpg",
+        "alt" : null
+      },
+      {
+        "type" : "Image",
+        "src" : "//api.houdinisportswear.com/_images/d4b81b1f-c9a1-4bd9-83fe-0a23bea18c48/WsLightShorts_D_TrueBlack_1.jpg",
+        "alt" : null
+      },
+      {
+        "type" : "Image",
+        "src" : "//api.houdinisportswear.com/_images/7b057df5-7a57-4762-86d0-30b5f676e1d7/WsLightShorts_D_TrueBlack_2.jpg",
+        "alt" : null
+      },
+      {
+        "type" : "Image",
+        "src" : "//api.houdinisportswear.com/_images/4d00cdcd-3377-40d9-abff-ac62b3fd60e7/WsLightShorts_D_TrueBlack_M.jpg",
+        "alt" : null
+      }
+    ],
+    "labels" : [],
+    "sustainabilityOptions" : [
+      {
+        "id" : "Recycled",
+        "title" : "Återvunnen"
+      },
+      {
+        "id" : "Bluesign",
+        "title" : "Bluesign"
+      }
+    ],
+    "categories" : [
+      {
+        "title" : "Shorts",
+        "slug" : "women/shorts",
+        "type" : "Category"
+      },
+      {
+        "title" : "Produktimport",
+        "id" : null,
+        "type" : "Category"
+      },
+      {
+        "title" : "Rea",
+        "slug" : "sale",
+        "type" : "Category"
+      },
+      {
+        "title" : "Rea Dam",
+        "slug" : "sale/womens-sale",
+        "type" : "Category"
+      },
+      {
+        "title" : null,
+        "id" : null,
+        "type" : "Category"
+      }
+    ],
+    "activities" : [
+      {
+        "title" : "Klättring",
+        "slug" : "shop-by-activity/climbing",
+        "type" : "Activity"
+      },
+      {
+        "title" : "Träning",
+        "slug" : "shop-by-activity/training",
+        "type" : "Activity"
+      }
+    ],
+    "gender" : [
+      {
+        "id" : "Female",
+        "title" : "Kvinna"
+      }
+    ],
+    "function" : []
+  },
+  {
+    "id" : 453,
+    "title" : "M's Way To Go Shorts",
+    "slug" : "ms-way-to-go-shorts-297644",
+    "excerpt" : "Shorts i klassisk modell i återvunnen polyster. Stretchiga, snabbtorkande och slitstarka. Perfekta för vardagsäventyraren.",
+    "price" : 1303,
+    "images" : [
+      {
+        "type" : "Image",
+        "src" : "//api.houdinisportswear.com/_images/2b6b9a65-24e5-4c1b-abe8-c3b8eba325fa/MsWayToGoShorts_S_RockBlack_1_C_Low.jpg",
+        "alt" : null
+      },
+      {
+        "type" : "Image",
+        "src" : "//api.houdinisportswear.com/_images/b0d1bf3c-f8ac-49c4-980b-56c610a7e16f/MsWayToGoShorts_D_RockBlack_1_C_Low.jpg",
+        "alt" : null
+      },
+      {
+        "type" : "Image",
+        "src" : "//api.houdinisportswear.com/_images/dfb76368-0b0b-41ee-88cb-fc53f089ffc5/MsWayToGoShorts_D_RockBlack_2_C_Low.jpg",
+        "alt" : null
+      }
+    ],
+    "labels" : [],
+    "sustainabilityOptions" : [
+      {
+        "id" : "Bluesign",
+        "title" : "Bluesign"
+      }
+    ],
+    "categories" : [
+      {
+        "title" : "Shorts",
+        "slug" : "men/shorts",
+        "type" : "Category"
+      },
+      {
+        "title" : "Produktimport",
+        "id" : null,
+        "type" : "Category"
+      },
+      {
+        "title" : "Rea",
+        "slug" : "sale",
+        "type" : "Category"
+      },
+      {
+        "title" : "Rea Herr",
+        "slug" : "sale/mens-sale",
+        "type" : "Category"
+      }
+    ],
+    "activities" : [
+      {
+        "title" : "Klättring",
+        "slug" : "shop-by-activity/climbing",
+        "type" : "Activity"
+      }
+    ],
+    "gender" : [
+      {
+        "id" : "Male",
+        "title" : "Man"
+      }
+    ],
+    "function" : []
+  },
+  {
+    "id" : 97,
+    "title" : "Power Wrist Gaiters",
+    "slug" : "power-wrist-gaiters-328154",
+    "excerpt" : "Håll händerna varma med alla fingrar fria. Tillverkade i Polartec® Power Stretch® Pro. 4-vägsstretch. Fuktavvisande. Slitstarka.",
+    "price" : 1348,
+    "images" : [
+      {
+        "type" : "IsolatedImage",
+        "src" : "//api.houdinisportswear.com/_images/3103c553-0f3f-42dd-8087-7fce631538b0/AccPowerWristGaiters_F_Fudge.jpg",
+        "alt" : null
+      },
+      {
+        "type" : "Image",
+        "src" : "//api.houdinisportswear.com/_images/58957147-b4e3-476a-8e57-be2fc165a4e4/MsPowerWristGaiters_P_Fudge.jpg",
+        "alt" : null
+      }
+    ],
+    "labels" : [
+      {
+        "id" : "New Colors",
+        "title" : "Nya färger"
+      }
+    ],
+    "sustainabilityOptions" : [
+      {
+        "id" : "Recyclable",
+        "title" : "Återvinningsbar"
+      },
+      {
+        "id" : "Bluesign",
+        "title" : "Bluesign"
+      }
+    ],
+    "categories" : [
+      {
+        "title" : "Accessoarer",
+        "slug" : "accessories",
+        "type" : "Category"
+      },
+      {
+        "title" : "Handskar",
+        "slug" : "accessories/gloves",
+        "type" : "Category"
+      },
+      {
+        "title" : "Produktimport",
+        "id" : null,
+        "type" : "Category"
+      },
+      {
+        "title" : "Rea",
+        "slug" : "sale",
+        "type" : "Category"
+      },
+      {
+        "title" : "Deals",
+        "slug" : "deals",
+        "type" : "Category"
+      },
+      {
+        "title" : "Deals Herr",
+        "slug" : "deals/deals-men",
+        "type" : "Category"
+      },
+      {
+        "title" : null,
+        "id" : null,
+        "type" : "Category"
+      },
+      {
+        "title" : "Rea Dam",
+        "slug" : "sale/womens-sale",
+        "type" : "Category"
+      },
+      {
+        "title" : "Rea Herr",
+        "slug" : "sale/mens-sale",
+        "type" : "Category"
+      },
+      {
+        "title" : null,
+        "id" : null,
+        "type" : "Category"
+      },
+      {
+        "title" : null,
+        "id" : null,
+        "type" : "Category"
+      }
+    ],
+    "activities" : [
+      {
+        "title" : "Löpning",
+        "slug" : "shop-by-activity/running",
+        "type" : "Activity"
+      },
+      {
+        "title" : "Klättring",
+        "slug" : "shop-by-activity/climbing",
+        "type" : "Activity"
+      },
+      {
+        "title" : "Vandring",
+        "slug" : "shop-by-activity/hiking",
+        "type" : "Activity"
+      }
+    ],
+    "gender" : [
+      {
+        "id" : "Unisex",
+        "title" : "Unisex"
+      }
+    ],
+    "function" : []
+  }
+]

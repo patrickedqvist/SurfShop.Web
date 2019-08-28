@@ -14,6 +14,7 @@
 .swiper-slide {
   background-size: cover;
   background-position: center;
+  position: relative;
 }
 
 .gallery-thumbs {
@@ -34,18 +35,8 @@
   border: 1px solid #fff; 
   cursor: pointer; 
   transition: opacity 200ms ease-in-out;
-  
-  &:hover {
-    opacity: 0.6;
-  }
-
 }
 
 .gallery-thumbs .swiper-slide-thumb-active {
-  border: 1px solid $color-emerald;
-
-  &:hover {
-    opacity: 1;
-  }
-
+  opacity: 0.5;
 }

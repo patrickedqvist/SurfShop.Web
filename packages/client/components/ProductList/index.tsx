@@ -22,7 +22,7 @@ export const ProductList = (props: IProps) => {
 
     const products = map(
         product => (
-            <div className={'product-list-item'} key={product.slug}>
+            <div className={'product-list-item'} key={product.id}>
                 <ProductCard product={product} />
             </div>
         ),

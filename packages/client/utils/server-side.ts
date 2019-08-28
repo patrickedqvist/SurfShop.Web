@@ -4,7 +4,7 @@ import { get, identity, concat } from 'lodash/fp';
 import { REQUEST_FAILURE } from '../redux/definitions';
 
 interface Arguments {
-    context: NextPageContext 
+    context: NextPageContext
     waitForActions: string | string[]
     statusLocation: string[]
 }
@@ -22,14 +22,14 @@ export const setServerResponseStatusCode = async ({ context, waitForActions, sta
         await store.dispatch(waitFor(waitForActions));
 
         // Get the updated store state.
-        const updatedState = store.getState();        
+        const updatedState = store.getState();
 
         // Get the updated request status.
         const updatedStatus = get(statusKeyPath, updatedState);
-        const updatedStatusCode = get(statusCodeKeyPath, updatedState);          
+        const updatedStatusCode = get(statusCodeKeyPath, updatedState);
 
         // Set HTTP status code to 404 if the request failed.
-        if (updatedStatus && updatedStatus === REQUEST_FAILURE && context.res) {            
+        if (updatedStatus && updatedStatus === REQUEST_FAILURE && context.res) {
             context.res.statusCode = updatedStatusCode || 404;
         } else {
             context.res.statusCode = 200;
