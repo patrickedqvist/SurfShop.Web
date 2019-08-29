@@ -92,6 +92,34 @@
         "id" : "Made to move",
         "title" : "Made to move"
       }
+    ],
+    "attributes" : [
+      {
+        "id" : 2,
+        "name" : "Color",
+        "position" : 1,
+        "visible" : true,
+        "variation" : true,
+        "options" : [
+          "Black",
+          "Green",
+          "Red"
+        ]
+      },
+      {
+        "id" : 1,
+        "name" : "Size",
+        "position" : 2,
+        "visible" : true,
+        "variation" : true,
+        "options" : [
+          "L",
+          "M",
+          "S",
+          "XL",
+          "XS"
+        ]
+      }
     ]
   },
   {
@@ -227,6 +255,34 @@
         "id" : "Made to move",
         "title" : "Made to move"
       }
+    ],
+    "attributes" : [
+      {
+        "id" : 2,
+        "name" : "Color",
+        "position" : 1,
+        "visible" : true,
+        "variation" : true,
+        "options" : [
+          "Black",
+          "Green",
+          "Red"
+        ]
+      },
+      {
+        "id" : 1,
+        "name" : "Size",
+        "position" : 2,
+        "visible" : true,
+        "variation" : true,
+        "options" : [
+          "L",
+          "M",
+          "S",
+          "XL",
+          "XS"
+        ]
+      }
     ]
   },
   {
@@ -289,6 +345,34 @@
         "id" : "Made to move",
         "title" : "Made to move"
       }
+    ],
+    "attributes" : [
+      {
+        "id" : 2,
+        "name" : "Color",
+        "position" : 1,
+        "visible" : true,
+        "variation" : true,
+        "options" : [
+          "Black",
+          "Green",
+          "Red"
+        ]
+      },
+      {
+        "id" : 1,
+        "name" : "Size",
+        "position" : 2,
+        "visible" : true,
+        "variation" : true,
+        "options" : [
+          "L",
+          "M",
+          "S",
+          "XL",
+          "XS"
+        ]
+      }
     ]
   },
   {
@@ -335,6 +419,34 @@
       {
         "id" : "Made to move",
         "title" : "Made to move"
+      }
+    ],
+    "attributes" : [
+      {
+        "id" : 2,
+        "name" : "Color",
+        "position" : 1,
+        "visible" : true,
+        "variation" : true,
+        "options" : [
+          "Black",
+          "Green",
+          "Red"
+        ]
+      },
+      {
+        "id" : 1,
+        "name" : "Size",
+        "position" : 2,
+        "visible" : true,
+        "variation" : true,
+        "options" : [
+          "L",
+          "M",
+          "S",
+          "XL",
+          "XS"
+        ]
       }
     ]
   },
@@ -403,7 +515,35 @@
         "title" : "Kvinna"
       }
     ],
-    "function" : []
+    "function" : [],
+    "attributes" : [
+      {
+        "id" : 2,
+        "name" : "Color",
+        "position" : 1,
+        "visible" : true,
+        "variation" : true,
+        "options" : [
+          "Black",
+          "Green",
+          "Red"
+        ]
+      },
+      {
+        "id" : 1,
+        "name" : "Size",
+        "position" : 2,
+        "visible" : true,
+        "variation" : true,
+        "options" : [
+          "L",
+          "M",
+          "S",
+          "XL",
+          "XS"
+        ]
+      }
+    ]
   },
   {
     "id" : 494,
@@ -495,7 +635,35 @@
         "title" : "Man"
       }
     ],
-    "function" : []
+    "function" : [],
+    "attributes" : [
+      {
+        "id" : 2,
+        "name" : "Color",
+        "position" : 1,
+        "visible" : true,
+        "variation" : true,
+        "options" : [
+          "Black",
+          "Green",
+          "Red"
+        ]
+      },
+      {
+        "id" : 1,
+        "name" : "Size",
+        "position" : 2,
+        "visible" : true,
+        "variation" : true,
+        "options" : [
+          "L",
+          "M",
+          "S",
+          "XL",
+          "XS"
+        ]
+      }
+    ]
   },
   {
     "id" : 415,
@@ -582,7 +750,35 @@
         "title" : "Man"
       }
     ],
-    "function" : []
+    "function" : [],
+    "attributes" : [
+      {
+        "id" : 2,
+        "name" : "Color",
+        "position" : 1,
+        "visible" : true,
+        "variation" : true,
+        "options" : [
+          "Black",
+          "Green",
+          "Red"
+        ]
+      },
+      {
+        "id" : 1,
+        "name" : "Size",
+        "position" : 2,
+        "visible" : true,
+        "variation" : true,
+        "options" : [
+          "L",
+          "M",
+          "S",
+          "XL",
+          "XS"
+        ]
+      }
+    ]
   },
   {
     "id" : 358,
@@ -669,6 +865,34 @@
         "id" : "Stowable",
         "title" : "Packbar"
       }
+    ],
+    "attributes" : [
+      {
+        "id" : 2,
+        "name" : "Color",
+        "position" : 1,
+        "visible" : true,
+        "variation" : true,
+        "options" : [
+          "Black",
+          "Green",
+          "Red"
+        ]
+      },
+      {
+        "id" : 1,
+        "name" : "Size",
+        "position" : 2,
+        "visible" : true,
+        "variation" : true,
+        "options" : [
+          "L",
+          "M",
+          "S",
+          "XL",
+          "XS"
+        ]
+      }
     ]
   },
   {
@@ -741,6 +965,34 @@
         "id" : "Stowable",
         "title" : "Packbar"
       }
+    ],
+    "attributes" : [
+      {
+        "id" : 2,
+        "name" : "Color",
+        "position" : 1,
+        "visible" : true,
+        "variation" : true,
+        "options" : [
+          "Black",
+          "Green",
+          "Red"
+        ]
+      },
+      {
+        "id" : 1,
+        "name" : "Size",
+        "position" : 2,
+        "visible" : true,
+        "variation" : true,
+        "options" : [
+          "L",
+          "M",
+          "S",
+          "XL",
+          "XS"
+        ]
+      }
     ]
   },
   {
@@ -812,6 +1064,34 @@
       {
         "id" : "Stowable",
         "title" : "Packbar"
+      }
+    ],
+    "attributes" : [
+      {
+        "id" : 2,
+        "name" : "Color",
+        "position" : 1,
+        "visible" : true,
+        "variation" : true,
+        "options" : [
+          "Black",
+          "Green",
+          "Red"
+        ]
+      },
+      {
+        "id" : 1,
+        "name" : "Size",
+        "position" : 2,
+        "visible" : true,
+        "variation" : true,
+        "options" : [
+          "L",
+          "M",
+          "S",
+          "XL",
+          "XS"
+        ]
       }
     ]
   },
@@ -923,7 +1203,35 @@
         "title" : "Kvinna"
       }
     ],
-    "function" : []
+    "function" : [],
+    "attributes" : [
+      {
+        "id" : 2,
+        "name" : "Color",
+        "position" : 1,
+        "visible" : true,
+        "variation" : true,
+        "options" : [
+          "Black",
+          "Green",
+          "Red"
+        ]
+      },
+      {
+        "id" : 1,
+        "name" : "Size",
+        "position" : 2,
+        "visible" : true,
+        "variation" : true,
+        "options" : [
+          "L",
+          "M",
+          "S",
+          "XL",
+          "XS"
+        ]
+      }
+    ]
   },
   {
     "id" : 301,
@@ -1008,7 +1316,35 @@
         "title" : "Man"
       }
     ],
-    "function" : []
+    "function" : [],
+    "attributes" : [
+      {
+        "id" : 2,
+        "name" : "Color",
+        "position" : 1,
+        "visible" : true,
+        "variation" : true,
+        "options" : [
+          "Black",
+          "Green",
+          "Red"
+        ]
+      },
+      {
+        "id" : 1,
+        "name" : "Size",
+        "position" : 2,
+        "visible" : true,
+        "variation" : true,
+        "options" : [
+          "L",
+          "M",
+          "S",
+          "XL",
+          "XS"
+        ]
+      }
+    ]
   },
   {
     "id" : 385,
@@ -1117,6 +1453,34 @@
         "id" : "Stowable",
         "title" : "Packbar"
       }
+    ],
+    "attributes" : [
+      {
+        "id" : 2,
+        "name" : "Color",
+        "position" : 1,
+        "visible" : true,
+        "variation" : true,
+        "options" : [
+          "Black",
+          "Green",
+          "Red"
+        ]
+      },
+      {
+        "id" : 1,
+        "name" : "Size",
+        "position" : 2,
+        "visible" : true,
+        "variation" : true,
+        "options" : [
+          "L",
+          "M",
+          "S",
+          "XL",
+          "XS"
+        ]
+      }
     ]
   },
   {
@@ -1125,7 +1489,28 @@
     "slug" : "ms-come-along-jacket-247694",
     "excerpt" : "Ultralätt och extremt slitstark skaljacka. Kan packas väldigt liten i egen packficka. Vind- och vattenresistent.",
     "price" : 608,
-    "images" : [],
+    "images" : [
+      {
+        "type" : "ModelImage",
+        "src" : "//api.houdinisportswear.com/_images/b3cf4981-64a2-4c8d-b610-9ab2cc18500f/MsComeAlongJacket_P_TrueBlack_F_C_Low.jpg",
+        "alt" : null
+      },
+      {
+        "type" : "Image",
+        "src" : "//api.houdinisportswear.com/_images/0458865c-df67-4a0a-8a4e-54dee7d87d8e/MsComeAlongJacket_P_TrueBlack_S_C_Low.jpg",
+        "alt" : null
+      },
+      {
+        "type" : "Image",
+        "src" : "//api.houdinisportswear.com/_images/de8d7146-768a-409e-917f-4cb6aaf1257b/MsComeAlongJacket_P_TrueBlack_B_C_Low.jpg",
+        "alt" : null
+      },
+      {
+        "type" : "IsolatedImage",
+        "src" : "//api.houdinisportswear.com/_images/5cc1b9bf-e3f1-49d0-86da-ebbb4c9d22dd/MsComeAlongJacket_F_TrueBlack_C_Low.jpg",
+        "alt" : null
+      }
+    ],
     "labels" : [],
     "sustainabilityOptions" : [
       {
@@ -1194,6 +1579,34 @@
       {
         "id" : "Wind resistant",
         "title" : "Vindresistent"
+      }
+    ],
+    "attributes" : [
+      {
+        "id" : 2,
+        "name" : "Color",
+        "position" : 1,
+        "visible" : true,
+        "variation" : true,
+        "options" : [
+          "Black",
+          "Green",
+          "Red"
+        ]
+      },
+      {
+        "id" : 1,
+        "name" : "Size",
+        "position" : 2,
+        "visible" : true,
+        "variation" : true,
+        "options" : [
+          "L",
+          "M",
+          "S",
+          "XL",
+          "XS"
+        ]
       }
     ]
   },
@@ -1289,6 +1702,34 @@
       {
         "id" : "Wind resistant",
         "title" : "Vindresistent"
+      }
+    ],
+    "attributes" : [
+      {
+        "id" : 2,
+        "name" : "Color",
+        "position" : 1,
+        "visible" : true,
+        "variation" : true,
+        "options" : [
+          "Black",
+          "Green",
+          "Red"
+        ]
+      },
+      {
+        "id" : 1,
+        "name" : "Size",
+        "position" : 2,
+        "visible" : true,
+        "variation" : true,
+        "options" : [
+          "L",
+          "M",
+          "S",
+          "XL",
+          "XS"
+        ]
       }
     ]
   },
@@ -1390,6 +1831,34 @@
         "id" : "Wind resistant",
         "title" : "Vindresistent"
       }
+    ],
+    "attributes" : [
+      {
+        "id" : 2,
+        "name" : "Color",
+        "position" : 1,
+        "visible" : true,
+        "variation" : true,
+        "options" : [
+          "Black",
+          "Green",
+          "Red"
+        ]
+      },
+      {
+        "id" : 1,
+        "name" : "Size",
+        "position" : 2,
+        "visible" : true,
+        "variation" : true,
+        "options" : [
+          "L",
+          "M",
+          "S",
+          "XL",
+          "XS"
+        ]
+      }
     ]
   },
   {
@@ -1451,6 +1920,34 @@
       {
         "id" : "Made to move",
         "title" : "Made to move"
+      }
+    ],
+    "attributes" : [
+      {
+        "id" : 2,
+        "name" : "Color",
+        "position" : 1,
+        "visible" : true,
+        "variation" : true,
+        "options" : [
+          "Black",
+          "Green",
+          "Red"
+        ]
+      },
+      {
+        "id" : 1,
+        "name" : "Size",
+        "position" : 2,
+        "visible" : true,
+        "variation" : true,
+        "options" : [
+          "L",
+          "M",
+          "S",
+          "XL",
+          "XS"
+        ]
       }
     ]
   },
@@ -1538,6 +2035,34 @@
       {
         "id" : "Made to move",
         "title" : "Made to move"
+      }
+    ],
+    "attributes" : [
+      {
+        "id" : 2,
+        "name" : "Color",
+        "position" : 1,
+        "visible" : true,
+        "variation" : true,
+        "options" : [
+          "Black",
+          "Green",
+          "Red"
+        ]
+      },
+      {
+        "id" : 1,
+        "name" : "Size",
+        "position" : 2,
+        "visible" : true,
+        "variation" : true,
+        "options" : [
+          "L",
+          "M",
+          "S",
+          "XL",
+          "XS"
+        ]
       }
     ]
   },
@@ -1651,6 +2176,34 @@
         "id" : "Made to move",
         "title" : "Made to move"
       }
+    ],
+    "attributes" : [
+      {
+        "id" : 2,
+        "name" : "Color",
+        "position" : 1,
+        "visible" : true,
+        "variation" : true,
+        "options" : [
+          "Black",
+          "Green",
+          "Red"
+        ]
+      },
+      {
+        "id" : 1,
+        "name" : "Size",
+        "position" : 2,
+        "visible" : true,
+        "variation" : true,
+        "options" : [
+          "L",
+          "M",
+          "S",
+          "XL",
+          "XS"
+        ]
+      }
     ]
   },
   {
@@ -1752,6 +2305,34 @@
       {
         "id" : "Waterproof",
         "title" : "Vattentät"
+      }
+    ],
+    "attributes" : [
+      {
+        "id" : 2,
+        "name" : "Color",
+        "position" : 1,
+        "visible" : true,
+        "variation" : true,
+        "options" : [
+          "Black",
+          "Green",
+          "Red"
+        ]
+      },
+      {
+        "id" : 1,
+        "name" : "Size",
+        "position" : 2,
+        "visible" : true,
+        "variation" : true,
+        "options" : [
+          "L",
+          "M",
+          "S",
+          "XL",
+          "XS"
+        ]
       }
     ]
   },
@@ -1870,7 +2451,35 @@
         "title" : "Kvinna"
       }
     ],
-    "function" : []
+    "function" : [],
+    "attributes" : [
+      {
+        "id" : 2,
+        "name" : "Color",
+        "position" : 1,
+        "visible" : true,
+        "variation" : true,
+        "options" : [
+          "Black",
+          "Green",
+          "Red"
+        ]
+      },
+      {
+        "id" : 1,
+        "name" : "Size",
+        "position" : 2,
+        "visible" : true,
+        "variation" : true,
+        "options" : [
+          "L",
+          "M",
+          "S",
+          "XL",
+          "XS"
+        ]
+      }
+    ]
   },
   {
     "id" : 370,
@@ -1952,7 +2561,35 @@
         "title" : "Man"
       }
     ],
-    "function" : []
+    "function" : [],
+    "attributes" : [
+      {
+        "id" : 2,
+        "name" : "Color",
+        "position" : 1,
+        "visible" : true,
+        "variation" : true,
+        "options" : [
+          "Black",
+          "Green",
+          "Red"
+        ]
+      },
+      {
+        "id" : 1,
+        "name" : "Size",
+        "position" : 2,
+        "visible" : true,
+        "variation" : true,
+        "options" : [
+          "L",
+          "M",
+          "S",
+          "XL",
+          "XS"
+        ]
+      }
+    ]
   },
   {
     "id" : 283,
@@ -2038,7 +2675,35 @@
         "title" : "Kvinna"
       }
     ],
-    "function" : []
+    "function" : [],
+    "attributes" : [
+      {
+        "id" : 2,
+        "name" : "Color",
+        "position" : 1,
+        "visible" : true,
+        "variation" : true,
+        "options" : [
+          "Black",
+          "Green",
+          "Red"
+        ]
+      },
+      {
+        "id" : 1,
+        "name" : "Size",
+        "position" : 2,
+        "visible" : true,
+        "variation" : true,
+        "options" : [
+          "L",
+          "M",
+          "S",
+          "XL",
+          "XS"
+        ]
+      }
+    ]
   },
   {
     "id" : 453,
@@ -2105,7 +2770,35 @@
         "title" : "Man"
       }
     ],
-    "function" : []
+    "function" : [],
+    "attributes" : [
+      {
+        "id" : 2,
+        "name" : "Color",
+        "position" : 1,
+        "visible" : true,
+        "variation" : true,
+        "options" : [
+          "Black",
+          "Green",
+          "Red"
+        ]
+      },
+      {
+        "id" : 1,
+        "name" : "Size",
+        "position" : 2,
+        "visible" : true,
+        "variation" : true,
+        "options" : [
+          "L",
+          "M",
+          "S",
+          "XL",
+          "XS"
+        ]
+      }
+    ]
   },
   {
     "id" : 97,
@@ -2221,6 +2914,34 @@
         "title" : "Unisex"
       }
     ],
-    "function" : []
+    "function" : [],
+    "attributes" : [
+      {
+        "id" : 2,
+        "name" : "Color",
+        "position" : 1,
+        "visible" : true,
+        "variation" : true,
+        "options" : [
+          "Black",
+          "Green",
+          "Red"
+        ]
+      },
+      {
+        "id" : 1,
+        "name" : "Size",
+        "position" : 2,
+        "visible" : true,
+        "variation" : true,
+        "options" : [
+          "L",
+          "M",
+          "S",
+          "XL",
+          "XS"
+        ]
+      }
+    ]
   }
 ]

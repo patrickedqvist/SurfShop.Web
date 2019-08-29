@@ -38,6 +38,15 @@ export interface ProductLabel {
     title: string
 }
 
+export interface ProductAttribute {
+    id: number
+    name : string,
+    position : number
+    visible : boolean
+    variation : boolean
+    options : string[]
+}
+
 export interface Product {
     id: number
     title: string    
@@ -46,5 +55,6 @@ export interface Product {
     price: number
     labels: ProductLabel[]  
     images: Media[]    
-    categories: ProductCategory[]         
+    categories: ProductCategory[]
+    attributes: ProductAttribute[]     
 }
