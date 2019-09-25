@@ -1,6 +1,6 @@
 import React, { memo } from 'react';
 import classNames from 'classnames'
-import { get, map, isEmpty } from 'lodash/fp';
+import { get, map, isEmpty, find, size } from 'lodash/fp';
 import Link from 'next/link';
 
 // Styles
@@ -29,6 +29,9 @@ export const ProductCardComponent = ({ product, highlight }: IProps) => {
         <span key={label.id} className={'product-card-label'}>{label.title}</span>
     ), product.labels) : null;
 
+    const colorAttribute = find((attr) => attr.name === 'Color' ,product.attributes);
+    const colorOptions = colorAttribute ? size(colorAttribute.options) : 0;
+
     return (
         <div className={classes}>
             
@@ -39,6 +42,9 @@ export const ProductCardComponent = ({ product, highlight }: IProps) => {
             </Link>
             
             <div className={'product-card-content'}>
+                {colorOptions && (
+                    <span className={'product-card-availableIn'}>{`Finns i ${colorOptions} färger`}</span>
+                )}
                 <Link href={'/product/[pslug]'} as={`/product/${product.slug}`} passHref>
                     <a className={'product-card-title'} title={product.title}>{product.title}</a>
                 </Link>
