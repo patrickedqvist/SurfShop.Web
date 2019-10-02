@@ -1,7 +1,10 @@
 pre-commit:
   commands:
     js-lint:
-      glob: "*.{js|jsx|ts|tsx}"
-      run: yarn eslint --fix {staged_files}    
+        glob: "*.{ts|tsx}"
+        run: yarn eslint --fix {staged_files}
+    ts-lint:
+        glob: "*.{ts|tsx}"
+        run: yarn eslint --fix {staged_files}
     packages-audit:
       run: yarn audit

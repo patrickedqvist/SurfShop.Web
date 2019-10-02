@@ -8,7 +8,7 @@
 }
 
 .product-card-image {
-    @include aspect-ratio(3, 4);
+    @include aspect-ratio(150, 225);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -46,6 +46,7 @@
     -webkit-box-orient: vertical;  
     overflow: hidden;
     color: $color-translucentGrey;
+    margin: 0.25rem 0 1rem;
 }
 
 .product-card-price {
@@ -65,7 +66,6 @@
 
 .product-card-label {
     background-color: $color-beige;
-    font-family: $font-serif;
     font-weight: 400;        
     font-size: 12px;     
     padding: 6px 10px 5px;

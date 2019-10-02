@@ -27,7 +27,7 @@ const SESSION_CONFIG = {
 };
 
 app.use(logger());
-app.use(koaSession(SESSION_CONFIG, app));
+app.use(koaSession(SESSION_CONFIG, app as any));
 app.use(koaCors({
   origin: '*',
   credentials: true

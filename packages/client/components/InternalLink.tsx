@@ -29,7 +29,7 @@ export const InternalLink = (props: IProps) => {
 
     if ( !href ) {
         return (
-            <Link as={props.url} passHref>
+            <Link as={props.url} href={props.url} passHref>
                 <a title={props.title}>{props.children}</a>
             </Link>
         )
