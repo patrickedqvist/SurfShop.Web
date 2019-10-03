@@ -24,9 +24,10 @@
     }
 
     &-excerpt {
-        font-size: 20px;
+        font-size: 18px;
         line-height: 28px;
-        font-family: $font-serif;
+        font-family: $font-sans-serif;
+        color: #424242;        
     }
 
 }
