@@ -1,5 +1,4 @@
 pre-commit:
-  parallel: true
   commands:
     js-lint:
         glob: "*.{js,jsx}"
@@ -12,6 +11,6 @@ pre-commit:
         run: yarn stylelint --fix {staged_files}
     format:
         glob: "*.{js,jsx,ts,tsx,scss}"
-        run: yarn prettier --write {staged_files}
+        run: yarn prettier --write {staged_files} && git add .
     packages-audit:
       run: yarn audit

@@ -18,15 +18,15 @@
 }
 
 .productAttributes-option {
-    background-color: rgb(249, 249, 249);    
+    background-color: rgb(249, 249, 249);
     font-size: 13px;
-    cursor: pointer;    
-    font-weight: 400;    
+    cursor: pointer;
+    font-weight: 400;
     padding: 10px;
     border: 1px solid $color-sand;
 
     &:focus,
-    &:active {        
+    &:active {
         outline: none;
     }
 
@@ -38,7 +38,6 @@
     &--selected {
         border-color: rgb(141, 141, 141);
     }
-
 }
 
 .productAttributes-option--size {
@@ -82,7 +81,6 @@
         transform: translate(-50%, -50%) scale(0.8);
         opacity: 1;
     }
-
 }
 
 .productAttributes-option--color.productAttributes-option--selected::after {
