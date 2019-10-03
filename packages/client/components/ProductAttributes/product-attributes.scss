@@ -78,9 +78,15 @@
         margin-right: 0.75rem;
     }
 
+    &:hover::after {
+        transform: translate(-50%, -50%) scale(0.8);
+        opacity: 1;
+    }
+
 }
 
 .productAttributes-option--color.productAttributes-option--selected::after {
     transform: translate(-50%, -50%) scale(1);
     opacity: 1;
+    box-shadow: inherit 0px 0px 0px 4px inset;
 }
