@@ -1,25 +1,20 @@
 import { find } from 'lodash/fp'
-import { Context } from 'koa'
+import * as Router from 'koa-router'
+
+// Data
 import * as products from '../db/products.json'
 
-export default class ProductsController {
-  public static async getProducts(ctx) {
-    ctx.body = products
-  }
+const productsRouter = new Router()
 
-  public static async getProductBySlug(ctx) {
-    if (!ctx.params.slug) {
-      ctx.status = 400
-      ctx.body = 'You must specify a slug'
-    }
+productsRouter.get('/', async (ctx) => {
+  ctx.body = products
+})
 
-    const product = find((p) => p.slug === ctx.params.slug, products)
+productsRouter.get('/:slug', async (ctx) => {
+  ctx.assert(ctx.params.slug, 400, 'No slug was specified')
+  const product = find((p) => p.slug === ctx.params.slug, products)
+  ctx.assert(product, 404, `No product was found with slug ${ctx.params.slug}`)
+  ctx.body = product
+})
 
-    if (product) {
-      ctx.body = product
-    } else {
-      ctx.status = 404
-      ctx.body = `No product found with slug: ${ctx.param.id}`
-    }
-  }
-}
+export { productsRouter }

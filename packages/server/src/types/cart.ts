@@ -1,5 +1,5 @@
 export interface CartItem {
-  reference: string
+  id: string
   name: string
   quantity: number
   unitPrice: number

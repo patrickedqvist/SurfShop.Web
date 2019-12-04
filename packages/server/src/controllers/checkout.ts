@@ -144,7 +144,7 @@ export default class CheckoutController {
       map(
         (orderLine) =>
           ContentfulService.updateProductStockQuantity(
-            orderLine.reference,
+            orderLine.id,
             orderLine.quantity
           ),
         orderLines

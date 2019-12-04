@@ -1,20 +1,20 @@
 import { find } from 'lodash/fp'
+import * as Router from 'koa-router'
+
+// data
 import * as pages from '../db/pages.json'
 
-export default class PagesController {
-  public static async getPageBySlug(ctx) {
-    if (!ctx.params || !ctx.params.slug) {
-      ctx.status = 400
-      ctx.body = 'You must specify a slug'
-    }
+const pagesRouter = new Router()
 
-    const page = find((p) => p.slug === ctx.params.slug, pages)
+pagesRouter.get('/', async (ctx) => {
+  ctx.body = pages
+})
 
-    if (page) {
-      ctx.body = page
-    } else {
-      ctx.status = 404
-      ctx.body = `No product found with slug: ${ctx.params.slug}`
-    }
-  }
-}
+pagesRouter.get('/:slug', async (ctx) => {
+  ctx.assert(ctx.params.slug, 400, 'No slug was specified')
+  const page = find((p) => p.slug === ctx.params.slug, pages)
+  ctx.assert(page, 404, `No page was found with slug ${ctx.params.slug}`)
+  ctx.body = page
+})
+
+export { pagesRouter }
