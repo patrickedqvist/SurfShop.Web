@@ -1,6 +1,6 @@
 import { find } from 'lodash/fp'
-import * as products from '../db/products.json'
 import { Context } from 'koa'
+import * as products from '../db/products.json'
 
 export default class ProductsController {
   public static async getProducts(ctx) {
