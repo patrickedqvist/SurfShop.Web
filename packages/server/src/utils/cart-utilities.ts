@@ -13,6 +13,13 @@ import {
 
 import { Cart, CartItem } from '../types/cart'
 
+export const EMPTY_CART: Cart = {
+  items: [],
+  totalAmount: 0,
+  totalDiscountAmount: 0,
+  totalTaxAmount: 0,
+}
+
 export const setItemsTotalAmount = (cart: Cart) => {
   const updatedItems = map((item) => {
     const price = get('unitDiscountPrice', item)
@@ -95,10 +102,7 @@ export const updateAmounts = flow([
 ])
 
 export const addItemToCart = (cart: Cart, item: CartItem): Cart => {
-  const currentItemIndex = findIndex(
-    (i: CartItem) => i.id === item.id,
-    cart.items
-  )
+  const currentItemIndex = findIndex((i) => i.id === item.id, cart.items)
 
   // Check if item already exists
   if (currentItemIndex !== -1) {
@@ -115,4 +119,20 @@ export const addItemToCart = (cart: Cart, item: CartItem): Cart => {
   const newCart = set('items', items, cart)
 
   return updateAmounts(newCart)
+}
+
+export const createCartItemFromProduct = (product): CartItem => {
+  const tax = product.taxRate ? product.taxRate : 2500
+
+  return {
+    id: product.id,
+    name: product.title,
+    quantity: 1,
+    unitPrice: product.price,
+    unitDiscountPrice: product.price,
+    taxRate: tax,
+    totalAmount: product.price,
+    totalDiscountAmount: product.price,
+    totalTaxAmount: product.price * tax,
+  }
 }

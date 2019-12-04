@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { useSelector } from 'react-redux'
+import { useSelector, useDispatch } from 'react-redux'
 import { NextPage } from 'next'
 import { useRouter } from 'next/router'
 import { find, get } from 'lodash/fp'
@@ -28,10 +28,12 @@ import '../../styles/pages/product-page.scss'
 
 // TypeDefs
 import { Product } from '../../typeDefs/product'
+import { addProductToCart } from '../../redux/actions/cart'
 
 const ProductPage: NextPage = () => {
   const [selectedColor, setSelectedColor] = useState('')
   const [selectedSize, setSelectedSize] = useState('')
+  const dispatch = useDispatch();
 
   const router = useRouter()
   const { slug } = router.query
@@ -66,7 +68,9 @@ const ProductPage: NextPage = () => {
     setSelectedSize(option)
   }
 
-  const handleOnAddToBag = () => {}
+  const handleOnAddToBag = () => {
+    dispatch(addProductToCart(product.id));
+  }
 
   return (
     <PageLayout className='productPage'>

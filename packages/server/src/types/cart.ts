@@ -11,7 +11,7 @@ export interface CartItem {
 }
 
 export interface Cart {
-  items: Array<CartItem>
+  items: CartItem[]
   totalAmount: number
   totalTaxAmount: number
   totalDiscountAmount: number

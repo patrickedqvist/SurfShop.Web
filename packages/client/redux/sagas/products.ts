@@ -1,5 +1,7 @@
-import axios from 'axios'
 import { call, put } from 'redux-saga/effects'
+
+// api
+import { api } from '../api'
 
 // Utils
 import { normalizeProduct, normalizeProducts } from '../../utils/normalize'
@@ -9,11 +11,11 @@ import { receiveProducts, receiveProductBySlug } from '../actions/products'
 import { REQUEST_SUCCESS, REQUEST_FAILURE } from '../definitions'
 
 async function fetchProducts() {
-  return axios.get(`http://localhost:4000/v1/products`)
+  return api.get(`http://localhost:4000/v1/products`)
 }
 
 async function fetchProduct(slug: string) {
-  return axios.get(`http://localhost:4000/v1/products/${slug}`)
+  return api.get(`http://localhost:4000/v1/products/${slug}`)
 }
 
 export function* handleFetchOfProducts() {

@@ -12,10 +12,17 @@ const initialState: Cart = {
   totalTaxAmount: 0,
 }
 
-export const cart = (state = initialState, { type, payload }: Action) => {
+export const cart = (
+  state = initialState,
+  { type, payload, error }: Action
+) => {
   switch (type) {
-    case CART_RECEIVE:
-      return merge(payload, cart)
+    case CART_RECEIVE: {
+      if (!error) {
+        return merge(payload.cart, cart)
+      }
+      return cart
+    }
 
     default:
       return state

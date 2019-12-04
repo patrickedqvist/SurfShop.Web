@@ -1,3 +1,5 @@
+import { Action } from '../../typeDefs/store'
+import { Cart } from '../../typeDefs/cart'
 import {
   CART_FETCH,
   CART_RECEIVE,
@@ -6,30 +8,27 @@ import {
   CART_REMOVE,
 } from '../definitions'
 
-export const getCart = () => ({
+export const getCart = (): Action => ({
   type: CART_FETCH,
 })
 
-export const receiveCart = (
-  cart: Record<string, string | number>,
-  error = false
-) => ({
+export const receiveCart = (cart: Cart | null, error: boolean): Action => ({
   type: CART_RECEIVE,
   payload: { cart },
   error,
 })
 
-export const addProductToCart = (cartItem: object) => ({
+export const addProductToCart = (id: number): Action => ({
   type: CART_ADD,
-  payload: { cartItem },
+  payload: { id },
 })
 
-export const updateProductInCart = (id: string, quantity: number) => ({
+export const updateProductInCart = (id: number, quantity: number): Action => ({
   type: CART_UPDATE,
   payload: { id, quantity },
 })
 
-export const removeProductFromCart = (id: string) => ({
+export const removeProductFromCart = (id: number): Action => ({
   type: CART_REMOVE,
   payload: { id },
 })

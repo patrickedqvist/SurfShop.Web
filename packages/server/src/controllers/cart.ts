@@ -1,11 +1,19 @@
 import * as Router from 'koa-router'
-import { set, flow, findIndex, remove } from 'lodash/fp'
+import { set, flow, find, findIndex, remove } from 'lodash/fp'
+
+// Data
+import * as products from '../db/products.json'
 
 // type defs
 import { Cart, CartItem } from '../types/cart'
 
 // Utils
-import { addItemToCart, updateAmounts } from '../utils/cart-utilities'
+import {
+  addItemToCart,
+  updateAmounts,
+  EMPTY_CART,
+  createCartItemFromProduct,
+} from '../utils/cart-utilities'
 
 interface IdRequestParam {
   id: string
@@ -17,30 +25,50 @@ const cartRouter = new Router()
  * Get Cart
  */
 cartRouter.get('/', async (ctx) => {
-  const newCart: Cart = {
-    items: [],
-    totalAmount: 0,
-    totalDiscountAmount: 0,
-    totalTaxAmount: 0,
-  }
+  const newCart = EMPTY_CART
 
-  if (!ctx.session.cart) {
+  if (ctx.session.isNew || !ctx.session.cart) {
     ctx.session.cart = newCart
     ctx.body = newCart
-  } else {
+  } else if (!ctx.session.isNew || ctx.session.cart) {
     ctx.body = ctx.session.cart
   }
+
+  return newCart
 })
 
 /**
  * Add product to cart
  */
 
+interface AddProductToCart {
+  id: number
+}
+
 cartRouter.post('/', async (ctx) => {
-  const product = ctx.body as CartItem
+  const { id } = ctx.request.body as AddProductToCart
   const { cart } = ctx.session
 
-  const updatedCart = addItemToCart(cart, product)
+  if (!id) {
+    ctx.status = 400
+    ctx.body = 'No id was specified'
+    ctx.assert(id, 400, 'No id was specified')
+  }
+
+  // Find the product
+  const product = find((p) => p.id === id, products)
+
+  if (!product) {
+    ctx.status = 404
+    ctx.body = 'No product was found with this id'
+    ctx.assert(product, 404, 'No product was found with this id')
+  }
+
+  // Create a cart item out of the product
+  const cartItem = createCartItemFromProduct(product)
+
+  // Update the actual cart
+  const updatedCart = addItemToCart(cart, cartItem)
 
   ctx.session.cart = updatedCart
   ctx.body = updatedCart

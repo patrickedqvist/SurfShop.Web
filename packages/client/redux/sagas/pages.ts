@@ -1,13 +1,13 @@
-import axios from 'axios'
 import { call, put } from 'redux-saga/effects'
 
 // Definitions
 import { receivePageBySlug } from '../actions/pages'
 import { Action } from '../../typeDefs/store'
 import { REQUEST_SUCCESS, REQUEST_FAILURE } from '../definitions'
+import { api } from '../api'
 
 async function fetchPage(slug: string) {
-  return axios.get(`http://localhost:4000/v1/pages/${slug}`)
+  return api.get(`http://localhost:4000/v1/pages/${slug}`)
 }
 
 export function* handleFetchOfPage(action: Action) {
