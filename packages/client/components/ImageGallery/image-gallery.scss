@@ -1,42 +1,49 @@
 @import '../../styles/theme.scss';
 
-
 .imageGallery--thumbnails {
   display: flex;
   flex-direction: row;
 }
 
-.imageGallery--thumbnails .gallery-main {
-  max-width: calc(100% - 6rem);
-  width: 100%;
-}
-
 .swiper-slide {
   background-size: cover;
   background-position: center;
-  position: relative;
 }
 
+.swiper-container {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto;
+}
+
+// Thumbnails
 .gallery-thumbs {
-  width: calc(5rem + 2px);
-  margin-right: 14px;
-  margin-left: 0;
-  box-sizing: border-box;
-  height: 100%;
+  flex-basis: 7rem;
+  margin-right: 0.5rem;
 }
 
-.gallery-thumbs .swiper-container {
-  height: 100%;
+.gallery-thumbs .swiper-wrapper {
+  flex-direction: column;
 }
 
 .gallery-thumbs .swiper-slide {
-  height: 118.82px;
-  width: 5rem;
-  border: 1px solid #fff; 
-  cursor: pointer; 
-  transition: opacity 200ms ease-in-out;
+  width: 100%;
+  height: 25%;
+  opacity: 0.4;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.gallery-thumbs .swiper-slide:last-child {
+  margin-bottom: 0 !important;
 }
 
 .gallery-thumbs .swiper-slide-thumb-active {
-  opacity: 0.5;
+  opacity: 1;
+}
+
+// Main Image
+.gallery-main {
+  flex-basis: calc(100% - 7rem);
+  height: 720px;
 }

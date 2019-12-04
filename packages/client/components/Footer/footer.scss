@@ -1,43 +1,42 @@
 @import '../../styles/theme.scss';
 
 .footer {
-    padding: 60px 0;
-    background-color: $color-sand;
+  padding: 60px 0;
+  background-color: $color-sand;
 }
 
 .footer-container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-column-gap: 2rem;
-    padding: 0 5%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 2rem;
+  padding: 0 5%;
 }
 
 .social-list {
-    margin: 0 0 2rem;
-    padding: 0;
+  margin: 0 0 2rem;
+  padding: 0;
 }
 
 .social-list li {
-    display: inline-block;
+  display: inline-block;
 
-    &:not(:last-child) {
-        margin-right: 1rem;
-    }
-
+  &:not(:last-child) {
+    margin-right: 1rem;
+  }
 }
 
 .social-list a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: opacify($color: $color-blue, $amount: 0.9);
-    border-radius: 50px;
-    width: 40px;
-    height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: opacify($color: $color-blue, $amount: 0.9);
+  border-radius: 50px;
+  width: 40px;
+  height: 40px;
 }
 
 .social-list svg {
-    fill: #fff;
-    width: 20px;
-    height: 20px;
+  fill: #fff;
+  width: 20px;
+  height: 20px;
 }

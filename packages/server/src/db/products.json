@@ -8,22 +8,22 @@
     "images" : [
       {
         "type" : "Image",
-        "src" : "//api.houdinisportswear.com/_images/86e6340d-c6b6-41e0-9738-8aeb0cedc945/WsFreeTee_S_GustGreen_1_C_Low.jpg",
+        "src" : "/images/products/WsFreeTee_S_GustGreen_1_C_Low.webp",
         "alt" : null
       },
       {
         "type" : "Image",
-        "src" : "//api.houdinisportswear.com/_images/4426c62f-dbf9-4f9e-ae69-be1920b2b4aa/WsFreeTee_S_OffPink_1_C_Low.jpg",
+        "src" : "/images/products/WsFreeTee_S_OffPink_1_C_Low.webp",
         "alt" : null
       },
       {
         "type" : "Image",
-        "src" : "//api.houdinisportswear.com/_images/a3e63368-977a-4777-8ca9-43bd4fe5b451/WsFreeTee_S_OffPink_3_C_Low.jpg",
+        "src" : "/images/products/WsFreeTee_S_OffPink_3_C_Low.webp",
         "alt" : null
       },
       {
         "type" : "Image",
-        "src" : "//api.houdinisportswear.com/_images/60d5a487-b6ea-4b6c-92a8-9a81e7e2f7ed/WsFreeTee_D_GroundGrey_2_C_Low.jpg",
+        "src" : "/images/products/WsFreeTee_D_GroundGrey_2_C_Low.webp",
         "alt" : null
       }
     ],
@@ -67,6 +67,11 @@
         "title" : "Rea Dam",
         "slug" : "sale/womens-sale",
         "type" : "Category"
+      },
+      {
+        "title": "Dam",
+        "slug": "dam",
+        "type": "Category"
       }
     ],
     "activities" : [
@@ -131,37 +136,37 @@
     "images" : [
       {
         "type" : "Image",
-        "src" : "//api.houdinisportswear.com/_images/bb3039bf-f708-4369-a67c-ad23572be6c6/MsFreeTee_S_TrueBlack_9_C_Low.jpg",
+        "src" : "/images/products/MsFreeTee_S_TrueBlack_9_C_Low.webp",
         "alt" : null
       },
       {
         "type" : "Image",
-        "src" : "//api.houdinisportswear.com/_images/56616536-e423-4d21-a35e-f38a28ec8355/MsFreeTee_S_TrueBlack_7_C_Low.jpg",
+        "src" : "/images/products/MsFreeTee_S_TrueBlack_7_C_Low.webp",
         "alt" : null
       },
       {
         "type" : "Image",
-        "src" : "//api.houdinisportswear.com/_images/44217e4b-9825-4b26-8d2e-66f53cb51519/MsFreeTee_S_GustGreen_5_C_Low.jpg",
+        "src" : "/images/products/MsFreeTee_S_GustGreen_5_C_Low.webp",
         "alt" : null
       },
       {
         "type" : "Image",
-        "src" : "//api.houdinisportswear.com/_images/bb88f546-40ac-4eac-aab1-7e5a0ff90804/MsFreeTee_S_GroundGrey_3_C_Low.jpg",
+        "src" : "/images/products/MsFreeTee_S_GroundGrey_3_C_Low.webp",
         "alt" : null
       },
       {
         "type" : "Image",
-        "src" : "//api.houdinisportswear.com/_images/f4fe6af6-45a2-491c-bc01-d3eed2c8ea95/MsFreeTee_S_GroundGrey_1_C_Low.jpg",
+        "src" : "/images/products/MsFreeTee_S_GroundGrey_1_C_Low.webp",
         "alt" : null
       },
       {
         "type" : "Image",
-        "src" : "//api.houdinisportswear.com/_images/0d67aa0c-6658-411f-8249-39eb4065471b/MsFreeTee_D_TrueBlack_1_C_Low.jpg",
+        "src" : "/images/products/MsFreeTee_D_TrueBlack_1_C_Low.webp",
         "alt" : null
       },
       {
         "type" : "Image",
-        "src" : "//api.houdinisportswear.com/_images/e46d086a-a8f8-444b-b97e-a7f2a2c4dbd5/MsFreeTee_D_TrueBlack_2_C_Low.jpg",
+        "src" : "/images/products/MsFreeTee_D_TrueBlack_2_C_Low.webp",
         "alt" : null
       }
     ],
@@ -196,11 +201,7 @@
         "slug" : "men/base-layers",
         "type" : "Category"
       },
-      {
-        "title" : "Produktimport",
-        "id" : null,
-        "type" : "Category"
-      },
+      
       {
         "title" : "Rea",
         "slug" : "sale",
@@ -217,18 +218,8 @@
         "type" : "Category"
       },
       {
-        "title" : null,
-        "id" : null,
-        "type" : "Category"
-      },
-      {
         "title" : "Rea Herr",
         "slug" : "sale/mens-sale",
-        "type" : "Category"
-      },
-      {
-        "title" : null,
-        "id" : null,
         "type" : "Category"
       }
     ],
@@ -294,12 +285,12 @@
     "images" : [
       {
         "type" : "Image",
-        "src" : "//api.houdinisportswear.com/_images/56c94f3c-eaf8-4ecd-8462-8a374e9a58b9/WsMTMThrillTwillPants_S_RockBlack_1_C_Low.jpg",
+        "src" : "/images/products/WsMTMThrillTwillPants_S_RockBlack_1_C_Low.webp",
         "alt" : null
       },
       {
         "type" : "Image",
-        "src" : "//api.houdinisportswear.com/_images/15b42c43-de88-47d2-8d16-1d5e4e356f62/WsMTMThrillTwillPants_D_RockBlack_1_C_Low.jpg",
+        "src" : "/images/products/WsMTMThrillTwillPants_D_RockBlack_1_C_Low.webp",
         "alt" : null
       }
     ],
@@ -322,9 +313,9 @@
         "type" : "Category"
       },
       {
-        "title" : "Produktimport",
-        "id" : null,
-        "type" : "Category"
+        "title": "Dam",
+        "slug": "dam",
+        "type": "Category"
       }
     ],
     "activities" : [
@@ -384,7 +375,7 @@
     "images" : [
       {
         "type" : "Image",
-        "src" : "//api.houdinisportswear.com/_images/128afc27-f2f3-45d4-8bd7-a51e97b0b611/MsMTMThrillTwillPants_S_RockBlack_1_C_Low.jpg",
+        "src" : "/images/products/MsMTMThrillTwillPants_S_RockBlack_1_C_Low.webp",
         "alt" : null
       }
     ],
@@ -459,17 +450,17 @@
     "images" : [
       {
         "type" : "Image",
-        "src" : "//api.houdinisportswear.com/_images/ca4d3fa9-f927-4bb6-bc1d-092cbe49a23a/WsBigUpTank_S_RockBlack_1_C_Low.jpg",
+        "src" : "/images/products/WsBigUpTank_S_RockBlack_1_C_Low.webp",
         "alt" : null
       },
       {
         "type" : "Image",
-        "src" : "//api.houdinisportswear.com/_images/41a65724-458a-49e6-b634-783a9ad8248d/WsBigUpTank_D_TrueBlack_1_C_Low.jpg",
+        "src" : "/images/products/WsBigUpTank_D_TrueBlack_1_C_Low.webp",
         "alt" : null
       },
       {
         "type" : "Image",
-        "src" : "//api.houdinisportswear.com/_images/24db9c15-158b-4801-aa79-0e4982af83df/WsBigUpTank_D_TrueBlack_2_C_Low.jpg",
+        "src" : "/images/products/WsBigUpTank_D_TrueBlack_2_C_Low.webp",
         "alt" : null
       }
     ],
@@ -495,6 +486,11 @@
         "title" : "Rea Dam",
         "slug" : "sale/womens-sale",
         "type" : "Category"
+      },
+      {
+        "title": "Dam",
+        "slug": "dam",
+        "type": "Category"
       }
     ],
     "activities" : [
@@ -554,17 +550,17 @@
     "images" : [
       {
         "type" : "Image",
-        "src" : "//api.houdinisportswear.com/_images/2dba768e-3c77-4584-a1f9-6afa8d04541c/MsBigUpTank_S_TrueBlack_1_C_Low.jpg",
+        "src" : "/images/products/MsBigUpTank_S_TrueBlack_1_C_Low.webp",
         "alt" : null
       },
       {
         "type" : "Image",
-        "src" : "//api.houdinisportswear.com/_images/e0fa5616-bdc4-434f-b7a6-4518cafbd032/MsBigUpTank_D_StormGreen_1_C_Low.jpg",
+        "src" : "/images/products/MsBigUpTank_D_StormGreen_1_C_Low.webp",
         "alt" : null
       },
       {
         "type" : "Image",
-        "src" : "//api.houdinisportswear.com/_images/5f442867-0db5-4fd6-88ec-b7e59cd56ee4/MsBigUpTank_D_StormGreen_Material_C_Low.jpg",
+        "src" : "/images/products/MsBigUpTank_D_StormGreen_Material_C_Low.webp",
         "alt" : null
       }
     ],
@@ -581,11 +577,7 @@
         "slug" : "men/shirts-and-tops",
         "type" : "Category"
       },
-      {
-        "title" : "Produktimport",
-        "id" : null,
-        "type" : "Category"
-      },
+      
       {
         "title" : "Rea",
         "slug" : "sale",
@@ -601,21 +593,12 @@
         "slug" : "deals/deals-men",
         "type" : "Category"
       },
-      {
-        "title" : null,
-        "id" : null,
-        "type" : "Category"
-      },
+    
       {
         "title" : "Rea Herr",
         "slug" : "sale/mens-sale",
         "type" : "Category"
-      },
-      {
-        "title" : null,
-        "id" : null,
-        "type" : "Category"
-      }
+      } 
     ],
     "activities" : [
       {
@@ -674,17 +657,17 @@
     "images" : [
       {
         "type" : "Image",
-        "src" : "//api.houdinisportswear.com/_images/8418b4be-331c-4828-83c3-ea7cd83b4ce5/MsCruxShorts_S_LastRoundRed_1_C_Low.jpg",
+        "src" : "/images/products/MsCruxShorts_S_LastRoundRed_1_C_Low.webp",
         "alt" : null
       },
       {
         "type" : "Image",
-        "src" : "//api.houdinisportswear.com/_images/ecf37777-0e69-4fae-a0b5-9d272829dfe2/MsCruxShorts_D_SorrowBlue_1_C_Low.jpg",
+        "src" : "/images/products/MsCruxShorts_D_SorrowBlue_1_C_Low.webp",
         "alt" : null
       },
       {
         "type" : "Image",
-        "src" : "//api.houdinisportswear.com/_images/c3477e19-309c-4819-90ed-c8533ba41eb8/MsCruxShorts_D_SorrowBlue_2_Low.jpg",
+        "src" : "/images/products/MsCruxShorts_D_SorrowBlue_2_Low.webp",
         "alt" : null
       }
     ],
@@ -701,11 +684,7 @@
         "slug" : "men/shorts",
         "type" : "Category"
       },
-      {
-        "title" : "Produktimport",
-        "id" : null,
-        "type" : "Category"
-      },
+      
       {
         "title" : "Rea",
         "slug" : "sale",
@@ -714,16 +693,6 @@
       {
         "title" : "Rea Herr",
         "slug" : "sale/mens-sale",
-        "type" : "Category"
-      },
-      {
-        "title" : null,
-        "id" : null,
-        "type" : "Category"
-      },
-      {
-        "title" : null,
-        "id" : null,
         "type" : "Category"
       }
     ],
@@ -789,17 +758,17 @@
     "images" : [
       {
         "type" : "Image",
-        "src" : "//api.houdinisportswear.com/_images/9fe7ef2f-3c4b-4133-8dd9-ad62f947906a/WsLiquidRockShorts_D_RockBlack_2_C_Low.jpg",
+        "src" : "/images/products/WsLiquidRockShorts_D_RockBlack_2_C_Low.webp",
         "alt" : null
       },
       {
         "type" : "Image",
-        "src" : "//api.houdinisportswear.com/_images/cd059d74-793c-40fc-b8e8-143e6789f98f/WsLiquidRockShorts_D_RockBlack_3_C_Low.jpg",
+        "src" : "/images/products/WsLiquidRockShorts_D_RockBlack_3_C_Low.webp",
         "alt" : null
       },
       {
         "type" : "Image",
-        "src" : "//api.houdinisportswear.com/_images/9e7aace4-8fa9-47d3-8e2b-b837f384a3c1/WsLiquidRockShorts_D_RockBlack_1_C_Low.jpg",
+        "src" : "/images/products/WsLiquidRockShorts_D_RockBlack_1_C_Low.webp",
         "alt" : null
       }
     ],
@@ -815,12 +784,7 @@
         "title" : "Shorts",
         "slug" : "women/shorts",
         "type" : "Category"
-      },
-      {
-        "title" : "Produktimport",
-        "id" : null,
-        "type" : "Category"
-      },
+      },      
       {
         "title" : "Rea",
         "slug" : "sale",
@@ -832,9 +796,9 @@
         "type" : "Category"
       },
       {
-        "title" : null,
-        "id" : null,
-        "type" : "Category"
+        "title": "Dam",
+        "slug": "dam",
+        "type": "Category"
       }
     ],
     "activities" : [
@@ -904,7 +868,7 @@
     "images" : [
       {
         "type" : "Image",
-        "src" : "//api.houdinisportswear.com/_images/7b072d9d-003c-41ee-b94e-a3a61bd8ff13/MsLiquidRockPants_S_ReedBeige_1_C_Low.jpg",
+        "src" : "/images/products/MsLiquidRockPants_S_ReedBeige_1_C_Low.webp",
         "alt" : null
       }
     ],
@@ -921,11 +885,7 @@
         "slug" : "men/pants",
         "type" : "Category"
       },
-      {
-        "title" : "Produktimport",
-        "id" : null,
-        "type" : "Category"
-      },
+      
       {
         "title" : "Rea",
         "slug" : "sale",
@@ -934,11 +894,6 @@
       {
         "title" : "Rea Herr",
         "slug" : "sale/mens-sale",
-        "type" : "Category"
-      },
-      {
-        "title" : null,
-        "id" : null,
         "type" : "Category"
       }
     ],
@@ -1004,7 +959,7 @@
     "images" : [
       {
         "type" : "Image",
-        "src" : "//api.houdinisportswear.com/_images/514667ed-ab6d-4611-8474-6e5a2ba5bb84/WsLiquidRockPants_S_RockBlack_1_C_Low.jpg",
+        "src" : "/images/products/WsLiquidRockPants_S_RockBlack_1_C_Low.webp",
         "alt" : null
       }
     ],
@@ -1021,11 +976,7 @@
         "slug" : "women/pants",
         "type" : "Category"
       },
-      {
-        "title" : "Produktimport",
-        "id" : null,
-        "type" : "Category"
-      },
+      
       {
         "title" : "Rea",
         "slug" : "sale",
@@ -1037,9 +988,9 @@
         "type" : "Category"
       },
       {
-        "title" : null,
-        "id" : null,
-        "type" : "Category"
+        "title": "Dam",
+        "slug": "dam",
+        "type": "Category"
       }
     ],
     "activities" : [
@@ -1104,17 +1055,17 @@
     "images" : [
       {
         "type" : "Image",
-        "src" : "//api.houdinisportswear.com/_images/55809a44-bbfb-408e-8003-0db852c2a2b0/WsActivistMessageTee_BoostBlue---0811.jpg",
+        "src" : "/images/products/WsActivistMessageTee_BoostBlue---0811.webp",
         "alt" : null
       },
       {
         "type" : "Image",
-        "src" : "//api.houdinisportswear.com/_images/21e80f84-4160-41a1-9d1b-cddac5c1dbef/WsActivistMessageTee_D_BoostBlue_2_C_Low.jpg",
+        "src" : "/images/products/WsActivistMessageTee_D_BoostBlue_2_C_Low.webp",
         "alt" : null
       },
       {
         "type" : "Image",
-        "src" : "//api.houdinisportswear.com/_images/6a61c5c0-44fe-488e-93e1-853e008e5ce6/WsActivistMessageTee_D_BoostBlue_Material_C_Low.jpg",
+        "src" : "/images/products/WsActivistMessageTee_D_BoostBlue_Material_C_Low.webp",
         "alt" : null
       }
     ],
@@ -1149,11 +1100,7 @@
         "slug" : "women/base-layers",
         "type" : "Category"
       },
-      {
-        "title" : "Produktimport",
-        "id" : null,
-        "type" : "Category"
-      },
+      
       {
         "title" : "Rea",
         "slug" : "sale",
@@ -1169,20 +1116,16 @@
         "slug" : "deals/deals-women",
         "type" : "Category"
       },
-      {
-        "title" : null,
-        "id" : null,
-        "type" : "Category"
-      },
+    
       {
         "title" : "Rea Dam",
         "slug" : "sale/womens-sale",
         "type" : "Category"
-      },
+      } ,
       {
-        "title" : null,
-        "id" : null,
-        "type" : "Category"
+        "title": "Dam",
+        "slug": "dam",
+        "type": "Category"
       }
     ],
     "activities" : [
@@ -1242,7 +1185,7 @@
     "images" : [
       {
         "type" : "Image",
-        "src" : "//api.houdinisportswear.com/_images/28d2bd07-3404-468c-a9d7-b5b0615c3061/MsActivistMessageTee_S_LastRoundRed_1_C_Low.jpg",
+        "src" : "/images/products/MsActivistMessageTee_S_LastRoundRed_1_C_Low.webp",
         "alt" : null
       }
     ],
@@ -1276,12 +1219,7 @@
         "title" : "Underställ",
         "slug" : "men/base-layers",
         "type" : "Category"
-      },
-      {
-        "title" : "Produktimport",
-        "id" : null,
-        "type" : "Category"
-      },
+      },      
       {
         "title" : "Rea",
         "slug" : "sale",
@@ -1290,11 +1228,6 @@
       {
         "title" : "Rea Herr",
         "slug" : "sale/mens-sale",
-        "type" : "Category"
-      },
-      {
-        "title" : null,
-        "id" : null,
         "type" : "Category"
       }
     ],
@@ -1355,32 +1288,32 @@
     "images" : [
       {
         "type" : "Image",
-        "src" : "//api.houdinisportswear.com/_images/5ba29e01-324d-42a3-8197-5012873fcacc/WsComeAlongJacket_S_TrueBlack_1_C_Low.jpg",
+        "src" : "/images/products/WsComeAlongJacket_S_TrueBlack_1_C_Low.webp",
         "alt" : null
       },
       {
         "type" : "Image",
-        "src" : "//api.houdinisportswear.com/_images/531b765b-3024-492f-882f-5126ae4372b4/WsComeAlongJacket_S_HazeGrey_7_C_Low.jpg",
+        "src" : "/images/products/WsComeAlongJacket_S_HazeGrey_7_C_Low.webp",
         "alt" : null
       },
       {
         "type" : "Image",
-        "src" : "//api.houdinisportswear.com/_images/0ff8654e-9b49-4c44-add8-d312f6e0ae25/WsComeAlongJacket_S_HazeGrey_3_C_Low.jpg",
+        "src" : "/images/products/WsComeAlongJacket_S_HazeGrey_3_C_Low.webp",
         "alt" : null
       },
       {
         "type" : "Image",
-        "src" : "//api.houdinisportswear.com/_images/9f14d760-0441-464c-b761-d44131e4efdd/WsComeAlongJacket_S_LastRoundRed_1_C_Low.jpg",
+        "src" : "/images/products/WsComeAlongJacket_S_LastRoundRed_1_C_Low.webp",
         "alt" : null
       },
       {
         "type" : "Image",
-        "src" : "//api.houdinisportswear.com/_images/a34e98b9-57cc-493c-93d7-76e107304598/WsComeAlongJacket_S_LastRoundRed_2_C_Low.jpg",
+        "src" : "/images/products/WsComeAlongJacket_S_LastRoundRed_2_C_Low.webp",
         "alt" : null
       },
       {
         "type" : "Image",
-        "src" : "//api.houdinisportswear.com/_images/cbacd5e7-f265-4a2b-aaf9-8dcadd7162c4/WsComeAlongJacket_S_LastRoundRed_3_C_Low.jpg",
+        "src" : "/images/products/WsComeAlongJacket_S_LastRoundRed_3_C_Low.webp",
         "alt" : null
       }
     ],
@@ -1401,11 +1334,7 @@
         "slug" : "women/jackets",
         "type" : "Category"
       },
-      {
-        "title" : "Produktimport",
-        "id" : null,
-        "type" : "Category"
-      },
+      
       {
         "title" : "Rea",
         "slug" : "sale",
@@ -1415,11 +1344,11 @@
         "title" : "Rea Dam",
         "slug" : "sale/womens-sale",
         "type" : "Category"
-      },
+      } ,
       {
-        "title" : null,
-        "id" : null,
-        "type" : "Category"
+        "title": "Dam",
+        "slug": "dam",
+        "type": "Category"
       }
     ],
     "activities" : [
@@ -1492,22 +1421,22 @@
     "images" : [
       {
         "type" : "ModelImage",
-        "src" : "//api.houdinisportswear.com/_images/b3cf4981-64a2-4c8d-b610-9ab2cc18500f/MsComeAlongJacket_P_TrueBlack_F_C_Low.jpg",
+        "src" : "/images/products/MsComeAlongJacket_P_TrueBlack_F_C_Low.webp",
         "alt" : null
       },
       {
         "type" : "Image",
-        "src" : "//api.houdinisportswear.com/_images/0458865c-df67-4a0a-8a4e-54dee7d87d8e/MsComeAlongJacket_P_TrueBlack_S_C_Low.jpg",
+        "src" : "/images/products/MsComeAlongJacket_P_TrueBlack_S_C_Low.webp",
         "alt" : null
       },
       {
         "type" : "Image",
-        "src" : "//api.houdinisportswear.com/_images/de8d7146-768a-409e-917f-4cb6aaf1257b/MsComeAlongJacket_P_TrueBlack_B_C_Low.jpg",
+        "src" : "/images/products/MsComeAlongJacket_P_TrueBlack_B_C_Low.webp",
         "alt" : null
       },
       {
         "type" : "IsolatedImage",
-        "src" : "//api.houdinisportswear.com/_images/5cc1b9bf-e3f1-49d0-86da-ebbb4c9d22dd/MsComeAlongJacket_F_TrueBlack_C_Low.jpg",
+        "src" : "/images/products/MsComeAlongJacket_F_TrueBlack_C_Low.webp",
         "alt" : null
       }
     ],
@@ -1528,11 +1457,7 @@
         "slug" : "men/jackets",
         "type" : "Category"
       },
-      {
-        "title" : "Produktimport",
-        "id" : null,
-        "type" : "Category"
-      },
+      
       {
         "title" : "Rea",
         "slug" : "sale",
@@ -1542,12 +1467,7 @@
         "title" : "Rea Herr",
         "slug" : "sale/mens-sale",
         "type" : "Category"
-      },
-      {
-        "title" : null,
-        "id" : null,
-        "type" : "Category"
-      }
+      } 
     ],
     "activities" : [
       {
@@ -1619,7 +1539,7 @@
     "images" : [
       {
         "type" : "Image",
-        "src" : "//api.houdinisportswear.com/_images/01653b7e-9872-4cb3-9fa9-8225e49d7b30/WsDaybreakJacket_S_GiddyGrape_1_C_Low.jpg",
+        "src" : "/images/products/WsDaybreakJacket_S_GiddyGrape_1_C_Low.webp",
         "alt" : null
       }
     ],
@@ -1640,11 +1560,7 @@
         "slug" : "women/jackets",
         "type" : "Category"
       },
-      {
-        "title" : "Produktimport",
-        "id" : null,
-        "type" : "Category"
-      },
+      
       {
         "title" : "Rea",
         "slug" : "sale",
@@ -1656,9 +1572,9 @@
         "type" : "Category"
       },
       {
-        "title" : null,
-        "id" : null,
-        "type" : "Category"
+        "title": "Dam",
+        "slug": "dam",
+        "type": "Category"
       }
     ],
     "activities" : [
@@ -1742,12 +1658,12 @@
     "images" : [
       {
         "type" : "Image",
-        "src" : "//api.houdinisportswear.com/_images/360953fd-ffb9-47f3-8853-d5977d69c9c3/MsDaybreakJacket_S_LastRoundRed_1_C_Low.jpg",
+        "src" : "/images/products/MsDaybreakJacket_S_LastRoundRed_1_C_Low.webp",
         "alt" : null
       },
       {
         "type" : "Image",
-        "src" : "//api.houdinisportswear.com/_images/9d5f768f-484c-485b-8fb4-78fa9dfa1465/MsDaybreakJacket_S_LastRoundRed_4_C_Low.jpg",
+        "src" : "/images/products/MsDaybreakJacket_S_LastRoundRed_4_C_Low.webp",
         "alt" : null
       }
     ],
@@ -1768,11 +1684,7 @@
         "slug" : "men/jackets",
         "type" : "Category"
       },
-      {
-        "title" : "Produktimport",
-        "id" : null,
-        "type" : "Category"
-      },
+      
       {
         "title" : "Rea",
         "slug" : "sale",
@@ -1781,11 +1693,6 @@
       {
         "title" : "Rea Herr",
         "slug" : "sale/mens-sale",
-        "type" : "Category"
-      },
-      {
-        "title" : null,
-        "id" : null,
         "type" : "Category"
       }
     ],
@@ -1870,17 +1777,17 @@
     "images" : [
       {
         "type" : "Image",
-        "src" : "//api.houdinisportswear.com/_images/70d77f65-ce40-413c-9212-99c7709843a2/WsMTMThrillTwillShorts_S_RockBlack_1_C_Low.jpg",
+        "src" : "/images/products/WsMTMThrillTwillShorts_S_RockBlack_1_C_Low.webp",
         "alt" : null
       },
       {
         "type" : "Image",
-        "src" : "//api.houdinisportswear.com/_images/f778f64c-5bc5-4296-b6e9-f7dc44d5c90d/WsMTMThrillTwillShorts_D_RockBlack_1_C_Low.jpg",
+        "src" : "/images/products/WsMTMThrillTwillShorts_D_RockBlack_1_C_Low.webp",
         "alt" : null
       },
       {
         "type" : "Image",
-        "src" : "//api.houdinisportswear.com/_images/9d6c2b1b-b654-4e29-bb9f-8cabfc29d6ef/WsMTMThrillTwillShorts_D_RockBlack_2_C_Low.jpg",
+        "src" : "/images/products/WsMTMThrillTwillShorts_D_RockBlack_2_C_Low.webp",
         "alt" : null
       }
     ],
@@ -1898,9 +1805,9 @@
         "type" : "Category"
       },
       {
-        "title" : "Produktimport",
-        "id" : null,
-        "type" : "Category"
+        "title": "Dam",
+        "slug": "dam",
+        "type": "Category"
       }
     ],
     "activities" : [
@@ -1960,7 +1867,7 @@
     "images" : [
       {
         "type" : "Image",
-        "src" : "//api.houdinisportswear.com/_images/3064a2d2-1a10-412c-bd68-9f8dd607b83d/MsMTMThrillTwillShorts_S_RockBlack_1_C_Low.jpg",
+        "src" : "/images/products/MsMTMThrillTwillShorts_S_RockBlack_1_C_Low.webp",
         "alt" : null
       }
     ],
@@ -1977,11 +1884,7 @@
         "slug" : "men/shorts",
         "type" : "Category"
       },
-      {
-        "title" : "Produktimport",
-        "id" : null,
-        "type" : "Category"
-      },
+      
       {
         "title" : "Rea",
         "slug" : "sale",
@@ -1997,21 +1900,12 @@
         "slug" : "deals/deals-men",
         "type" : "Category"
       },
-      {
-        "title" : null,
-        "id" : null,
-        "type" : "Category"
-      },
+    
       {
         "title" : "Rea Herr",
         "slug" : "sale/mens-sale",
         "type" : "Category"
-      },
-      {
-        "title" : null,
-        "id" : null,
-        "type" : "Category"
-      }
+      } 
     ],
     "activities" : [
       {
@@ -2075,12 +1969,12 @@
     "images" : [
       {
         "type" : "Image",
-        "src" : "//api.houdinisportswear.com/_images/44e9a0aa-2590-4c9c-9706-78e81c846a5b/WsJoPants_S_ReedBeige_1_C_Low.jpg",
+        "src" : "/images/products/WsJoPants_S_ReedBeige_1_C_Low.webp",
         "alt" : null
       },
       {
         "type" : "Image",
-        "src" : "//api.houdinisportswear.com/_images/7fad636a-ebcd-4204-b89c-5712c64f8bc4/WsJoPants_S_ReedBeige2_C_Low.jpg",
+        "src" : "/images/products/WsJoPants_S_ReedBeige2_C_Low.webp",
         "alt" : null
       }
     ],
@@ -2108,12 +2002,7 @@
         "title" : "Byxor",
         "slug" : "women/pants",
         "type" : "Category"
-      },
-      {
-        "title" : "Produktimport",
-        "id" : null,
-        "type" : "Category"
-      },
+      },      
       {
         "title" : "Rea",
         "slug" : "sale",
@@ -2128,21 +2017,16 @@
         "title" : "Deals Dam",
         "slug" : "deals/deals-women",
         "type" : "Category"
-      },
-      {
-        "title" : null,
-        "id" : null,
-        "type" : "Category"
-      },
+      },    
       {
         "title" : "Rea Dam",
         "slug" : "sale/womens-sale",
         "type" : "Category"
       },
       {
-        "title" : null,
-        "id" : null,
-        "type" : "Category"
+        "title": "Dam",
+        "slug": "dam",
+        "type": "Category"
       }
     ],
     "activities" : [
@@ -2153,7 +2037,7 @@
       },
       {
         "title" : "Skiing",
-        "id" : null,
+        "id" : "shop-by-activity/skiing",
         "type" : "Activity"
       }
     ],
@@ -2215,12 +2099,12 @@
     "images" : [
       {
         "type" : "Image",
-        "src" : "//api.houdinisportswear.com/_images/dd4b0c33-807e-4d3e-97a6-7240bcec3797/MsJoPants_S_ReedBeige_1_C_Low.jpg",
+        "src" : "/images/products/MsJoPants_S_ReedBeige_1_C_Low.webp",
         "alt" : null
       },
       {
         "type" : "Image",
-        "src" : "//api.houdinisportswear.com/_images/3c8b6891-906a-4978-8718-da65ce6769f2/MsJoPants_S_ReedBeige_2_C_Low.jpg",
+        "src" : "/images/products/MsJoPants_S_ReedBeige_2_C_Low.webp",
         "alt" : null
       }
     ],
@@ -2253,12 +2137,7 @@
         "title" : "Byxor",
         "slug" : "men/pants",
         "type" : "Category"
-      },
-      {
-        "title" : "Produktimport",
-        "id" : null,
-        "type" : "Category"
-      },
+      },    
       {
         "title" : "Rea",
         "slug" : "sale",
@@ -2268,12 +2147,7 @@
         "title" : "Rea Herr",
         "slug" : "sale/mens-sale",
         "type" : "Category"
-      },
-      {
-        "title" : null,
-        "id" : null,
-        "type" : "Category"
-      }
+      } 
     ],
     "activities" : [
       {
@@ -2283,7 +2157,7 @@
       },
       {
         "title" : "Skiing",
-        "id" : null,
+        "id" : "shop-by-activity/skiing",
         "type" : "Activity"
       }
     ],
@@ -2345,57 +2219,57 @@
     "images" : [
       {
         "type" : "Image",
-        "src" : "//api.houdinisportswear.com/_images/aa12d50b-85c3-4527-8547-fe09d902aacd/WsPowerHoudi_S_InTheMoodNude_1_C_Low.jpg",
+        "src" : "/images/products/WsPowerHoudi_S_InTheMoodNude_1_C_Low.webp",
         "alt" : null
       },
       {
         "type" : "Image",
-        "src" : "//api.houdinisportswear.com/_images/923c18b4-dd77-487a-9f42-cb35a87ac6c9/WsPowerHoudi_S_InTheMoodNude_2_C_Low.jpg",
+        "src" : "/images/products/WsPowerHoudi_S_InTheMoodNude_2_C_Low.webp",
         "alt" : null
       },
       {
         "type" : "Image",
-        "src" : "//api.houdinisportswear.com/_images/5846998d-f83a-46d7-995c-89d1330e2f45/WsPowerHoudi_S_SorrowBlue_1_C_Low.jpg",
+        "src" : "/images/products/WsPowerHoudi_S_SorrowBlue_1_C_Low.webp",
         "alt" : null
       },
       {
         "type" : "Image",
-        "src" : "//api.houdinisportswear.com/_images/f0449e3d-1638-49be-9bc1-5b6a622d23b8/WsPowerHoudi_S_SorrowBlue_2_C_Low.jpg",
+        "src" : "/images/products/WsPowerHoudi_S_SorrowBlue_2_C_Low.webp",
         "alt" : null
       },
       {
         "type" : "DetailImage",
-        "src" : "//api.houdinisportswear.com/_images/df6114b8-6d64-4d12-868b-15de989bd43b/WsPowerHoudi_D_TrueBlack_1_C_Low.jpg",
+        "src" : "/images/products/WsPowerHoudi_D_TrueBlack_1_C_Low.webp",
         "alt" : null
       },
       {
         "type" : "DetailImage",
-        "src" : "//api.houdinisportswear.com/_images/0702a29a-2567-441f-af3f-5d5fad0e6f70/WsPowerHoudi_D_TrueBlack_3_C_Low.jpg",
+        "src" : "/images/products/WsPowerHoudi_D_TrueBlack_3_C_Low.webp",
         "alt" : null
       },
       {
         "type" : "DetailImage",
-        "src" : "//api.houdinisportswear.com/_images/a0b9df19-8aaf-4bfa-83b1-92a76d5c306b/WsPowerHoudi_D_TrueBlack_4_Low.jpg",
+        "src" : "/images/products/WsPowerHoudi_D_TrueBlack_4_Low.webp",
         "alt" : null
       },
       {
         "type" : "DetailImage",
-        "src" : "//api.houdinisportswear.com/_images/f333f895-5390-4294-b56d-44101b938ae5/WsPowerHoudi_D_TrueBlack_6_C_Low.jpg",
+        "src" : "/images/products/WsPowerHoudi_D_TrueBlack_6_C_Low.webp",
         "alt" : null
       },
       {
         "type" : "DetailImage",
-        "src" : "//api.houdinisportswear.com/_images/4ff11dd7-7a35-486c-aa1a-811b83f533d2/WsPowerHoudi_D_TrueBlack_7_Low.jpg",
+        "src" : "/images/products/WsPowerHoudi_D_TrueBlack_7_Low.webp",
         "alt" : null
       },
       {
         "type" : "DetailImage",
-        "src" : "//api.houdinisportswear.com/_images/b6e88dee-6259-4bd0-bf08-b53e90d6d421/WsPowerHoudi_D_TrueBlack_8_C_Low.jpg",
+        "src" : "/images/products/WsPowerHoudi_D_TrueBlack_8_C_Low.webp",
         "alt" : null
       },
       {
         "type" : "Image",
-        "src" : "//api.houdinisportswear.com/_images/73523f15-e5d1-4d28-b9ca-90e5458c36ab/WsPowerHoudi_D_TrueBlack_10_C_Low.jpg",
+        "src" : "/images/products/WsPowerHoudi_D_TrueBlack_10_C_Low.webp",
         "alt" : null
       }
     ],
@@ -2418,9 +2292,9 @@
         "type" : "Category"
       },
       {
-        "title" : "Produktimport",
-        "id" : null,
-        "type" : "Category"
+        "title": "Dam",
+        "slug": "dam",
+        "type": "Category"
       }
     ],
     "activities" : [
@@ -2490,22 +2364,22 @@
     "images" : [
       {
         "type" : "Image",
-        "src" : "//api.houdinisportswear.com/_images/3630bbc0-2636-456e-b685-1e371144f23d/MsPowerHoudi_S_TrueBlackTrueBlack_2_C_Low.jpg",
+        "src" : "/images/products/MsPowerHoudi_S_TrueBlackTrueBlack_2_C_Low.webp",
         "alt" : null
       },
       {
         "type" : "Image",
-        "src" : "//api.houdinisportswear.com/_images/123d6ae4-d718-4e8f-a130-4f45d1e4545c/MsPowerHoudi_S_GladeGreen_4_C_Low.jpg",
+        "src" : "/images/products/MsPowerHoudi_S_GladeGreen_4_C_Low.webp",
         "alt" : null
       },
       {
         "type" : "Image",
-        "src" : "//api.houdinisportswear.com/_images/2254185b-fec7-4027-b35d-79d4935ab841/MsPowerHoudi_S_DreamsofBlue_2.jpg",
+        "src" : "/images/products/MsPowerHoudi_S_DreamsofBlue_2.webp",
         "alt" : null
       },
       {
         "type" : "Image",
-        "src" : "//api.houdinisportswear.com/_images/a8150783-707e-494b-8ad2-85101a23099c/MsPowerHoudi_S_SorrowBlue_2.jpg",
+        "src" : "/images/products/MsPowerHoudi_S_SorrowBlue_2.webp",
         "alt" : null
       }
     ],
@@ -2525,11 +2399,6 @@
       {
         "title" : "Fleece- och mellanlager",
         "slug" : "men/fleece-and-mid-layer",
-        "type" : "Category"
-      },
-      {
-        "title" : "Produktimport",
-        "id" : null,
         "type" : "Category"
       }
     ],
@@ -2600,22 +2469,22 @@
     "images" : [
       {
         "type" : "Image",
-        "src" : "//api.houdinisportswear.com/_images/0739fa82-aaf3-430e-809b-cab681aebed9/WsLightShorts_S_SorrowBlue_1.jpg",
+        "src" : "/images/products/WsLightShorts_S_SorrowBlue_1.webp",
         "alt" : null
       },
       {
         "type" : "Image",
-        "src" : "//api.houdinisportswear.com/_images/d4b81b1f-c9a1-4bd9-83fe-0a23bea18c48/WsLightShorts_D_TrueBlack_1.jpg",
+        "src" : "/images/products/WsLightShorts_D_TrueBlack_1.webp",
         "alt" : null
       },
       {
         "type" : "Image",
-        "src" : "//api.houdinisportswear.com/_images/7b057df5-7a57-4762-86d0-30b5f676e1d7/WsLightShorts_D_TrueBlack_2.jpg",
+        "src" : "/images/products/WsLightShorts_D_TrueBlack_2.webp",
         "alt" : null
       },
       {
         "type" : "Image",
-        "src" : "//api.houdinisportswear.com/_images/4d00cdcd-3377-40d9-abff-ac62b3fd60e7/WsLightShorts_D_TrueBlack_M.jpg",
+        "src" : "/images/products/WsLightShorts_D_TrueBlack_M.webp",
         "alt" : null
       }
     ],
@@ -2636,11 +2505,7 @@
         "slug" : "women/shorts",
         "type" : "Category"
       },
-      {
-        "title" : "Produktimport",
-        "id" : null,
-        "type" : "Category"
-      },
+      
       {
         "title" : "Rea",
         "slug" : "sale",
@@ -2652,9 +2517,9 @@
         "type" : "Category"
       },
       {
-        "title" : null,
-        "id" : null,
-        "type" : "Category"
+        "title": "Dam",
+        "slug": "dam",
+        "type": "Category"
       }
     ],
     "activities" : [
@@ -2714,17 +2579,17 @@
     "images" : [
       {
         "type" : "Image",
-        "src" : "//api.houdinisportswear.com/_images/2b6b9a65-24e5-4c1b-abe8-c3b8eba325fa/MsWayToGoShorts_S_RockBlack_1_C_Low.jpg",
+        "src" : "/images/products/MsWayToGoShorts_S_RockBlack_1_C_Low.webp",
         "alt" : null
       },
       {
         "type" : "Image",
-        "src" : "//api.houdinisportswear.com/_images/b0d1bf3c-f8ac-49c4-980b-56c610a7e16f/MsWayToGoShorts_D_RockBlack_1_C_Low.jpg",
+        "src" : "/images/products/MsWayToGoShorts_D_RockBlack_1_C_Low.webp",
         "alt" : null
       },
       {
         "type" : "Image",
-        "src" : "//api.houdinisportswear.com/_images/dfb76368-0b0b-41ee-88cb-fc53f089ffc5/MsWayToGoShorts_D_RockBlack_2_C_Low.jpg",
+        "src" : "/images/products/MsWayToGoShorts_D_RockBlack_2_C_Low.webp",
         "alt" : null
       }
     ],
@@ -2741,11 +2606,7 @@
         "slug" : "men/shorts",
         "type" : "Category"
       },
-      {
-        "title" : "Produktimport",
-        "id" : null,
-        "type" : "Category"
-      },
+      
       {
         "title" : "Rea",
         "slug" : "sale",
@@ -2809,12 +2670,12 @@
     "images" : [
       {
         "type" : "IsolatedImage",
-        "src" : "//api.houdinisportswear.com/_images/3103c553-0f3f-42dd-8087-7fce631538b0/AccPowerWristGaiters_F_Fudge.jpg",
+        "src" : "/images/products/AccPowerWristGaiters_F_Fudge.webp",
         "alt" : null
       },
       {
         "type" : "Image",
-        "src" : "//api.houdinisportswear.com/_images/58957147-b4e3-476a-8e57-be2fc165a4e4/MsPowerWristGaiters_P_Fudge.jpg",
+        "src" : "/images/products/MsPowerWristGaiters_P_Fudge.webp",
         "alt" : null
       }
     ],
@@ -2845,11 +2706,7 @@
         "slug" : "accessories/gloves",
         "type" : "Category"
       },
-      {
-        "title" : "Produktimport",
-        "id" : null,
-        "type" : "Category"
-      },
+      
       {
         "title" : "Rea",
         "slug" : "sale",
@@ -2865,11 +2722,7 @@
         "slug" : "deals/deals-men",
         "type" : "Category"
       },
-      {
-        "title" : null,
-        "id" : null,
-        "type" : "Category"
-      },
+    
       {
         "title" : "Rea Dam",
         "slug" : "sale/womens-sale",
@@ -2881,14 +2734,9 @@
         "type" : "Category"
       },
       {
-        "title" : null,
-        "id" : null,
-        "type" : "Category"
-      },
-      {
-        "title" : null,
-        "id" : null,
-        "type" : "Category"
+        "title": "Dam",
+        "slug": "dam",
+        "type": "Category"
       }
     ],
     "activities" : [
@@ -2940,6 +2788,113 @@
           "S",
           "XL",
           "XS"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 228554,
+    "title": "M's Alto Houdi",
+    "slug": "mens-alto-houdi-228554",
+    "excerpt": "Lätt, varm och luftig ullfleece med huva. Tillverkad i merinoull och tencel. Det perfekta alternativet till syntetisk fleece om du föredrar naturmaterial.",
+    "price": 2500,
+    "images": [
+      {
+        "type": "Image",
+        "src": "/images/products/mens-alto-houdi-grey-front.webp",
+        "alt": "Mens Alto Houdi Ground Grey Front",
+        "width": 768,
+        "height": 1152
+      },
+      {
+        "type": "Image",
+        "src": "/images/products/mens-alto-houdi-grey.webp",
+        "alt": "Mens Alto Houdi Ground Grey",
+        "width": 768,
+        "height": 1152
+      },
+      {
+        "type": "Image",
+        "src": "/images/products/mens-alto-houdi-grey-side.webp",
+        "alt": "Mens Alto Houdi Ground Grey Side",
+        "width": 1280,
+        "height": 1920
+      },
+      {
+        "type": "Image",
+        "src": "/images/products/mens-alto-houdi-grey-back.webp",
+        "alt": "Mens Alto Houdi Ground Grey Back",
+        "width": 1280,
+        "height": 1920
+      }      
+    ],
+    "labels": [
+      {
+        "id": "new-in-store",
+        "title": "Nytt i butik"
+      }
+    ],
+    "sustainabilityOptions": [
+      {
+        "id": "Recyclable",
+        "title": "Återvinningsbar"
+      },
+      {
+        "id": "Bluesign",
+        "title": "Bluesign"
+      }
+    ],
+    "categories": [
+      {
+        "title": "Herr",
+        "slug": "herr",
+        "type": "Category"
+      }
+    ],
+    "activities": [
+      {
+        "title": "Klättring",
+        "slug": "shop-by-activity/climbing",
+        "type": "Activity"
+      },
+      {
+        "title": "Vandring",
+        "slug": "shop-by-activity/hiking",
+        "type": "Activity"
+      }
+    ],
+    "gender": [
+      {
+        "id": "mens",
+        "title": "Herr"
+      }
+    ],
+    "function": [],
+    "attributes": [
+      {
+        "id": "1",
+        "name": "Color",
+        "position": 1,
+        "visible": true,
+        "variation": true,
+        "options": [
+          "Ground Grey",
+          "Bucket Blue",
+          "True Black"
+        ]
+      },
+      {
+        "id": "2",
+        "name": "Size",
+        "position": 2,
+        "visible": true,
+        "variation": true,
+        "options": [
+          "S",
+          "M",
+          "L",
+          "XL",
+          "XXL"
         ]
       }
     ]

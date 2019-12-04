@@ -1,0 +1,7 @@
+{
+  "name": "Next.js",
+  "short_name": "Next.js",
+  "theme_color": "#000000",
+  "background_color": "#000000",
+  "display": "standalone"
+}

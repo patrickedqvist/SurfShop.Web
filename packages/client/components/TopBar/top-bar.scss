@@ -1,12 +1,11 @@
 @import '../../styles/theme.scss';
 
 .top-bar {
-    width: 100%;
-    background: $color-sand;
-    padding: 12px 5%;
-    font-size: 12px;
-    font-style: italic;
-    color: darken($color: $color-sand, $amount: 70);
-    text-align: center;
+  width: 100%;
+  background: $color-sand;
+  padding: 12px 5%;
+  font-size: 12px;
+  font-style: italic;
+  color: darken($color: $color-sand, $amount: 70);
+  text-align: center;
 }
-

@@ -1,16 +1,32 @@
-import { reduce, map, get, min, max } from 'lodash/fp';
+import { map, min, max, isEmpty, has, get } from 'lodash/fp'
 
-import { ProductVariant } from "../typeDefs/product";
+import { ProductVariant } from '../typeDefs/product'
 
-export const getVariationPrices = (variations: ProductVariant[]) => {
-    const allPrices = map((variant) => {
-        if ( variant.price ) {
-            return variant.price.salePrice ? variant.price.salePrice : variant.price.regularPrice
-        }
-    }, variations);
+export interface VariationPrice {
+  min: number
+  max: number
+}
 
+export const getVariationPrices = (
+  variations: ProductVariant[]
+): VariationPrice => {
+  if (!variations || isEmpty(variations)) {
     return {
-        min: min(allPrices),
-        max: max(allPrices)
+      min: 0,
+      max: 0,
     }
+  }
+
+  const allPrices = map(
+    (variant) =>
+      has('price.salePrice', variant)
+        ? get('price.salePrice', variant)
+        : get('price.regularPrice', variant),
+    variations
+  )
+
+  return {
+    min: min(allPrices),
+    max: max(allPrices),
+  }
 }

@@ -1,27 +1,33 @@
-import * as yup from 'yup';
+import * as yup from 'yup'
 
 export const newOrderSchema = yup.object().shape({
-  order_amount: yup.number().required(),
-  order_tax_amount: yup.number().required(),
-  order_lines: yup.array().of(
-    yup.object().shape({
-      reference: yup.string().required(),
-      name: yup.string().required(),
-      quantity: yup.string().required(),
-      unit_price: yup.number().required(),
-      tax_rate: yup.number().required(),
-      total_amount: yup.number().required(),
-      total_tax_amount: yup.number().required(),
-      total_discount_amount: yup.number(),
+  orderAmount: yup.number().required(),
+  orderTaxAmount: yup.number().required(),
+  orderLines: yup
+    .array()
+    .of(
+      yup.object().shape({
+        reference: yup.string().required(),
+        name: yup.string().required(),
+        quantity: yup.string().required(),
+        unitPrice: yup.number().required(),
+        taxRate: yup.number().required(),
+        totalAmount: yup.number().required(),
+        totalTaxAmount: yup.number().required(),
+        totalDiscountAmount: yup.number(),
+      })
+    )
+    .required(),
+  billingAddress: yup
+    .object()
+    .shape({
+      givenName: yup.string().required(),
+      familyName: yup.string().required(),
+      email: yup.string().required(),
+      postalCode: yup.string().required(),
+      city: yup.string().required(),
+      phone: yup.string().required(),
+      country: yup.string().required(),
     })
-  ).required(),
-  billing_address: yup.object().shape({
-    given_name: yup.string().required(),
-    family_name: yup.string().required(),
-    email: yup.string().required(),
-    postal_code: yup.string().required(),
-    city: yup.string().required(),
-    phone: yup.string().required(),
-    country: yup.string().required(),
-  }).required()
+    .required(),
 })

@@ -1,24 +1,23 @@
-import { merge } from 'lodash/fp';
-import { CART_RECEIVE } from '../definitions';
+import { merge } from 'lodash/fp'
+import { CART_RECEIVE } from '../definitions'
 
 // typeDefs
-import { Action } from '../../typeDefs/store';
-import { ICart } from '../../typeDefs/cart';
+import { Action } from '../../typeDefs/store'
+import { Cart } from '../../typeDefs/cart'
 
-const initialState: ICart = {
-    items: [],
-    totalAmount: 0,
-    totalDiscountAmount: 0,
-    totalTaxAmount: 0
-};
+const initialState: Cart = {
+  items: [],
+  totalAmount: 0,
+  totalDiscountAmount: 0,
+  totalTaxAmount: 0,
+}
 
 export const cart = (state = initialState, { type, payload }: Action) => {
-    switch (type) {
+  switch (type) {
+    case CART_RECEIVE:
+      return merge(payload, cart)
 
-        case CART_RECEIVE:
-            return merge(payload, cart)
-
-        default:
-            return state;
-    }
-};
+    default:
+      return state
+  }
+}

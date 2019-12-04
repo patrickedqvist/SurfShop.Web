@@ -1,33 +1,32 @@
-import { map, isEmpty } from 'lodash/fp';
-import React from 'react';
+import { map, isEmpty } from 'lodash/fp'
+import React from 'react'
 
 // Components
-import { ProductCard } from '../ProductCard';
+import { ProductCard } from '../ProductCard'
 
 // Styles
 import './product-list.scss'
 
 // Types
-import { Product } from '../../typeDefs/product';
+import { Product } from '../../typeDefs/product'
 
-interface IProps {
-    products?: Product[];
+interface Props {
+  products?: Product[]
 }
 
-export const ProductList = (props: IProps) => {
+export const ProductList: React.SFC<Props> = (props) => {
+  if (isEmpty(props.products)) {
+    return null
+  }
 
-    if ( isEmpty(props.products) ) {
-        return null;
-    }
+  const products = map(
+    (product) => (
+      <div className='product-list-item' key={product.id}>
+        <ProductCard product={product} />
+      </div>
+    ),
+    props.products
+  )
 
-    const products = map(
-        product => (
-            <div className={'product-list-item'} key={product.id}>
-                <ProductCard product={product} />
-            </div>
-        ),
-        props.products
-    );
-
-    return <div className={'product-list'}>{products}</div>;
-};
+  return <div className='product-list'>{products}</div>
+}

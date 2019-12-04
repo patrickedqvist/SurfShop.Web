@@ -1,99 +1,159 @@
-import React, { useEffect, useRef } from 'react';
-import Swiper, { SwiperOptions } from 'swiper';
-import classNames from 'classnames';
-import { map, merge, has } from 'lodash/fp';
+import React, { useEffect, useRef } from 'react'
+import Swiper, { SwiperOptions } from 'swiper'
+import classNames from 'classnames'
+import { map, merge } from 'lodash/fp'
 
 // Styling
 import './swiper.scss'
-import './image-gallery.scss';
+import './image-gallery.scss'
 
 // Types
-import { Media } from '../../typeDefs/media';
+import { Media } from '../../typeDefs/media'
 
-interface IProps {
-    images: Media[],
-    mainSettings?: SwiperOptions,
-    useThumbnails?: boolean
+interface Props {
+  images: Media[]
+  settings?: SwiperOptions
+  useThumbnails?: boolean
 }
 
-const defaultSettings: SwiperOptions = {}
+const DEFAULT_SETTINGS: SwiperOptions = {
+  direction: 'vertical',
+  effect: 'fade',
+  passiveListeners: true,
+  preloadImages: true,
+}
 
-const createSlides = ( images: Media[], asBackground: boolean = false ) => {
-    if ( asBackground ) {
-        return map((image: Media) => (
-            <div key={image.src} className="swiper-slide" style={{ backgroundImage: `url(${image.src})` }} />
-        ), images)
+interface SlideProps {
+  images: Media[]
+  asBackground: boolean
+}
+
+interface SingleSliderProps {
+  image: Media
+  asBackground: boolean
+}
+
+const Slide: React.SFC<SingleSliderProps> = ({ image, asBackground }) => {
+  if (asBackground) {
+    return (
+      <div
+        className='swiper-slide'
+        style={{ backgroundImage: `url(${image.src})` }}
+      />
+    )
+  }
+
+  return (
+    <div className='swiper-slide'>
+      <img
+        src={image.src}
+        width={image.width || undefined}
+        height={image.height || undefined}
+        alt={image.alt ? image.alt : 'slide image'}
+      />
+    </div>
+  )
+}
+
+const Slides: React.SFC<SlideProps> = ({ images, asBackground }) => (
+  <div className='swiper-wrapper'>
+    {map(
+      (image: Media) => (
+        <Slide key={image.src} image={image} asBackground={asBackground} />
+      ),
+      images
+    )}
+  </div>
+)
+
+export const ImageGallery: React.SFC<Props> = ({
+  images,
+  settings,
+  useThumbnails,
+}) => {
+  const galleryThumbsElement = useRef<HTMLDivElement>(null)
+  const galleryMainElement = useRef<HTMLDivElement>(null)
+  const galleryThumbsInstance = useRef(null)
+  const galleryMainInstance = useRef(null)
+
+  // Build Swiper
+  const buildSwiper = () => {
+    // Build gallery thumbs
+    if (useThumbnails && galleryThumbsElement.current) {
+      galleryThumbsInstance.current = new Swiper(galleryThumbsElement.current, {
+        spaceBetween: 8,
+        slidesPerView: 'auto',
+        freeMode: true,
+        freeModeSticky: true,
+        threshold: 5,
+        preventClicks: false,
+        watchSlidesVisibility: true,
+        watchSlidesProgress: true,
+        direction: 'vertical',
+        mousewheel: true,
+      })
     }
 
-    return map((image: Media) => (
-        <div key={image.src} className="swiper-slide">
-            <img src={image.src} alt={image.alt} />
+    if (galleryMainElement.current) {
+      const thumbnailSettings = {
+        thumbs: {
+          swiper: galleryThumbsInstance.current,
+        },
+      }
+
+      const configuration = useThumbnails
+        ? merge(thumbnailSettings, settings)
+        : settings
+
+      galleryMainInstance.current = new Swiper(
+        galleryMainElement.current,
+        configuration
+      )
+    }
+  }
+
+  // Destroy Swiper
+  const destroySwiper = () => {
+    if (useThumbnails && galleryThumbsInstance.current !== null) {
+      galleryThumbsInstance.current.destroy(true, true)
+      galleryThumbsInstance.current = null
+    }
+
+    if (galleryMainInstance.current !== null) {
+      galleryMainInstance.current.destroy(true, true)
+      galleryMainInstance.current = null
+    }
+  }
+
+  useEffect(() => {
+    buildSwiper()
+
+    return () => destroySwiper()
+  }, [])
+
+  const classes = classNames('imageGallery', {
+    'imageGallery--thumbnails': useThumbnails,
+  })
+
+  return (
+    <div className={classes}>
+      {useThumbnails && (
+        <div
+          className='swiper-container gallery-thumbs'
+          ref={galleryThumbsElement}
+        >
+          <Slides images={images} asBackground />
         </div>
-    ), images)
-    
-}
+      )}
 
-export const ImageGallery = ({ images, mainSettings, useThumbnails }: IProps) => {
-
-    const galleryThumbs = useRef(null);
-    const galleryMain = useRef(null);
-
-    useEffect(() => {
-
-        const initSwiper = async () => {
-
-            galleryThumbs.current = new Swiper('.gallery-thumbs', {
-                spaceBetween: 10,
-                slidesPerView: 4,
-                freeMode: true,
-                watchSlidesVisibility: true,
-                watchSlidesProgress: true,
-                direction: 'vertical'
-            });
-
-            const thumbnailSettings = {
-                thumbs: {
-                    swiper: galleryThumbs.current
-                }
-            }
-
-            const settings = useThumbnails ? merge(thumbnailSettings, mainSettings) : mainSettings;
-
-            galleryMain.current = new Swiper('.gallery-main', settings);
-        }
-
-        initSwiper();
-    }, [images])
-
-    const classes = classNames('imageGallery', {
-        'imageGallery--thumbnails': useThumbnails
-    });
-
-    const mainSlides = createSlides(images);
-    const thumbs = useThumbnails ? createSlides(images, true) : null;
-
-    return (
-        <div className={classes}>
-
-            {useThumbnails && (
-                <div className="swiper-container gallery-thumbs">
-                    <div className="swiper-wrapper">
-                        {thumbs}
-                    </div>
-                </div>
-            )}
-
-            <div className="swiper-container gallery-main">                                
-                <div className="swiper-wrapper">                
-                    {mainSlides}
-                </div>                                                
-            </div>
-
-        </div>        
-    )
+      <div className='swiper-container gallery-main' ref={galleryMainElement}>
+        <Slides images={images} asBackground={false} />
+      </div>
+    </div>
+  )
 }
 
 ImageGallery.defaultProps = {
-    swiperSettings: defaultSettings,
-    useThumbnails: false
+  settings: DEFAULT_SETTINGS,
+  useThumbnails: false,
 }

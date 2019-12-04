@@ -3,8 +3,11 @@ pre-commit:
     js-lint:
         glob: "*.{js,jsx}"
         run: yarn eslint --fix {staged_files}
-    ts-lint:
-        glob: "*.{ts,tsx}"
+    client-ts-lint:
+        glob: "packages/client/*.{ts,tsx}"
+        run: yarn eslint --fix {staged_files}
+    server-ts-lint:
+        glob: "packages/server/*.ts" 
         run: yarn eslint --fix {staged_files}
     style-lint:
         glob: "*.{scss}"

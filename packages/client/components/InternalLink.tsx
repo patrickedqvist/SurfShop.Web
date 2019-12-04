@@ -1,43 +1,50 @@
-import React from 'react';
-import Link from 'next/link';
+import React from 'react'
+import Link from 'next/link'
 
-export type PageType = 'page' | 'product' | 'root';
+export type PageType = 'page' | 'product' | 'root' | 'category'
 
-interface IProps {    
-    type: PageType,
-    url: string,
-    title: string,
-    children: React.ReactText    
+interface Props {
+  type: PageType
+  url: string
+  title: string
+  children: React.ReactText
+  className?: string
 }
 
 const getServerPage = (type: PageType) => {
-    switch (type) {
+  switch (type) {
+    case 'category':
+      return '/category/[slug]'
 
-        case 'page':
-            return '/page/[slug]';
-        
-        case 'product':
-            return '/product/[slug]';
+    case 'page':
+      return '/page/[slug]'
 
-        default:
-            return null;
-    }
+    case 'product':
+      return '/product/[slug]'
+
+    default:
+      return null
+  }
 }
 
-export const InternalLink = (props: IProps) => {
-    const href = getServerPage(props.type);
+export const InternalLink: React.SFC<Props> = (props) => {
+  const href = getServerPage(props.type)
 
-    if ( !href ) {
-        return (
-            <Link as={props.url} href={props.url} passHref>
-                <a title={props.title}>{props.children}</a>
-            </Link>
-        )
-    }
-
+  if (!href) {
     return (
-        <Link href={href} as={props.url} passHref>
-            <a title={props.title}>{props.children}</a>
-        </Link>
+      <Link as={props.url} href={props.url} passHref>
+        <a className={props.className} title={props.title}>
+          {props.children}
+        </a>
+      </Link>
     )
+  }
+
+  return (
+    <Link href={href} as={props.url} passHref>
+      <a className={props.className} title={props.title}>
+        {props.children}
+      </a>
+    </Link>
+  )
 }

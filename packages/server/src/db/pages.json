@@ -1,8 +1,10 @@
 [
     {
         "slug": "faq",
+        "template": "Normal Page",
         "content": {
             "title": "Vanliga frågor",
+            "preamble": "Under frågor och svar hittar du svar på de vanligaste frågorna om SurfShop.",
             "body": "Här ligger en massa frågor och svar",
             "author": "Patrick Edqvist"
         },
@@ -12,13 +14,67 @@
     },
     {
         "slug": "returer-byten",
+        "template": "Normal Page",
         "content": {
             "title": "Returer & Byten",
+            "preamble": "Få svar på vanliga frågor om returer och byten.",
             "body": "<h2 class=\"h3\" style=\"font-size:14px;font-weight:bold;\">Returnera varor</h2>\n\n<p>Om du vill byta en vara så är det enklaste och snabbaste sättet att lägga en ny beställning i shoppen på den vara som du vill byta till. Sedan returnerar du din första order till oss. Returnera varan på valfritt postombud, som vanligt brev/paket. Vi rekommenderar att du väljer spårbart brev/paket.</p>\n\n<p>Som konsument står du själv för returfrakten samt ansvarar, tillsammans med fraktbolaget, för varan tills den når oss, även under transporten. Det går även bra att returnera varan i någon av våra butiker: Stockholm, Täby, Barkarby, Åre och Göteborg.</p>\n\n<p>Returadress:<br>\nHoudini Sportswear&nbsp;<br>\nc/o Veddesta Distribution<br>\nBox 2075<br>\n195 02 Märsta</p>\n\n<p>Vi står självklart för frakten vid felleveranser.</p>\n\n<h2 class=\"h3\" style=\"font-size:14px;font-weight:bold;\">Öppet köp 30 dagar</h2>\n\n<p>Vi på Houdini vill självklart att du ska vara nöjd med din vara. Därför ger vi dig alltid öppet köp i 30 dagar. Kolla innan du öppnar förpackningen så att storleken är samma som du beställde, att färgen är den samma som du önskade och att det är samma modell. Var även noga med att kolla din storlek innan du beställer.</p>\n\n<p>Det enda villkoret är att varan kommer tillbaka i originalskick d.v.s. att den ej är använd. Bifoga alltid originalförpackningar och eventuella tags. Om en vara är felexpedierad eller felaktig står vi självklart för returportot.</p>\n\n<h2 class=\"h3\" style=\"font-size:14px;font-weight:bold;\">Hantera dina fakturor</h2>\n\n<p>Logga in på&nbsp;<a href=\"https://www.klarna.com/\" rel=\"nofollow\" target=\"_blank\" title=\"Klarna\"><u>Klarna</u></a>&nbsp;för att få en överblick över alla dina köp via Klarna. Du kan själv hantera dina fakturor genom att exempelvis förlänga betaltiden eller rapportera en retur. Om du har valt faktura som betalningssätt så är det ditt ansvar att se till att varan är betald innan förfallodatum, alternativt skjuta upp fakturan själv hos klarna.</p>\n\n<p>OBS! Normalt tar det ca två veckor från att du skickat din retur till oss innan du erhåller eventuell återbetalning. I undantagsfall kan det ta upp till 30 dagar vid återbetalning vilket är den maximala tiden enligt lag.</p>\n\n<h2 class=\"h3\" style=\"font-size:14px;font-weight:bold;\">Återbetalning vid fakturaköp</h2>\n\n<p>Kom ihåg att skicka paketet så att det går att spåra och att spara spårningsnumret. Logga sedan in på Klarna eller i deras app och klicka på ”Rapportera retur” på den faktura det gäller följt av ”Jag har returnerat mina varor”. Då pausas fakturan och du behöver inte oroa dig för att den ska förfalla medan du väntar på att vi ska hantera returen.</p>\n\n<p>När vi har fått tillbaka paketet justerar vi fakturan varpå du får en bekräftelse av Klarna via mejl. Om du valde att behålla delar av ordern kommer du att få en uppdaterad faktura så att du kan betala för varorna du har hemma.</p>\n\n<p>Du kan enkelt följa fakturan genom att logga in på Klarna eller i appen efter att du har rapporterat returen.</p>\n\n<h2 class=\"h3\" style=\"font-size:14px;font-weight:bold;\">Återbetalning vid kortköp eller PayPal</h2>\n\n<p>Om du betalat med kort så kommer vi att kreditera retursumman på ditt kort, eller till ditt PayPal-konto, inom 14 dagar från att vi mottagit din retur. Fraktkostnad återbetalas endast vid reklamation av vara.</p>\n",
             "author": "Patrick Edqvist"
         },
         "meta": {
             "published": "2019-08-14"
+        }
+    },
+    {
+        "slug": "vart-miljoansvar/hållbarhet",
+        "template": "Normal Page",
+        "content": {
+            "title": "Hållbarhet",
+            "preamble": "Få svar på allt du kan tänkas behöva",
+            "body": "",            
+            "author": "Patrick Edqvist"
+        },
+        "meta": {
+            "published": "2019-12-01"
+        }
+    },
+    {   
+        "slug": "herr",
+        "template": "Category",
+        "content": {
+            "title": "Herr",
+            "preamble": "Maximal funktion, högsta komfort och minimal miljöpåverkan. Det är den magiska formel som du kan förvänta dig från alla våra produkter.",
+            "body": "",
+            "author": "Patrick Edqvist"
+        },
+        "meta": {
+            "published": "2019-12-01"
+        }
+    },
+    {
+        "slug": "dam",
+        "template": "Category",
+        "content": {
+            "title": "Dam",
+            "preamble": "Tänk om vi kunde få uppleva naturen och världen omkring oss utan någon som helst negativ miljöpåverkan? Det är den idén som vi jobbar mot varje dag när vi skapar våra produkter.",
+            "body": "",
+            "author": "Patrick Edqvist"
+        },
+        "meta": {
+            "published": "2019-12-01"
+        }
+    },
+    {
+        "slug": "vart-miljoansvar",
+        "template": "Landing Page",
+        "content": {
+            "title": "Vårt Miljöansvar",
+            "preamble": "Hållbarhet är centralt i allt vi gör. För oss finns det ingen motsättning mellan hållbarhet och goda affärer. Tvärtom är det en förutsättning i längden. Vi jobbar ständigt med att transformera oss själva, vår bransch och världen i stort. Vi har kommit långt, men vi är långt ifrån klara.",
+            "body": "",
+            "author": "Patrick Edqvist"
+        },
+        "meta": {
+            "published": "2019-12-01"
         }
     }
 ]

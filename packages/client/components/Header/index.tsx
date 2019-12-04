@@ -1,36 +1,46 @@
-import React, { memo } from 'react';
-import classNames from 'classnames';
-import Link from 'next/link';
+import React, { memo } from 'react'
+import classNames from 'classnames'
+import Link from 'next/link'
 
 // Styling
-import './header.scss';
-import { MiniCart } from './MiniCart';
+import './header.scss'
+
+// Components
+import { MiniCart } from './MiniCart'
+import { MainNavigation } from './MainNavigation'
 
 // Types
-interface IProps {
-    fixed?: boolean
+interface Props {
+  fixed?: boolean
+  sticky?: boolean
 }
 
-const HeaderComponent = ({ fixed }: IProps) => {
+const HeaderComponent: React.SFC<Props> = ({ fixed, sticky }) => {
+  const classes = classNames('site-header grid-container', {
+    'site-header--fixed': fixed,
+    'site-header--sticky': sticky,
+  })
 
-    const classes = classNames('site-header', {
-        'site-header--fixed': fixed
-    });
-
-    return (
-        <header className={classes}>
-            <Link href={'/'} passHref>
-                <a title={'Home'}>
-                    <h1>SurfShop</h1>
-                </a>                
-            </Link>
-            <MiniCart />
-        </header>
-    )
+  return (
+    <header className={classes}>
+      <Link href='/' passHref>
+        <a title='Home' className='site-header__logotype'>
+          <h1>SurfShop</h1>
+        </a>
+      </Link>
+      <div className='site-header__nav'>
+        <MainNavigation />
+      </div>
+      <div className='site-header__cart'>
+        <MiniCart />
+      </div>
+    </header>
+  )
 }
 
 HeaderComponent.defaultProps = {
-    fixed: false,
+  fixed: false,
+  sticky: false,
 }
 
-export const Header = memo(HeaderComponent);
+export const Header = memo(HeaderComponent)

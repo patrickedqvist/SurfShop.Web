@@ -1,32 +1,31 @@
 @import '../../styles/theme.scss';
 
 .bottom-bar {
-    padding: 1.25rem 5%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+  padding: 1.25rem 5%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .bottom-bar p {
-    font-family: $font-serif;
-    font-size: 14px;
-    margin: 0;
+  font-family: $font-serif;
+  font-size: 14px;
+  margin: 0;
 }
 
 .bottom-bar-icons {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-end;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 .bottom-bar-icons svg {
-    width: auto;
-    height: 24px;
-    
-    &:not(:last-child) {
-        margin-right: 1rem;
-    }
-    
+  width: auto;
+  height: 24px;
+
+  &:not(:last-child) {
+    margin-right: 1rem;
+  }
 }

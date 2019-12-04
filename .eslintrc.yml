@@ -2,9 +2,12 @@ env:
   browser: true
   es6: true
   node: true
+  commonjs: true
 extends:
     - airbnb
     - prettier
+    - plugin:react/recommended
+    - plugin:@typescript-eslint/recommended
 globals:
   Atomics: readonly
   SharedArrayBuffer: readonly
@@ -17,4 +20,36 @@ parserOptions:
 plugins:
   - react
   - '@typescript-eslint'
-rules: {}
+settings:
+  react:
+    version: 'detect'
+rules: 
+    import/no-unresolved: off
+    import/prefer-default-export: off
+    react/destructuring-assignment: off
+    react/prop-types: off
+    react/jsx-filename-extension: off
+    '@typescript-eslint/explicit-function-return-type': off
+    '@typescript-eslint/interface-name-prefix': 
+      - warn
+      -
+        prefixWithI: never
+    jsx-a11y/anchor-is-valid:
+      - warn
+      - 
+        components:
+          - Link
+        specialLink:
+          - to
+          - as
+          - hrefLeft
+          - hrefRight
+        aspects: 
+          - invalidHref
+          - preferButton
+overrides:
+  - 
+    files: 
+      - 'packages/server/**/*.ts'
+    rules: 
+      '@typescript-eslint/camelcase': off

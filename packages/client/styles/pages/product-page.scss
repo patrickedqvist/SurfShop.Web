@@ -1,31 +1,45 @@
 @import '../theme.scss';
 
 .productPage {
-    .grid-container {
-        padding-top: 4rem;
-        padding-bottom: 4rem;
-    }
+  &__gallery {
+    grid-column-start: col-one;
+    grid-column-end: col-six;
+    position: relative;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
 
-    &-gallery {
-        grid-column-start: col-one;
-        grid-column-end: col-six;
-    }
+  &__info {
+    grid-column-start: col-eight;
+    grid-column-end: col-twelve;
+  }
 
-    &-info {
-        grid-column-start: col-eight;
-        grid-column-end: col-twelve;
-    }
+  &__title {
+    font-size: 36px;
+    line-height: 54px;
+    font-weight: 700;
+    margin: 0 0 1rem;
+  }
 
-    &-title {
-        font-size: 36px;
-        line-height: 54px;
-        margin: 0 0 1rem;
-    }
+  &__excerpt {
+    font-size: 16px;
+    line-height: 28px;
+    font-family: $font-sans-serif;
+    color: #424242;
+  }
 
-    &-excerpt {
-        font-size: 18px;
-        line-height: 28px;
-        font-family: $font-sans-serif;
-        color: #424242;
-    }
+  &__label {
+    display: inline-block;
+    background-color: $color-deepBlue;
+    font-weight: 400;
+    font-size: 12px;
+    padding: 6px 10px 5px;
+    margin: 0px 4px 0.5rem;
+    color: $color-white;
+  }
+}
+
+.productPage .main .grid-container {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
