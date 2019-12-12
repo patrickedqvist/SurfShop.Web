@@ -5,7 +5,9 @@ import { VIEWSTATE_SET, VIEWSTATE_REMOVE } from '../definitions'
 import { Action } from '../../typeDefs/store'
 import { Viewstate } from '../../typeDefs/viewstate'
 
-const initialState: Viewstate = {}
+const initialState: Viewstate = {
+  cartVisible: false,
+}
 
 export const viewstate = (state = initialState, { type, payload }: Action) => {
   switch (type) {

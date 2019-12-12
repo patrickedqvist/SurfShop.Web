@@ -24,10 +24,15 @@ import { ProductList } from '../../components/ProductList'
 import { PageHeader } from '../../components/PageHeader'
 
 
+const selectProducts = (store: Store) => store.products.data;
+const getCategorySlug = (store: Store, slug: string) => slug;
+
 const getProductsByCategorySlug = createSelector(
-    (state: Store) => state.products.data,
-    (_: void, categorySlug: string) => categorySlug,
-    (products, categorySlug) => filter(product => product.categories.find((category) => category.slug === categorySlug), products)
+    [selectProducts, getCategorySlug],
+    (products, categorySlug) => {
+        const result = filter(product => product.categories.find((category) => category.slug === categorySlug), products)
+        return result as Product[];
+    }
 )
 
 
@@ -35,9 +40,7 @@ const CategoryPage: NextPage = () => {
     const router = useRouter()
     const { slug } = router.query
     const page: Page = useSelector((store: Store) => get(slug, store.pages.data))
-    const products: Product[] = useSelector((store: Store & void) => 
-        getProductsByCategorySlug(store, slug as string)
-    )
+    const products = useSelector((store: Store) =>  getProductsByCategorySlug(store, slug as string))
     const pageStatus: RequestStatus = useSelector((store: Store) =>
         get(slug, store.pages.status)
     )

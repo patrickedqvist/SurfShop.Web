@@ -2,18 +2,16 @@ pre-commit:
   commands:
     js-lint:
         glob: "*.{js,jsx}"
-        run: yarn eslint --fix {staged_files}
+        run: yarn eslint --fix {staged_files} && git add {staged_files}
     client-ts-lint:
         glob: "packages/client/*.{ts,tsx}"
-        run: yarn eslint --fix {staged_files}
+        run: yarn eslint --fix {staged_files} && git add {staged_files}
     server-ts-lint:
         glob: "packages/server/*.ts" 
-        run: yarn eslint --fix {staged_files}
+        run: yarn eslint --fix {staged_files} && git add {staged_files}
     style-lint:
         glob: "*.{scss}"
-        run: yarn stylelint --fix {staged_files}
+        run: yarn stylelint --fix {staged_files} && git add {staged_files}
     format:
         glob: "*.{js,jsx,ts,tsx,scss}"
-        run: yarn prettier --write {staged_files} && git add .
-    packages-audit:
-      run: yarn audit
+        run: yarn prettier --write {staged_files} && git add {staged_files}

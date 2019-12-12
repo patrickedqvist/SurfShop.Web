@@ -1,11 +1,20 @@
 import React, { memo } from 'react'
-import { useSelector } from 'react-redux'
+import { useSelector, useDispatch } from 'react-redux'
+
+// Actions
+import { setViewstate } from '../../redux/actions/viewstate'
 
 // Types
 import { Store } from '../../typeDefs/store'
 
 const MiniCartComponent = () => {
+  const dispatch = useDispatch()
   const cart = useSelector((store: Store) => store.cart)
+
+  const handleOnClick = () => {
+    dispatch(setViewstate('cartVisible', true))
+  }
+
   const amount =
     cart.totalAmount > 0 ? (
       <span className='mini-cart__text'>
@@ -15,7 +24,14 @@ const MiniCartComponent = () => {
     ) : null
 
   return (
-    <div className='mini-cart'>
+    <div
+      className='mini-cart'
+      onClick={handleOnClick}
+      onKeyDown={handleOnClick}
+      role='button'
+      aria-label='Open Cart'
+      tabIndex={-5}
+    >
       {amount}
       <svg
         className='mini-cart__icon'

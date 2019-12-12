@@ -1,0 +1,72 @@
+@import '../../styles/theme.scss';
+
+.locked {
+  overflow: hidden;
+}
+
+.drawer {
+  &__wrapper {
+    background: #fff;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    z-index: 100;
+    min-width: 290px;
+    width: 540px;
+    max-width: 90vw;
+    padding: 2rem;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    transform: translateY(100%);
+    transition: transform 300ms cubic-bezier(0.4, 0, 1, 1);
+  }
+
+  &__backdrop {
+    display: block;
+    content: '';
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 99;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    background: $color-black;
+    cursor: pointer;
+    transition: opacity 300ms cubic-bezier(0.4, 0, 1, 1);
+  }
+}
+
+.drawer__container {
+  .drawer__wrapper {
+    transform: translateX(0);
+  }
+
+  &--left.drawer-enter .drawer__wrapper,
+  &--left.drawer-exit-active .drawer__wrapper {
+    transform: translateX(-100%);
+  }
+
+  &--right.drawer-enter .drawer__wrapper,
+  &--right.drawer-exit-active .drawer__wrapper {
+    transform: translateX(100%);
+  }
+
+  &.drawer-enter-active .drawer__wrapper,
+  &.drawer-enter-done .drawer__wrapper {
+    transform: translateX(0);
+  }
+
+  &.drawer-enter .drawer__backdrop,
+  &.drawer-exit-active .drawer__backdrop {
+    opacity: 0;
+  }
+
+  &.drawer-enter-active .drawer__backdrop,
+  &.drawer-enter-done .drawer__backdrop {
+    opacity: 0.8;
+  }
+}

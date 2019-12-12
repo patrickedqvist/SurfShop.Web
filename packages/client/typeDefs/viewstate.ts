@@ -1,16 +1,20 @@
 export interface Viewstate {
-  [key: string]: string | number | object | string[] | number[] | object[]
+  cartVisible: boolean
 }
 
-export interface SetViewstateAction {
+export interface SetViewstateAction<T> {
   type: 'VIEWSTATE_SET'
   payload: {
-    key: string
-    value: string | number | object | string[] | number[] | object[]
+    key: string | string[]
+    value: T
   }
 }
 
 export interface RemoveViewstateAction {
   type: 'VIEWSTATE_REMOVE'
-  payload: { key: string }
+  payload: {
+    key: string | string[]
+  }
 }
+
+export type ViewstateAction<T> = SetViewstateAction<T> | RemoveViewstateAction

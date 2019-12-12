@@ -6,10 +6,10 @@ import {
   RemoveViewstateAction,
 } from '../../typeDefs/viewstate'
 
-export const setViewstate = (
+export const setViewstate = <T>(
   key: string,
-  value: string | number | object
-): SetViewstateAction => ({
+  value: T
+): SetViewstateAction<T> => ({
   type: VIEWSTATE_SET,
   payload: { key, value },
 })

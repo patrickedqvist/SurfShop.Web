@@ -7,6 +7,7 @@ import { TopBar } from '../TopBar'
 import { Header } from '../Header'
 import { Footer } from '../Footer'
 import { BottomBar } from '../BottomBar'
+import { Cart } from '../Cart'
 
 // Redux
 import { getCart } from '../../redux/actions/cart'
@@ -38,6 +39,7 @@ export const PageLayout = (props: Props) => {
       <main className='main'>{props.children}</main>
       <Footer />
       <BottomBar />
+      <Cart />
     </div>
   )
 }
