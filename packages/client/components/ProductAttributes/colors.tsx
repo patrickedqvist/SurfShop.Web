@@ -45,12 +45,9 @@ const ColorAttribute = ({ label, onClick, selected }: ColorAttributeProps) => {
     onClick(label)
   }
 
-  const classes = classNames(
-    'productAttributes-option productAttributes-option--color',
-    {
-      'productAttributes-option--selected': selected,
-    }
-  )
+  const classes = classNames('productAttributes-option productAttributes-option--color', {
+    'productAttributes-option--selected': selected,
+  })
 
   const colorCode = find((code) => code.colors.includes(label), COLOR_CODES)
 
@@ -59,35 +56,20 @@ const ColorAttribute = ({ label, onClick, selected }: ColorAttributeProps) => {
   }
 
   return (
-    <button
-      type='button'
-      className={classes}
-      onClick={handleOnClick}
-      style={style}
-    >
+    <button type='button' className={classes} onClick={handleOnClick} style={style}>
       {label}
     </button>
   )
 }
 
-export const ColorsAttributes = ({
-  title,
-  options,
-  selectedOption,
-  onChange,
-}: ColorsAttributesProps) => {
+export const ColorsAttributes = ({ title, options, selectedOption, onChange }: ColorsAttributesProps) => {
   return (
     <div className='productAttributes'>
       <h4 className='productAttributes-title'>{title}</h4>
       <div className='productAttributes-options'>
         {map(
           (option) => (
-            <ColorAttribute
-              key={option}
-              label={option}
-              onClick={onChange}
-              selected={option === selectedOption}
-            />
+            <ColorAttribute key={option} label={option} onClick={onChange} selected={option === selectedOption} />
           ),
           options
         )}

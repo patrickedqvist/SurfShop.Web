@@ -14,10 +14,7 @@ interface Props {
   highlight?: boolean
 }
 
-export const ProductCardComponent: React.SFC<Props> = ({
-  product,
-  highlight,
-}) => {
+export const ProductCardComponent: React.SFC<Props> = ({ product, highlight }) => {
   const classes = classNames('product-card', {
     'product-card--highlight': highlight,
   })
@@ -40,10 +37,7 @@ export const ProductCardComponent: React.SFC<Props> = ({
       )
     : null
 
-  const colorAttribute = find(
-    (attr) => attr.name === 'Color',
-    product.attributes
-  )
+  const colorAttribute = find((attr) => attr.name === 'Color', product.attributes)
   const colorOptions = colorAttribute ? size(colorAttribute.options) : 0
 
   return (
@@ -55,11 +49,7 @@ export const ProductCardComponent: React.SFC<Props> = ({
       </Link>
 
       <div className='product-card-content'>
-        {colorOptions && (
-          <span className='product-card-availableIn'>
-            {`Finns i ${colorOptions} färger`}
-          </span>
-        )}
+        {colorOptions && <span className='product-card-availableIn'>{`Finns i ${colorOptions} färger`}</span>}
         <Link href='/product/[slug]' as={`/product/${product.slug}`} passHref>
           <a className='product-card-title' title={product.title}>
             {product.title}
@@ -69,9 +59,7 @@ export const ProductCardComponent: React.SFC<Props> = ({
         <p className='product-card-price'>{`${product.price} kr`}</p>
       </div>
 
-      {!isEmpty(product.labels) && (
-        <div className='product-card-labels'>{labels}</div>
-      )}
+      {!isEmpty(product.labels) && <div className='product-card-labels'>{labels}</div>}
     </div>
   )
 }

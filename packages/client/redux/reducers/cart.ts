@@ -12,10 +12,7 @@ const initialState: Cart = {
   totalTaxAmount: 0,
 }
 
-export const cart = (
-  state = initialState,
-  { type, payload, error }: Action
-) => {
+export const cart = (state = initialState, { type, payload, error }: Action) => {
   switch (type) {
     case CART_RECEIVE: {
       if (!error) {

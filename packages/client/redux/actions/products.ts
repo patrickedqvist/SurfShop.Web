@@ -1,9 +1,4 @@
-import {
-  PRODUCTS_FETCH,
-  PRODUCTS_RECEIVE,
-  PRODUCT_FETCH,
-  PRODUCT_RECEIVE,
-} from '../definitions'
+import { PRODUCTS_FETCH, PRODUCTS_RECEIVE, PRODUCT_FETCH, PRODUCT_RECEIVE } from '../definitions'
 
 // Types
 import { Action } from '../../typeDefs/store'

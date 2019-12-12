@@ -9,11 +9,7 @@ const router = new Router({
 })
 
 router.use('/cart', cartRouter.routes(), cartRouter.allowedMethods())
-router.use(
-  '/products',
-  productsRouter.routes(),
-  productsRouter.allowedMethods()
-)
+router.use('/products', productsRouter.routes(), productsRouter.allowedMethods())
 router.use('/pages', pagesRouter.routes(), pagesRouter.allowedMethods())
 
 export { router }

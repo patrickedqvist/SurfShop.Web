@@ -24,10 +24,7 @@ const Home: NextPage = () => {
   return (
     <PageLayout>
       <Head title='Home' description='Start coding' />
-      <Hero
-        title='Nytt från Starboard 2020'
-        backgroundImage='/images/windsurfing.webp'
-      />
+      <Hero title='Nytt från Starboard 2020' backgroundImage='/images/windsurfing.webp' />
       <ProductList products={products} />
     </PageLayout>
   )

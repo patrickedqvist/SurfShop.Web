@@ -2,13 +2,7 @@ import { set, getOr } from 'lodash/fp'
 import { combineReducers } from 'redux'
 
 // Redux
-import {
-  PAGE_FETCH,
-  PAGE_RECEIVE,
-  REQUEST_LOADING,
-  REQUEST_FAILURE,
-  REQUEST_SUCCESS,
-} from '../definitions'
+import { PAGE_FETCH, PAGE_RECEIVE, REQUEST_LOADING, REQUEST_FAILURE, REQUEST_SUCCESS } from '../definitions'
 
 // typeDefs
 import { Action } from '../../typeDefs/store'

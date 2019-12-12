@@ -35,12 +35,7 @@ interface SingleSliderProps {
 
 const Slide: React.SFC<SingleSliderProps> = ({ image, asBackground }) => {
   if (asBackground) {
-    return (
-      <div
-        className='swiper-slide'
-        style={{ backgroundImage: `url(${image.src})` }}
-      />
-    )
+    return <div className='swiper-slide' style={{ backgroundImage: `url(${image.src})` }} />
   }
 
   return (
@@ -66,11 +61,7 @@ const Slides: React.SFC<SlideProps> = ({ images, asBackground }) => (
   </div>
 )
 
-export const ImageGallery: React.SFC<Props> = ({
-  images,
-  settings,
-  useThumbnails,
-}) => {
+export const ImageGallery: React.SFC<Props> = ({ images, settings, useThumbnails }) => {
   const galleryThumbsElement = useRef<HTMLDivElement>(null)
   const galleryMainElement = useRef<HTMLDivElement>(null)
   const galleryThumbsInstance = useRef(null)
@@ -101,14 +92,9 @@ export const ImageGallery: React.SFC<Props> = ({
         },
       }
 
-      const configuration = useThumbnails
-        ? merge(thumbnailSettings, settings)
-        : settings
+      const configuration = useThumbnails ? merge(thumbnailSettings, settings) : settings
 
-      galleryMainInstance.current = new Swiper(
-        galleryMainElement.current,
-        configuration
-      )
+      galleryMainInstance.current = new Swiper(galleryMainElement.current, configuration)
     }
   }
 
@@ -138,10 +124,7 @@ export const ImageGallery: React.SFC<Props> = ({
   return (
     <div className={classes}>
       {useThumbnails && (
-        <div
-          className='swiper-container gallery-thumbs'
-          ref={galleryThumbsElement}
-        >
+        <div className='swiper-container gallery-thumbs' ref={galleryThumbsElement}>
           <Slides images={images} asBackground />
         </div>
       )}

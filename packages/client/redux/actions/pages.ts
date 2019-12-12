@@ -6,11 +6,7 @@ export const getPageBySlug = (slug: string): Action => ({
   payload: { slug },
 })
 
-export const receivePageBySlug = (
-  page: object | null,
-  error?: boolean,
-  meta?: object
-): Action => ({
+export const receivePageBySlug = (page: object | null, error?: boolean, meta?: object): Action => ({
   type: PAGE_RECEIVE,
   payload: { page },
   error,

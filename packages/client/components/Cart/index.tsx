@@ -17,9 +17,7 @@ import { Store } from '../../typeDefs/store'
 
 export const Cart: React.FC = () => {
   const dispatch = useDispatch()
-  const isOpen: boolean = useSelector((store: Store) =>
-    get('viewstate.cartVisible', store)
-  )
+  const isOpen: boolean = useSelector((store: Store) => get('viewstate.cartVisible', store))
   const cart = useSelector((store: Store) => store.cart)
 
   const handleOnBackdropClick = () => {
@@ -27,11 +25,7 @@ export const Cart: React.FC = () => {
   }
 
   return (
-    <Drawer
-      isOpen={isOpen}
-      onBackDropClick={handleOnBackdropClick}
-      className='drawer--cart cart'
-    >
+    <Drawer isOpen={isOpen} onBackDropClick={handleOnBackdropClick} className='drawer--cart cart'>
       <h1>Cart</h1>
       <div className='cart__items'>
         {map(

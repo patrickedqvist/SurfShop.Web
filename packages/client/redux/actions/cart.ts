@@ -1,12 +1,6 @@
 import { Action } from '../../typeDefs/store'
 import { Cart } from '../../typeDefs/cart'
-import {
-  CART_FETCH,
-  CART_RECEIVE,
-  CART_ADD,
-  CART_UPDATE,
-  CART_REMOVE,
-} from '../definitions'
+import { CART_FETCH, CART_RECEIVE, CART_ADD, CART_UPDATE, CART_REMOVE } from '../definitions'
 
 export const getCart = (): Action => ({
   type: CART_FETCH,

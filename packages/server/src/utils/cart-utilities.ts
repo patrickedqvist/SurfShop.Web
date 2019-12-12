@@ -1,15 +1,4 @@
-import {
-  concat,
-  get,
-  getOr,
-  set,
-  flow,
-  findIndex,
-  map,
-  reduce,
-  subtract,
-  add,
-} from 'lodash/fp'
+import { concat, get, getOr, set, flow, findIndex, map, reduce, subtract, add } from 'lodash/fp'
 
 import { Cart, CartItem } from '../types/cart'
 
@@ -22,9 +11,7 @@ export const EMPTY_CART: Cart = {
 
 export const setItemsTotalAmount = (cart: Cart) => {
   const updatedItems = map((item) => {
-    const price = get('unitDiscountPrice', item)
-      ? get('unitDiscountPrice', item)
-      : get('unitPrice', item)
+    const price = get('unitDiscountPrice', item) ? get('unitDiscountPrice', item) : get('unitPrice', item)
     const quantity = get('quantity', item)
     return set('totalAmount', quantity * price, item)
   }, cart.items)
@@ -51,9 +38,7 @@ export const setItemsTotalDiscountAmount = (cart: Cart) => {
 
 export const setItemsTaxAmount = (cart: Cart) => {
   const updatedItems = map((item) => {
-    const taxAmount =
-      get('totalAmount', item) -
-      (get('totalAmount', item) * 10000) / (10000 + get('taxRate', item))
+    const taxAmount = get('totalAmount', item) - (get('totalAmount', item) * 10000) / (10000 + get('taxRate', item))
     return set('totalTaxAmount', taxAmount, item)
   }, cart.items)
 
@@ -107,11 +92,7 @@ export const addItemToCart = (cart: Cart, item: CartItem): Cart => {
   // Check if item already exists
   if (currentItemIndex !== -1) {
     const quantity = get(['items', currentItemIndex, 'quantity'], cart)
-    const updatedQuantity = set(
-      ['items', currentItemIndex, 'quantity'],
-      quantity + 1,
-      cart
-    )
+    const updatedQuantity = set(['items', currentItemIndex, 'quantity'], quantity + 1, cart)
 
     return updateAmounts(updatedQuantity)
   }

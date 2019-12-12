@@ -18,13 +18,7 @@ type Props = {
   onBackDropClick?: () => void
 }
 
-export const Drawer = ({
-  isOpen,
-  children,
-  fromSide,
-  className,
-  onBackDropClick,
-}: Props) => {
+export const Drawer = ({ isOpen, children, fromSide, className, onBackDropClick }: Props) => {
   useEffect(() => {
     if (isOpen) {
       document.body.classList.add('locked')

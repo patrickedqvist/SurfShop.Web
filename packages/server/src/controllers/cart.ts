@@ -8,12 +8,7 @@ import * as products from '../db/products.json'
 import { Cart, CartItem } from '../types/cart'
 
 // Utils
-import {
-  addItemToCart,
-  updateAmounts,
-  EMPTY_CART,
-  createCartItemFromProduct,
-} from '../utils/cart-utilities'
+import { addItemToCart, updateAmounts, EMPTY_CART, createCartItemFromProduct } from '../utils/cart-utilities'
 
 interface IdRequestParam {
   id: string
@@ -95,18 +90,11 @@ cartRouter.post('/:id', async (ctx) => {
   if (indexOf === -1) {
     ctx.status = 500
     ctx.body = `Did not find a item with the reference of ${id}`
-    ctx.app.emit(
-      'error',
-      `Did not find a item with the reference of ${id}`,
-      ctx
-    )
+    ctx.app.emit('error', `Did not find a item with the reference of ${id}`, ctx)
     return
   }
 
-  const updateCart = flow([
-    (c) => set(['items', indexOf, 'quantity'], quantity, c),
-    (c) => updateAmounts(c),
-  ])
+  const updateCart = flow([(c) => set(['items', indexOf, 'quantity'], quantity, c), (c) => updateAmounts(c)])
 
   const updatedCart = updateCart(cart)
 

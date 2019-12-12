@@ -12,12 +12,7 @@ interface Props {
   onClick: (event: React.MouseEvent<HTMLButtonElement>) => void
 }
 
-export const BuyButton: React.SFC<Props> = ({
-  outOfStock,
-  notReady,
-  className,
-  onClick,
-}) => {
+export const BuyButton: React.SFC<Props> = ({ outOfStock, notReady, className, onClick }) => {
   const [isAnimating, setAnimating] = useState(false)
 
   let timeoutID = null
@@ -57,12 +52,7 @@ export const BuyButton: React.SFC<Props> = ({
   })
 
   return (
-    <button
-      type='button'
-      className={classes}
-      disabled={outOfStock}
-      onClick={handleOnClick}
-    >
+    <button type='button' className={classes} disabled={outOfStock} onClick={handleOnClick}>
       <span>{text}</span>
       <svg x='0px' y='0px' width='32px' height='32px' viewBox='0 0 32 32'>
         <path

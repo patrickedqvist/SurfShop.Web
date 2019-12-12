@@ -7,9 +7,7 @@ export interface VariationPrice {
   max: number
 }
 
-export const getVariationPrices = (
-  variations: ProductVariant[]
-): VariationPrice => {
+export const getVariationPrices = (variations: ProductVariant[]): VariationPrice => {
   if (!variations || isEmpty(variations)) {
     return {
       min: 0,
@@ -19,9 +17,7 @@ export const getVariationPrices = (
 
   const allPrices = map(
     (variant) =>
-      has('price.salePrice', variant)
-        ? get('price.salePrice', variant)
-        : get('price.regularPrice', variant),
+      has('price.salePrice', variant) ? get('price.salePrice', variant) : get('price.regularPrice', variant),
     variations
   )
 

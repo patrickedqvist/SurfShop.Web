@@ -28,9 +28,7 @@ const HeroComponent: React.SFC<Props> = (props) => {
         <h1 className='hero-title'>{props.title}</h1>
         {props.subtitle && <h2 className='hero-subtitle'>{props.subtitle}</h2>}
         {props.content && <p className='hero-content'>{props.content}</p>}
-        {props.children && (
-          <div className='hero-children'>{props.children}</div>
-        )}
+        {props.children && <div className='hero-children'>{props.children}</div>}
       </div>
     </div>
   )

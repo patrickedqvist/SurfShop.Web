@@ -6,22 +6,12 @@ export const MainNavigation = () => {
     <nav role='navigation' className='main-nav'>
       <ul className='main-nav__list'>
         <li className='main-nav__list-item'>
-          <InternalLink
-            type='category'
-            url='/category/dam'
-            title='Dam'
-            className='main-nav__link'
-          >
+          <InternalLink type='category' url='/category/dam' title='Dam' className='main-nav__link'>
             Dam
           </InternalLink>
         </li>
         <li className='main-nav__list-item'>
-          <InternalLink
-            type='category'
-            url='/category/herr'
-            title='Herr'
-            className='main-nav__link'
-          >
+          <InternalLink type='category' url='/category/herr' title='Herr' className='main-nav__link'>
             Herr
           </InternalLink>
         </li>
@@ -40,8 +30,7 @@ export const MainNavigation = () => {
             type='page'
             url='/page/vart-miljoansvar'
             title='Läs om Vårt Miljöansvar'
-            className='main-nav__link'
-          >
+            className='main-nav__link'>
             Vårt Miljöansvar
           </InternalLink>
         </li>

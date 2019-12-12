@@ -6,13 +6,10 @@ import KlarnaService from '../services/klarna'
 import ContentfulService from '../services/contentful'
 
 // Controllers
-import CartController from './cart'
+// import CartController from './cart'
 
 // Schemas
 import { newOrderSchema } from '../schemas/checkout'
-
-// Types
-import { CheckoutOrderLine } from '../types/klarna'
 
 export default class CheckoutController {
   public static async createOrder(ctx: Context) {
@@ -93,7 +90,7 @@ export default class CheckoutController {
       await CheckoutController.updateProducts(order)
 
       // 5. Reset cart
-      CartController.resetCart(ctx)
+      // CartController.resetCart(ctx)
 
       // 6. Let the user know it was successful
       ctx.status = 200
@@ -141,14 +138,7 @@ export default class CheckoutController {
     const { orderLines } = order
 
     await Promise.all(
-      map(
-        (orderLine) =>
-          ContentfulService.updateProductStockQuantity(
-            orderLine.id,
-            orderLine.quantity
-          ),
-        orderLines
-      )
+      map((orderLine) => ContentfulService.updateProductStockQuantity(orderLine.id, orderLine.quantity), orderLines)
     )
   }
 }

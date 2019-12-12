@@ -2,13 +2,7 @@
 import axios from 'axios'
 import { CheckoutMerchantUrls } from '../types/klarna'
 
-import {
-  KLARNA_BASE_URL,
-  KLARNA_USERNAME,
-  KLARNA_PASSWORD,
-  KLARNA_PUSH_URL,
-  EXTERNAL_SITE,
-} from '../config/env'
+import { KLARNA_BASE_URL, KLARNA_USERNAME, KLARNA_PASSWORD, KLARNA_PUSH_URL, EXTERNAL_SITE } from '../config/env'
 
 const klarnaApi = axios.create({
   baseURL: KLARNA_BASE_URL,
@@ -20,7 +14,7 @@ const klarnaApi = axios.create({
 })
 
 export default class KlarnaService {
-  public static async createOrder(order: any) {
+  public static async createOrder(order) {
     const orderConfig = {
       purchase_country: 'se',
       purchase_currency: 'SEK',
@@ -56,7 +50,7 @@ export default class KlarnaService {
       }
 
       // Something happened in setting up the request that triggered an Error
-      console.log('Error', error.message)
+      // console.log('Error', error.message)
 
       throw error.message
     }
@@ -73,9 +67,7 @@ export default class KlarnaService {
 
   public static async getOrderFromManagement(orderId: string) {
     try {
-      const { data } = await klarnaApi.get(
-        `/ordermanagement/v1/orders/${orderId}`
-      )
+      const { data } = await klarnaApi.get(`/ordermanagement/v1/orders/${orderId}`)
       return data
     } catch (error) {
       return error
@@ -84,10 +76,7 @@ export default class KlarnaService {
 
   public static async acknowledgeOrderToManagement(orderId: string) {
     try {
-      await klarnaApi.post(
-        `/ordermanagement/v1/orders/${orderId}/acknowledge`,
-        {}
-      )
+      await klarnaApi.post(`/ordermanagement/v1/orders/${orderId}/acknowledge`, {})
       return true
     } catch (error) {
       return error

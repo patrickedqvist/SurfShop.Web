@@ -2,8 +2,7 @@ import React, { useEffect, useRef } from 'react'
 import { createPortal } from 'react-dom'
 
 // Use a ternary operator to make sure that the document object is defined
-const portalRoot =
-  typeof document !== `undefined` ? document.getElementById('portal') : null
+const portalRoot = typeof document !== `undefined` ? document.getElementById('portal') : null
 
 interface Props {
   children: React.ReactNode | React.ReactNode[]
@@ -14,8 +13,7 @@ export const Portal: React.FC<Props> = ({ children }) => {
 
   useEffect(() => {
     const addMountNode = () => {
-      mountNode.current =
-        typeof document !== 'undefined' ? document.createElement('div') : null
+      mountNode.current = typeof document !== 'undefined' ? document.createElement('div') : null
 
       if (portalRoot && mountNode.current) {
         portalRoot.appendChild(mountNode.current)

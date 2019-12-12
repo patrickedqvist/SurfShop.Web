@@ -1,15 +1,9 @@
 import { VIEWSTATE_SET, VIEWSTATE_REMOVE } from '../definitions'
 
 // typeDefs
-import {
-  SetViewstateAction,
-  RemoveViewstateAction,
-} from '../../typeDefs/viewstate'
+import { SetViewstateAction, RemoveViewstateAction } from '../../typeDefs/viewstate'
 
-export const setViewstate = <T>(
-  key: string,
-  value: T
-): SetViewstateAction<T> => ({
+export const setViewstate = <T>(key: string, value: T): SetViewstateAction<T> => ({
   type: VIEWSTATE_SET,
   payload: { key, value },
 })

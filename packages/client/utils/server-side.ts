@@ -11,11 +11,7 @@ interface Arguments {
   statusLocation: string[]
 }
 
-export const setServerResponseStatusCode = async ({
-  context,
-  waitForActions,
-  statusLocation,
-}: Arguments) => {
+export const setServerResponseStatusCode = async ({ context, waitForActions, statusLocation }: Arguments) => {
   const { store } = context
 
   const keyPath = concat(statusLocation, ['status'])

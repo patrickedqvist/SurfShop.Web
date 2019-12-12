@@ -7,18 +7,12 @@ import createWaitForMiddleware from 'redux-wait-for-ssr'
 import sagas from '../redux/sagas'
 import reducers from '../redux/reducers'
 
-export const initializeStore = (
-  initialState: Record<string, string | number | object> = {}
-) => {
+export const initializeStore = (initialState: Record<string, string | number | object> = {}) => {
   const sagaMiddleware = createSagaMiddleware()
   const waitForMiddleware = createWaitForMiddleware().middleware
   const middlewares = [sagaMiddleware, waitForMiddleware]
 
-  const store = createStore(
-    reducers,
-    initialState,
-    composeWithDevTools(applyMiddleware(...middlewares))
-  )
+  const store = createStore(reducers, initialState, composeWithDevTools(applyMiddleware(...middlewares)))
 
   sagaMiddleware.run(sagas)
 

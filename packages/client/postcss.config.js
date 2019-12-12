@@ -1,6 +1,6 @@
 module.exports = {
-    plugins: {
-        cssnano: { preset: 'default' },
-        autoprefixer: {},
-    },
-};
+  plugins: {
+    cssnano: { preset: 'default' },
+    autoprefixer: {},
+  },
+}

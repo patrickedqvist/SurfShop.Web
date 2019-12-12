@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import * as contentful from 'contentful-management'
 import { get } from 'lodash/fp'
 
@@ -42,11 +44,7 @@ export default class ContentfulService {
         },
       }
 
-      const response: OrderEntry = await space.createEntryWithId(
-        'order',
-        orderId,
-        newOrder
-      )
+      const response: OrderEntry = await space.createEntryWithId('order', orderId, newOrder)
       const entryId = response.sys.id
       const publishedEntry = await this.publishEntry(entryId)
       return publishedEntry
@@ -82,10 +80,7 @@ export default class ContentfulService {
     }
   }
 
-  public static async updateProductStockQuantity(
-    productSKU: string,
-    quantity: number
-  ) {
+  public static async updateProductStockQuantity(productSKU: string, quantity: number) {
     try {
       // 1. Find product by it's sku id
       const space = await this.getSpace()
@@ -106,10 +101,7 @@ export default class ContentfulService {
         await this.publishEntry(entry.sys.id)
       }
     } catch (error) {
-      console.log(
-        'ContentfulService updateProductStockQuantity error --> ',
-        error
-      )
+      console.log('ContentfulService updateProductStockQuantity error --> ', error)
       throw error
     }
   }

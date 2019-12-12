@@ -3,9 +3,7 @@
 const withSass = require('@zeit/next-sass')
 
 function removeMinimizeOptionFromCssLoaders(config) {
-  console.warn(
-    'HACK: Removing `minimize` option from `css-loader` entries in Webpack config'
-  )
+  console.warn('HACK: Removing `minimize` option from `css-loader` entries in Webpack config')
   config.module.rules.forEach((rule) => {
     if (Array.isArray(rule.use)) {
       rule.use.forEach((u) => {

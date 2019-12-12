@@ -30,16 +30,9 @@ const MiniCartComponent = () => {
       onKeyDown={handleOnClick}
       role='button'
       aria-label='Open Cart'
-      tabIndex={-5}
-    >
+      tabIndex={-5}>
       {amount}
-      <svg
-        className='mini-cart__icon'
-        xmlns='http://www.w3.org/2000/svg'
-        width='20'
-        height='20'
-        viewBox='0 0 20 20'
-      >
+      <svg className='mini-cart__icon' xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20'>
         <path
           fill='#000'
           fillRule='evenodd'
