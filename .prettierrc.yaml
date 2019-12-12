@@ -4,4 +4,8 @@ useTabs: false
 semi: false
 singleQuote: true
 jsxSingleQuote: true
+jsxBracketSameLine: true
 arrowParens: "always"
+printWidth: 120
+bracketSpacing: true
+endOfLine: "lf"
