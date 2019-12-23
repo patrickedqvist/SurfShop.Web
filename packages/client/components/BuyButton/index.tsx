@@ -6,13 +6,13 @@ import './buy-button.scss'
 
 // Types
 interface Props {
-  outOfStock: boolean
-  notReady?: string
-  className?: string
-  onClick: (event: React.MouseEvent<HTMLButtonElement>) => void
+  outOfStock: boolean;
+  notReady?: string;
+  className?: string;
+  onClick: (event: React.MouseEvent<HTMLButtonElement>) => void;
 }
 
-export const BuyButton: React.SFC<Props> = ({ outOfStock, notReady, className, onClick }) => {
+export const BuyButton: React.FC<Props> = ({ outOfStock, notReady, className, onClick }) => {
   const [isAnimating, setAnimating] = useState(false)
 
   let timeoutID = null

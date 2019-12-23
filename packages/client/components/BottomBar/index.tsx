@@ -2,7 +2,7 @@ import React, { memo } from 'react'
 
 import './bottom-bar.scss'
 
-const BottomBarComponent: React.SFC = () => {
+const BottomBarComponent: React.FC = () => {
   const date = new Date()
   return (
     <div className='bottom-bar'>

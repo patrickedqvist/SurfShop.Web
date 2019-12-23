@@ -5,6 +5,7 @@
   "main": "index.js",
   "private": true,
   "dependencies": {
+    "@types/lunr": "^2.3.2",
     "axios": "^0.19.0",
     "contentful-management": "^5.12.0",
     "dotenv": "^8.2.0",
@@ -16,21 +17,22 @@
     "koa-session": "^5.12.3",
     "koa2-cors": "^2.0.6",
     "lodash": "^4.17.15",
-    "yup": "^0.27.0"
+    "lunr": "^2.3.8",
+    "yup": "^0.28.0"
   },
   "devDependencies": {
-    "@types/koa-session": "^5.10.1",
     "@types/dotenv": "^8.2.0",
     "@types/js-base64": "^2.3.1",
-    "@types/koa": "^2.11.0",
+    "@types/koa": "2.11.0",
     "@types/koa-logger": "^3.1.1",
     "@types/koa-router": "^7.0.42",
+    "@types/koa-session": "^5.10.1",
     "@types/koa2-cors": "^2.0.1",
     "@types/lodash": "^4.14.149",
-    "@types/yup": "^0.26.26",
-    "nodemon": "^2.0.1",
+    "@types/yup": "^0.26.27",
+    "nodemon": "^2.0.2",
     "ts-node": "^8.5.4",
-    "typescript": "^3.7.3"
+    "typescript": "^3.7.4"
   },
   "scripts": {
     "start": "nodemon --watch 'src/**/*' -e ts,tsx,json --exec ts-node ./src/index.ts"

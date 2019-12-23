@@ -6,14 +6,14 @@ import './hero.scss'
 
 // Types
 interface Props {
-  title: string
-  subtitle?: string
-  content?: string
-  backgroundImage?: string
-  children?: React.ReactNode | React.ReactNode[]
+  title: string;
+  subtitle?: string;
+  content?: string;
+  backgroundImage?: string;
+  children?: React.ReactNode | React.ReactNode[];
 }
 
-const HeroComponent: React.SFC<Props> = (props) => {
+const HeroComponent: React.FC<Props> = (props) => {
   const classes = classNames('hero', {
     'hero--backgroundImage': props.backgroundImage,
   })

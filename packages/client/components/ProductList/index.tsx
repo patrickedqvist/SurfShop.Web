@@ -11,10 +11,10 @@ import './product-list.scss'
 import { Product } from '../../typeDefs/product'
 
 interface Props {
-  products?: Product[]
+  products?: Product[];
 }
 
-export const ProductList: React.SFC<Props> = (props) => {
+export const ProductList: React.FC<Props> = (props) => {
   if (isEmpty(props.products)) {
     return null
   }

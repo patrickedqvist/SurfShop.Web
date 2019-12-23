@@ -11,9 +11,9 @@ import './image-gallery.scss'
 import { Media } from '../../typeDefs/media'
 
 interface Props {
-  images: Media[]
-  settings?: SwiperOptions
-  useThumbnails?: boolean
+  images: Media[];
+  settings?: SwiperOptions;
+  useThumbnails?: boolean;
 }
 
 const DEFAULT_SETTINGS: SwiperOptions = {
@@ -24,16 +24,16 @@ const DEFAULT_SETTINGS: SwiperOptions = {
 }
 
 interface SlideProps {
-  images: Media[]
-  asBackground: boolean
+  images: Media[];
+  asBackground: boolean;
 }
 
 interface SingleSliderProps {
-  image: Media
-  asBackground: boolean
+  image: Media;
+  asBackground: boolean;
 }
 
-const Slide: React.SFC<SingleSliderProps> = ({ image, asBackground }) => {
+const Slide: React.FC<SingleSliderProps> = ({ image, asBackground }) => {
   if (asBackground) {
     return <div className='swiper-slide' style={{ backgroundImage: `url(${image.src})` }} />
   }
@@ -50,7 +50,7 @@ const Slide: React.SFC<SingleSliderProps> = ({ image, asBackground }) => {
   )
 }
 
-const Slides: React.SFC<SlideProps> = ({ images, asBackground }) => (
+const Slides: React.FC<SlideProps> = ({ images, asBackground }) => (
   <div className='swiper-wrapper'>
     {map(
       (image: Media) => (
@@ -61,7 +61,7 @@ const Slides: React.SFC<SlideProps> = ({ images, asBackground }) => (
   </div>
 )
 
-export const ImageGallery: React.SFC<Props> = ({ images, settings, useThumbnails }) => {
+export const ImageGallery: React.FC<Props> = ({ images, settings, useThumbnails }) => {
   const galleryThumbsElement = useRef<HTMLDivElement>(null)
   const galleryMainElement = useRef<HTMLDivElement>(null)
   const galleryThumbsInstance = useRef(null)

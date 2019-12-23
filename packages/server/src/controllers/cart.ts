@@ -1,3 +1,4 @@
+import * as Koa from 'koa'
 import * as Router from 'koa-router'
 import { set, flow, find, findIndex, remove } from 'lodash/fp'
 
@@ -11,7 +12,7 @@ import { Cart, CartItem } from '../types/cart'
 import { addItemToCart, updateAmounts, EMPTY_CART, createCartItemFromProduct } from '../utils/cart-utilities'
 
 interface IdRequestParam {
-  id: string
+  id: string;
 }
 
 const cartRouter = new Router()
@@ -19,7 +20,7 @@ const cartRouter = new Router()
 /**
  * Get Cart
  */
-cartRouter.get('/', async (ctx) => {
+cartRouter.get('/', async (ctx: Koa.ParameterizedContext) => {
   const newCart = EMPTY_CART
 
   if (ctx.session.isNew || !ctx.session.cart) {
@@ -37,17 +38,17 @@ cartRouter.get('/', async (ctx) => {
  */
 
 interface AddProductToCart {
-  id: number
+  id: number;
 }
 
-cartRouter.post('/', async (ctx) => {
+cartRouter.post('/', async (ctx: Koa.ParameterizedContext) => {
   const { id } = ctx.request.body as AddProductToCart
   const { cart } = ctx.session
 
   if (!id) {
     ctx.status = 400
     ctx.body = 'No id was specified'
-    ctx.assert(id, 400, 'No id was specified')
+    ctx.throw(id, 400, 'No id was specified')
   }
 
   // Find the product
@@ -56,7 +57,7 @@ cartRouter.post('/', async (ctx) => {
   if (!product) {
     ctx.status = 404
     ctx.body = 'No product was found with this id'
-    ctx.assert(product, 404, 'No product was found with this id')
+    ctx.throw(product, 404, 'No product was found with this id')
   }
 
   // Create a cart item out of the product
@@ -65,7 +66,10 @@ cartRouter.post('/', async (ctx) => {
   // Update the actual cart
   const updatedCart = addItemToCart(cart, cartItem)
 
+  // Update session cart
   ctx.session.cart = updatedCart
+
+  // Send back the updated cart
   ctx.body = updatedCart
 })
 
@@ -74,10 +78,10 @@ cartRouter.post('/', async (ctx) => {
  */
 
 interface UpdateQuantityRequest {
-  quantity: number
+  quantity: number;
 }
 
-cartRouter.post('/:id', async (ctx) => {
+cartRouter.post('/:id', async (ctx: Koa.ParameterizedContext) => {
   const { id } = ctx.params as IdRequestParam
   const { quantity } = ctx.body as UpdateQuantityRequest
 
@@ -88,10 +92,7 @@ cartRouter.post('/:id', async (ctx) => {
   const indexOf = findIndex((i: CartItem) => i.id === id, cart.items)
 
   if (indexOf === -1) {
-    ctx.status = 500
-    ctx.body = `Did not find a item with the reference of ${id}`
-    ctx.app.emit('error', `Did not find a item with the reference of ${id}`, ctx)
-    return
+    ctx.throw(404, `Did not find a item with the reference of ${id}`)
   }
 
   const updateCart = flow([(c) => set(['items', indexOf, 'quantity'], quantity, c), (c) => updateAmounts(c)])
@@ -106,7 +107,7 @@ cartRouter.post('/:id', async (ctx) => {
  * Delete product from cart
  */
 
-cartRouter.delete('/:id', async (ctx) => {
+cartRouter.delete('/:id', async (ctx: Koa.ParameterizedContext) => {
   const { id } = ctx.params as IdRequestParam
   if (ctx.params && id) {
     const { cart } = ctx.session
@@ -116,13 +117,11 @@ cartRouter.delete('/:id', async (ctx) => {
     ctx.session.cart = updatedCartTotals
     ctx.body = updatedCartTotals
   } else {
-    ctx.status = 400
-    ctx.body = 'No reference was specifed'
-    ctx.app.emit('error', 'No reference was specifed', ctx)
+    ctx.throw(400, 'No reference was specifed')
   }
 })
 
-cartRouter.delete('/', async (ctx) => {
+cartRouter.delete('/', async (ctx: Koa.ParameterizedContext) => {
   const newCart: Cart = {
     items: [],
     totalAmount: 0,

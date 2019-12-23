@@ -10,11 +10,11 @@ import './product-card.scss'
 import { Product } from '../../typeDefs/product'
 
 interface Props {
-  product: Product
-  highlight?: boolean
+  product: Product;
+  highlight?: boolean;
 }
 
-export const ProductCardComponent: React.SFC<Props> = ({ product, highlight }) => {
+export const ProductCardComponent: React.FC<Props> = ({ product, highlight }) => {
   const classes = classNames('product-card', {
     'product-card--highlight': highlight,
   })

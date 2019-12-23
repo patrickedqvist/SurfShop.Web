@@ -6,26 +6,30 @@ import { Product } from './product'
 import { Page } from './page'
 
 export interface Action {
-  type: string
-  payload?: any
-  meta?: any
-  error?: boolean
+  type: string;
+  payload?: any;
+  meta?: any;
+  error?: boolean;
 }
 
 export interface RequestStatus {
-  status: 'REQUEST_SUCCESS' | 'REQUEST_FAILURE' | 'REQUEST_LOADING'
-  statusCode: number
+  status: 'REQUEST_SUCCESS' | 'REQUEST_FAILURE' | 'REQUEST_LOADING';
+  statusCode: number;
 }
 
 export interface Store {
-  viewstate: Viewstate
-  cart: Cart
+  viewstate: Viewstate;
+  cart: Cart;
   products: {
-    data: Product[]
-    status: RequestStatus
-  }
+    data: Product[];
+    status: RequestStatus;
+  };
   pages: {
-    data: Page[]
-    status: RequestStatus
-  }
+    data: Page[];
+    status: RequestStatus;
+  };
+  search: {
+    data: Product[];
+    status: RequestStatus;
+  };
 }

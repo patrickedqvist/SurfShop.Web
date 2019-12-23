@@ -75,7 +75,7 @@ const ProductPage: NextPage = () => {
   return (
     <PageLayout className='productPage'>
       <Head
-        title={`${product.title} | SurfShop`}
+        title={product.title}
         description={product.excerpt}
       />
       <article className='grid-container'>

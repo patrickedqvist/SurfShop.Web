@@ -4,18 +4,18 @@ import { map, isEmpty } from 'lodash/fp'
 
 // Types
 interface MetaTag {
-  [key: string]: string
+  [key: string]: string;
 }
 
 interface Props {
-  title: string
-  description: string
-  canonical?: string
-  metaTags?: MetaTag[]
-  children?: React.ReactNode | React.ReactNode[]
+  title: string;
+  description: string;
+  canonical?: string;
+  metaTags?: MetaTag[];
+  children?: React.ReactNode | React.ReactNode[];
 }
 
-export const Head: React.SFC<Props> = ({ title, description, canonical, metaTags, children }) => {
+export const Head: React.FC<Props> = ({ title, description, canonical, metaTags, children }) => {
   const metaKeys = Object.keys(metaTags || {})
   const meta = !isEmpty(metaTags)
     ? map((tag: string) => <meta key={tag} name={tag} content={metaTags[tag]} />, metaKeys)
@@ -24,7 +24,7 @@ export const Head: React.SFC<Props> = ({ title, description, canonical, metaTags
   return (
     <NextHead>
       <meta charSet='UTF-8' />
-      <title>{title}</title>
+      <title>{`${title} | SurfShop`}</title>
       <meta name='description' content={description} />
       <meta httpEquiv='x-ua-compatible' content='ie=edge' />
       <meta name='viewport' content='width=device-width, initial-scale=1' />

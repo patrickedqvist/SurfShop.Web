@@ -39,7 +39,7 @@ const StandardPage: NextPage = () => {
   return (
     <PageLayout>
       <Head
-        title={`${page.content.title} | SurfShop`}
+        title={page.content.title}
         description={page.content.preamble}
       />
       <article className='page-article'>

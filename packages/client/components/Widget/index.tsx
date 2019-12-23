@@ -6,13 +6,13 @@ import './widget.scss'
 
 // Types
 interface Props {
-  title?: string
-  className?: string
-  type: string
-  children?: React.ReactNode[] | React.ReactNode
+  title?: string;
+  className?: string;
+  type: string;
+  children?: React.ReactNode[] | React.ReactNode;
 }
 
-export const WidgetComponent: React.SFC<Props> = ({ title, className, type, children }) => {
+export const WidgetComponent: React.FC<Props> = ({ title, className, type, children }) => {
   const classes = classNames('widget', className, {
     [`widget--${type}`]: type,
   })

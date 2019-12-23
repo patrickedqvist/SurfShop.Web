@@ -4,11 +4,11 @@ import Link from 'next/link'
 export type PageType = 'page' | 'product' | 'root' | 'category'
 
 interface Props {
-  type: PageType
-  url: string
-  title: string
-  children: React.ReactText
-  className?: string
+  type: PageType;
+  url: string;
+  title: string;
+  children: React.ReactText;
+  className?: string;
 }
 
 const getServerPage = (type: PageType) => {
@@ -27,7 +27,7 @@ const getServerPage = (type: PageType) => {
   }
 }
 
-export const InternalLink: React.SFC<Props> = (props) => {
+export const InternalLink: React.FC<Props> = (props) => {
   const href = getServerPage(props.type)
 
   if (!href) {

@@ -49,14 +49,14 @@ const CategoryPage: NextPage = () => {
         return <Error statusCode={get('statusCode', pageStatus)} />
     }
 
+    const title = get('content.title', page)
+    const preamble = get('content.preamble', page);
+
     return (
       <PageLayout>
-        <Head
-          title={`${page.content.title} | SurfShop`}
-          description='Start coding'
-        />
+        <Head title={title} description='Start coding' />
         <article className='page-category'>
-          <PageHeader title={page.content.title} preamble={page.content.preamble} />
+          <PageHeader title={title} preamble={preamble} />
           <ProductList products={products} />
         </article>            
       </PageLayout>
