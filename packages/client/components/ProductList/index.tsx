@@ -1,8 +1,9 @@
 import { map, isEmpty } from 'lodash/fp'
 import React from 'react'
+import classNames from 'classnames'
 
 // Components
-import { ProductCard } from '../ProductCard'
+import { GridItem, ListItem } from '../ProductCard'
 
 // Styles
 import './product-list.scss'
@@ -12,21 +13,31 @@ import { Product } from '../../typeDefs/product'
 
 interface Props {
   products?: Product[];
+  presentAs?: 'grid' | 'list';
 }
 
-export const ProductList: React.FC<Props> = (props) => {
-  if (isEmpty(props.products)) {
+export const ProductList: React.FC<Props> = ({ products, presentAs }) => {
+  if (isEmpty(products)) {
     return null
   }
 
-  const products = map(
+  const classes = classNames('product-list', {
+    'product-list--grid': presentAs === 'grid',
+    'product-list--list': presentAs === 'list',
+  })
+
+  const productsList = map(
     (product) => (
       <div className='product-list-item' key={product.id}>
-        <ProductCard product={product} />
+        {presentAs === 'grid' ? <GridItem product={product} /> : <ListItem product={product} />}
       </div>
     ),
-    props.products
+    products
   )
 
-  return <div className='product-list'>{products}</div>
+  return <div className={classes}>{productsList}</div>
+}
+
+ProductList.defaultProps = {
+  presentAs: 'grid',
 }

@@ -1,3 +1,5 @@
+/* eslint-disable func-names */
+
 import * as lunr from 'lunr'
 
 import * as products from '../db/products.json'

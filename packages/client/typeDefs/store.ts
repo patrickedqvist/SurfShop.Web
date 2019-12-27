@@ -29,7 +29,10 @@ export interface Store {
     status: RequestStatus;
   };
   search: {
-    data: Product[];
+    data: {
+      searchString: string;
+      results: Product[];
+    };
     status: RequestStatus;
   };
 }

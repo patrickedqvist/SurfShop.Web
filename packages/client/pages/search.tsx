@@ -1,45 +1,28 @@
 /* eslint-disable react/no-danger */
-import React, { useState } from 'react'
+import React from 'react'
 import { useSelector, useDispatch } from 'react-redux'
 import { NextPage } from 'next'
-import { useRouter } from 'next/router'
-import { get, debounce } from 'lodash/fp'
-import Error from 'next/error'
 
 // Redux
-import { getPageBySlug } from '../redux/actions/pages'
-import { PAGE_RECEIVE } from '../redux/definitions'
+import { getSearchResultFor } from '../redux/actions/search'
 
 // typeDefs
-import { Store, RequestStatus } from '../typeDefs/store'
-import { Page } from '../typeDefs/page'
+import { Store } from '../typeDefs/store'
 
 // Components
 import { PageLayout } from '../components/PageLayout'
 import { Head } from '../components/Head'
-
-// Utils
-import { setServerResponseStatusCode } from '../utils/server-side'
-import { PageHeader } from '../components/PageHeader'
-import { getSearchResultFor } from '../redux/actions/search'
 import { ProductList } from '../components/ProductList'
+import { PageHeader } from '../components/PageHeader'
 
 const SearchPage: NextPage = () => {
   const dispatch = useDispatch()
-  const router = useRouter()
-  const { slug } = router.query
 
-  const [searchQuery, setSearchQuery] = useState('')
-
-  const searchResultProducts = useSelector((store: Store) => store.search.data)
-
-  const handleOnSearch = (searchString: string) => {
-    dispatch(getSearchResultFor(searchString))
-  }
+  const searchResultProducts = useSelector((store: Store) => store.search.data.results)
+  const searchQuery = useSelector((store: Store) => store.search.data.searchString)
 
   const handleOnInputChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    setSearchQuery(event.target.value)
-    handleOnSearch(event.target.value)
+    dispatch(getSearchResultFor(event.target.value))
   }
 
   return (

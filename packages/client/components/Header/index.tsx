@@ -1,6 +1,7 @@
-import React, { memo, useState } from 'react'
+import React, { memo, useState, useEffect } from 'react'
 import classNames from 'classnames'
 import Link from 'next/link'
+import Router from 'next/router'
 
 // Styling
 import './header.scss'
@@ -27,6 +28,17 @@ const HeaderComponent: React.FC<Props> = ({ fixed, sticky }) => {
   const handleOnSearchButtonClick = () => {
     setSearchVisibility(!searchVisible)
   }
+
+  useEffect(() => {
+    const handleRouteChange = () => {
+      setSearchVisibility(false)
+    }
+
+    Router.events.on('routeChangeStart', handleRouteChange)
+    return () => {
+      Router.events.off('routeChangeStart', handleRouteChange)
+    }
+  }, [])
 
   return (
     <header className={classes}>

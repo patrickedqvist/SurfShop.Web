@@ -1,4 +1,4 @@
-import { find } from 'lodash/fp'
+import { find, isEmpty } from 'lodash/fp'
 import * as Koa from 'koa'
 import * as Router from 'koa-router'
 
@@ -7,15 +7,23 @@ import searchIndex from '../services/lunr'
 
 const searchRouter = new Router()
 
-searchRouter.post('/', async (ctx) => {
-  const { query } = ctx.request.body
+function isBlank(str: string): boolean {
+  return !str || /^\s*$/.test(str)
+}
+
+searchRouter.post('/', async (ctx, next) => {
+  const { query } = ctx.request.body as { query: string }
+
+  if (isBlank(query)) {
+    ctx.body = []
+    return
+  }
 
   try {
     const searchResult = searchIndex.search(query)
-    console.log(`searchResults for ${query} -->`, searchResult)
     const results = []
 
-    searchResult.forEach(function(result) {
+    searchResult.forEach((result) => {
       const productId = result.ref
       const product = find((p) => p.id === parseInt(productId, 10), products)
       results.push(product)

@@ -1,0 +1,155 @@
+.quick-search {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  height: calc(100% + 1px);
+  width: 100%;
+  background: #14151c;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s, visibility 0.3s;
+
+  &.is-visible {
+    opacity: 1;
+    visibility: visible;
+    animation: slideInDown 0.3s;
+  }
+
+  form {
+    position: relative;
+    height: 100%;
+    margin: 0 calc(5% + 116px) 0 calc(5% + 170px);
+  }
+
+  input[type='search'] {
+    font-size: 2rem;
+    height: 100%;
+    background-color: transparent;
+    padding-right: 224px;
+    width: 100%;
+    color: #fff;
+    border: 0 none;
+  }
+
+  input[type='search']:focus {
+    outline: none;
+  }
+
+  span {
+    display: inline-block;
+  }
+
+  option {
+    color: #333545;
+    background-color: #fff;
+  }
+
+  select {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    bottom: auto;
+    transform: translateY(-50%);
+    opacity: 0;
+    color: transparent;
+  }
+
+  select,
+  .selected-value {
+    padding: 0.5em 1.7em 0.5em 0.3em;
+    font-size: 1rem;
+    border-radius: 3px;
+  }
+
+  select:focus {
+    outline: none;
+  }
+
+  select:focus + span.selected-value {
+    background-color: #3d3f4e;
+  }
+
+  .cd-select {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    bottom: auto;
+    transform: translateY(-50%);
+    color: #5c5d6a;
+    font-size: 1rem;
+    overflow: hidden;
+  }
+
+  .selected-value {
+    color: #fff;
+    pointer-events: none;
+    transition: background-color 0.3s;
+  }
+
+  .no-pointerevents .selected-value {
+    display: none;
+  }
+
+  .no-pointerevents select {
+    position: relative;
+    color: #fff;
+    transform: translateY(0);
+  }
+
+  .no-pointerevents select:focus {
+    background-color: #3d3f4e;
+  }
+}
+
+.search-suggestions {
+  display: none;
+  position: absolute;
+  top: 101px;
+  left: 0;
+  width: calc(90% - 286px);
+  padding: 2rem;
+  margin: 0 calc(5% + 116px) 0 calc(5% + 170px);
+  background-color: #fff;
+  box-shadow: 0 4px 40px rgba(0, 0, 0, 0.39);
+  z-index: 100;
+  flex-direction: row;
+  justify-content: space-between;
+
+  &.is-visible {
+    display: flex;
+    transform-origin: center top;
+    transform: translateZ(0);
+    backface-visibility: hidden;
+    animation: fold-in 0.5s 0.3s;
+    animation-fill-mode: backwards;
+  }
+
+  &__results {
+    flex-basis: 70%;
+  }
+
+  &__links {
+    flex-basis: 20%;
+  }
+}
+
+@keyframes fold-in {
+  0% {
+    transform: perspective(1000px) rotateX(-90deg);
+  }
+
+  100% {
+    transform: perspective(1000px) translateY(0);
+  }
+}
+
+@keyframes slideInDown {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
