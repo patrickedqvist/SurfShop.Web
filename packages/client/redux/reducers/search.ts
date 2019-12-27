@@ -1,4 +1,4 @@
-import { getOr, merge, set } from 'lodash/fp'
+import { getOr, set } from 'lodash/fp'
 import { combineReducers } from 'redux'
 
 // Redux

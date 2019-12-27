@@ -1,5 +1,4 @@
-import { find, isEmpty } from 'lodash/fp'
-import * as Koa from 'koa'
+import { find } from 'lodash/fp'
 import * as Router from 'koa-router'
 
 import * as products from '../db/products.json'
@@ -11,7 +10,7 @@ function isBlank(str: string): boolean {
   return !str || /^\s*$/.test(str)
 }
 
-searchRouter.post('/', async (ctx, next) => {
+searchRouter.post('/', async (ctx) => {
   const { query } = ctx.request.body as { query: string }
 
   if (isBlank(query)) {
