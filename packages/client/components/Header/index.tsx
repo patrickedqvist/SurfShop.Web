@@ -1,7 +1,11 @@
-import React, { memo, useState, useEffect } from 'react'
+import React, { memo, useEffect } from 'react'
 import classNames from 'classnames'
 import Link from 'next/link'
 import Router from 'next/router'
+import { useDispatch, useSelector } from 'react-redux'
+
+// Redux
+import { toggleQuickSearch } from '../../redux/actions/search'
 
 // Styling
 import './header.scss'
@@ -11,27 +15,21 @@ import { MiniCart } from './MiniCart'
 import { MainNavigation } from './MainNavigation'
 import { HeaderSearch } from './HeaderSearch'
 
-// Types
+// Typedefs
+import { Store } from '../../typeDefs/store'
+
 interface Props {
   fixed?: boolean;
   sticky?: boolean;
 }
 
 const HeaderComponent: React.FC<Props> = ({ fixed, sticky }) => {
-  const [searchVisible, setSearchVisibility] = useState<boolean>(false)
-
-  const classes = classNames('site-header grid-container', {
-    'site-header--fixed': fixed,
-    'site-header--sticky': sticky,
-  })
-
-  const handleOnSearchButtonClick = () => {
-    setSearchVisibility(!searchVisible)
-  }
+  const dispatch = useDispatch()
+  const quickSearchVisible = useSelector((store: Store) => store.search.data.visible)
 
   useEffect(() => {
     const handleRouteChange = () => {
-      setSearchVisibility(false)
+      dispatch(toggleQuickSearch(false))
     }
 
     Router.events.on('routeChangeStart', handleRouteChange)
@@ -39,6 +37,15 @@ const HeaderComponent: React.FC<Props> = ({ fixed, sticky }) => {
       Router.events.off('routeChangeStart', handleRouteChange)
     }
   }, [])
+
+  const handleOnSearchButtonClick = () => {
+    dispatch(toggleQuickSearch(!quickSearchVisible))
+  }
+
+  const classes = classNames('site-header grid-container', {
+    'site-header--fixed': fixed,
+    'site-header--sticky': sticky,
+  })
 
   return (
     <header className={classes}>
@@ -64,7 +71,7 @@ const HeaderComponent: React.FC<Props> = ({ fixed, sticky }) => {
         </button>
         <MiniCart />
       </div>
-      <HeaderSearch visible={searchVisible} />
+      <HeaderSearch visible={quickSearchVisible} />
     </header>
   )
 }

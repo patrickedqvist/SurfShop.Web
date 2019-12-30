@@ -1,5 +1,5 @@
 import { Action } from '../../typeDefs/store'
-import { SEARCH_FETCH, SEARCH_RECEIVE } from '../definitions'
+import { SEARCH_FETCH, SEARCH_RECEIVE, QUICK_SEARCH_TOGGLE } from '../definitions'
 
 export interface SearchForAction {
   type: typeof SEARCH_FETCH;
@@ -7,6 +7,11 @@ export interface SearchForAction {
     searchString: string;
   };
 }
+
+export const toggleQuickSearch = (visible: boolean): Action => ({
+  type: QUICK_SEARCH_TOGGLE,
+  payload: { visible },
+})
 
 export const getSearchResultFor = (searchString: string): SearchForAction => ({
   type: SEARCH_FETCH,

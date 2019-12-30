@@ -4,6 +4,7 @@ import { Viewstate } from './viewstate'
 import { Cart } from './cart'
 import { Product } from './product'
 import { Page } from './page'
+import { Search } from './search'
 
 export interface Action {
   type: string;
@@ -28,11 +29,5 @@ export interface Store {
     data: Page[];
     status: RequestStatus;
   };
-  search: {
-    data: {
-      searchString: string;
-      results: Product[];
-    };
-    status: RequestStatus;
-  };
+  search: Search;
 }

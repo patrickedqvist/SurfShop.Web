@@ -5,4 +5,74 @@
   margin-bottom: 1rem;
   padding-bottom: 1rem;
   border-bottom: 1px solid $color-sand;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    position: relative;
+  }
+
+  &__title {
+    margin-bottom: 2px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  &__price {
+    font-size: 13px;
+    line-height: 16px;
+  }
+
+  &__actions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__quantity-wrapper {
+    display: block;
+    text-align: center;
+    transform: translateY(1px);
+  }
+
+  &__quantity {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1;
+  }
+
+  &__quantity-button {
+    cursor: pointer;
+    background: none;
+    border: 0 none;
+    padding: 0;
+    margin: 0;
+    line-height: 1;
+    &:disabled {
+      cursor: auto;
+      opacity: 0.2;
+    }
+    &:focus,
+    &:active {
+      outline: none;
+    }
+  }
+
+  &__remove-button {
+    cursor: pointer;
+    background: none;
+    border: 0 none;
+    padding: 0;
+    margin: 0;
+    color: $color-translucentGrey;
+    position: absolute;
+    top: 50%;
+    right: 1rem;
+    transform: translateY(-50%);
+    font-size: 13px;
+    font-weight: 400;
+  }
 }

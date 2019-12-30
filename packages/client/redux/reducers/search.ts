@@ -2,18 +2,29 @@ import { getOr, set } from 'lodash/fp'
 import { combineReducers } from 'redux'
 
 // Redux
-import { SEARCH_RECEIVE, REQUEST_FAILURE, REQUEST_SUCCESS, REQUEST_LOADING, SEARCH_FETCH } from '../definitions'
+import {
+  SEARCH_RECEIVE,
+  REQUEST_FAILURE,
+  REQUEST_SUCCESS,
+  REQUEST_LOADING,
+  SEARCH_FETCH,
+  QUICK_SEARCH_TOGGLE,
+} from '../definitions'
 
 // typeDefs
 import { Action } from '../../typeDefs/store'
 
 const initialState = {
+  visible: false,
   searchString: '',
   results: [],
 }
 
 const data = (state = initialState, { type, payload }: Action) => {
   switch (type) {
+    case QUICK_SEARCH_TOGGLE:
+      return set('visible', payload.visible, state)
+
     case SEARCH_FETCH:
       return set('searchString', payload.searchString, state)
 

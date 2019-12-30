@@ -1,8 +1,9 @@
-import React from 'react'
+import React, { useRef, useEffect } from 'react'
 import { useSelector, useDispatch } from 'react-redux'
 import classNames from 'classnames'
 import { take, size } from 'lodash/fp'
 import Link from 'next/link'
+import Router from 'next/router'
 
 // Components
 import { Portal } from '../Portal'
@@ -24,14 +25,44 @@ interface Props {
 
 export const HeaderSearch: React.FC<Props> = ({ visible }) => {
   const dispatch = useDispatch()
+  const inputRef = useRef<HTMLInputElement>(null)
 
   const searchResultProducts = useSelector((store: Store) => take(4, store.search.data.results))
   const searchResultsTotal = useSelector((store: Store) => size(store.search.data.results))
   const searchStatus = useSelector((store: Store) => store.search.status.status)
   const searchQuery = useSelector((store: Store) => store.search.data.searchString)
 
+  useEffect(() => {
+    let timeoutID = null
+
+    function focusElement() {
+      timeoutID = setTimeout(() => inputRef.current.focus(), 350)
+    }
+
+    if (inputRef.current) {
+      focusElement()
+    }
+
+    return () => {
+      if (inputRef.current && inputRef.current === document.activeElement) {
+        inputRef.current.blur()
+      }
+
+      if (typeof timeoutID === 'number') {
+        clearTimeout(timeoutID)
+      }
+    }
+  }, [visible])
+
   const handleOnInputChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     dispatch(getSearchResultFor(event.target.value))
+  }
+
+  const handleOnSubmit = (event: React.KeyboardEvent<HTMLInputElement>) => {
+    if (event.which === 13) {
+      event.preventDefault()
+      Router.push(`/search?searchQuery=${encodeURI(searchQuery)}`)
+    }
   }
 
   const classes = classNames('quick-search', {
@@ -55,24 +86,16 @@ export const HeaderSearch: React.FC<Props> = ({ visible }) => {
             name='searchQuery'
             value={searchQuery}
             onChange={handleOnInputChange}
+            onKeyPress={handleOnSubmit}
+            ref={inputRef}
           />
-          <div className='cd-select'>
-            <span>in</span>
-            <select name='select-category'>
-              <option value='all-categories'>all Categories</option>
-              <option value='category1'>Category 1</option>
-              <option value='category2'>Category 2</option>
-              <option value='category3'>Category 3</option>
-            </select>
-            <span className='selected-value'>all Categories</span>
-          </div>
         </form>
       </div>
 
       <Portal>
         <div className={classesSuggestion}>
           <div className='search-suggestions__results'>
-            <h3>Search results</h3>
+            <h3 className='search-suggestions__heading'>Search results</h3>
             {isSuccess && <ProductList products={searchResultProducts} presentAs='list' />}
             {showSearchResultsTotal && <p>{`showing ${searchResultProducts.length} of ${searchResultsTotal}`}</p>}
             {showSearchResultsTotal && (
@@ -83,7 +106,7 @@ export const HeaderSearch: React.FC<Props> = ({ visible }) => {
           </div>
 
           <div className='search-suggestions__links'>
-            <h3>Quick Links</h3>
+            <h3 className='search-suggestions__heading'>Quick Links</h3>
             <ul>
               <li>
                 <a href='#0'>Find a store</a>

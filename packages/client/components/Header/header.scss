@@ -9,6 +9,8 @@
   transition: transform 200ms ease-in-out;
   background: $color-white;
   overflow: visible;
+  position: relative;
+  z-index: 200;
 
   &__logotype {
     grid-column-start: left;
