@@ -1,43 +1,37 @@
-import React, { useEffect } from 'react'
-import { get, map, isEmpty } from 'lodash/fp'
-import { useSelector, useDispatch } from 'react-redux'
+import React from 'react';
+import { get, map } from 'lodash/fp';
+import { useSelector, useDispatch } from 'react-redux';
 
 // Actions
-import { setViewstate } from '../../redux/actions/viewstate'
-import { removeProductFromCart, updateProductInCart } from '../../redux/actions/cart'
+import { setViewstate } from '../../redux/actions/viewstate';
+import { removeProductFromCart, updateProductInCart } from '../../redux/actions/cart';
 
 // Components
-import { CartItem } from './CartItem'
-import { Drawer } from '../Drawer'
+import { CartItem, QuantityChange } from './CartItem';
+import { Drawer } from '../Drawer';
 
 // Styling
-import './cart.scss'
+import './cart.scss';
 
 // Types
-import { Store } from '../../typeDefs/store'
+import { Store } from '../../typeDefs/store';
 
 export const Cart: React.FC = () => {
-  const dispatch = useDispatch()
-  const isOpen: boolean = useSelector((store: Store) => get('viewstate.cartVisible', store))
-  const cart = useSelector((store: Store) => store.cart)
-
-  useEffect(() => {
-    if (!cart.items || (isEmpty(cart.items) && isOpen)) {
-      dispatch(setViewstate('cartVisible', false))
-    }
-  }, [cart, isOpen])
+  const dispatch = useDispatch();
+  const isOpen: boolean = useSelector((store: Store) => get('viewstate.cartVisible', store));
+  const cart = useSelector((store: Store) => store.cart);
 
   const handleOnBackdropClick = () => {
-    dispatch(setViewstate('cartVisible', false))
-  }
+    dispatch(setViewstate('cartVisible', false));
+  };
 
-  const handleOnQuantityChange = ({ id, quantity }) => {
-    dispatch(updateProductInCart(id, quantity))
-  }
+  const handleOnQuantityChange = ({ id, quantity }: QuantityChange) => {
+    dispatch(updateProductInCart(id, quantity));
+  };
 
-  const handleOnRemoveCartItem = (id: number) => {
-    dispatch(removeProductFromCart(id))
-  }
+  const handleOnRemoveCartItem = ({ id }: QuantityChange) => {
+    dispatch(removeProductFromCart(id));
+  };
 
   return (
     <Drawer isOpen={isOpen} onBackDropClick={handleOnBackdropClick} className='drawer--cart cart'>
@@ -69,5 +63,5 @@ export const Cart: React.FC = () => {
         </div>
       </footer>
     </Drawer>
-  )
-}
+  );
+};

@@ -1,16 +1,16 @@
-import React from 'react'
-import classNames from 'classnames'
+import React from 'react';
+import classNames from 'classnames';
 
 // Components
-import { UpArrow, DownArrow } from '../Icons/Arrows'
+import { UpArrow, DownArrow } from '../Icons/Arrows';
 
 // Types
-import { CartProduct } from '../../typeDefs/cart'
+import { CartProduct } from '../../typeDefs/cart';
 
 // Styling
-import './cart-item.scss'
+import './cart-item.scss';
 
-interface QuantityChange {
+export interface QuantityChange {
   id: number;
   quantity: number;
 }
@@ -24,34 +24,34 @@ interface Props {
 }
 
 export const CartItem: React.FC<Props> = ({ product, nonInteractive, onRemove, onIncrement, onDecrement }) => {
-  const { id, quantity } = product
+  const { id, quantity } = product;
 
   const handleOnRemove = (event: React.MouseEvent<HTMLButtonElement>) => {
-    event.preventDefault()
+    event.preventDefault();
     if (onRemove) {
-      onRemove(id)
+      onRemove(id);
     }
-  }
+  };
 
   const handleOnIncrement = (event: React.MouseEvent<HTMLButtonElement>) => {
-    event.preventDefault()
+    event.preventDefault();
     if (onIncrement) {
-      onIncrement({ id, quantity: quantity + 1 })
+      onIncrement({ id, quantity: quantity + 1 });
     }
-  }
+  };
 
   const handleOnDecrement = (event: React.MouseEvent<HTMLButtonElement>) => {
-    event.preventDefault()
+    event.preventDefault();
     if (onDecrement) {
-      onDecrement({ id, quantity: quantity - 1 })
+      onDecrement({ id, quantity: quantity - 1 });
     }
-  }
+  };
 
   const removeButton = !nonInteractive ? (
     <button type='button' className='cart-item__remove-button' onClick={handleOnRemove}>
       Ta bort
     </button>
-  ) : null
+  ) : null;
 
   const actions = !nonInteractive ? (
     <div className='cart-item__actions'>
@@ -65,18 +65,17 @@ export const CartItem: React.FC<Props> = ({ product, nonInteractive, onRemove, o
         type='button'
         className='cart-item__quantity-button'
         onClick={handleOnDecrement}
-        disabled={quantity === 1}
-      >
+        disabled={quantity === 1}>
         <DownArrow color='#000' />
       </button>
     </div>
-  ) : null
+  ) : null;
 
-  const displayQuantity = nonInteractive ? <span className='cart-item__quantity'>{quantity}</span> : null
+  const displayQuantity = nonInteractive ? <span className='cart-item__quantity'>{quantity}</span> : null;
 
   const classes = classNames('cart-item', {
     'cart-item--nonInteractive': nonInteractive,
-  })
+  });
 
   return (
     <div className={classes}>
@@ -88,9 +87,9 @@ export const CartItem: React.FC<Props> = ({ product, nonInteractive, onRemove, o
       </div>
       {actions}
     </div>
-  )
-}
+  );
+};
 
 CartItem.defaultProps = {
   nonInteractive: false,
-}
+};
